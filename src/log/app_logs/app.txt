@@ -1,0 +1,26 @@
+2024-10-10 23:52:41,870 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-10 23:52:42,052 [INFO] log.logger_config: Verificação da tabela 'COLHEITA': Não existe
+2024-10-10 23:52:42,127 [INFO] log.logger_config: Tabela 'colheita' criada com sucesso.
+2024-10-10 23:52:42,134 [INFO] log.logger_config: Verificação da tabela 'CLIMA': Não existe
+2024-10-10 23:52:42,192 [INFO] log.logger_config: Tabela 'clima' criada com sucesso.
+2024-10-10 23:52:42,202 [INFO] log.logger_config: Verificação da tabela 'MATURIDADE_CANA': Não existe
+2024-10-10 23:52:42,245 [INFO] log.logger_config: Tabela 'maturidade_cana' criada com sucesso.
+2024-10-10 23:52:42,270 [INFO] log.logger_config: Verificação da tabela 'CONDICOES_SOLO': Não existe
+2024-10-10 23:52:42,318 [INFO] log.logger_config: Tabela 'condicoes_solo' criada com sucesso.
+2024-10-10 23:52:42,325 [INFO] log.logger_config: Todas as tabelas foram criadas ou já existiam.
+2024-10-10 23:52:42,343 [INFO] log.logger_config: Quantidade de registros na tabela 'colheita': 0
+2024-10-10 23:52:42,343 [INFO] log.logger_config: Dados simulados gerados.
+2024-10-10 23:52:42,372 [INFO] log.logger_config: Registro inserido na tabela 'colheita' com id_colheita: 1
+2024-10-10 23:52:42,393 [INFO] log.logger_config: Registro inserido na tabela 'clima' para id_colheita: 1
+2024-10-10 23:52:42,407 [INFO] log.logger_config: Registro inserido na tabela 'maturidade_cana' para id_colheita: 1
+2024-10-10 23:52:42,422 [INFO] log.logger_config: Registro inserido na tabela 'condicoes_solo' para id_colheita: 1
+2024-10-10 23:52:42,431 [INFO] log.logger_config: Registro inserido na tabela 'colheita' com id_colheita: 2
+2024-10-10 23:52:42,441 [INFO] log.logger_config: Registro inserido na tabela 'clima' para id_colheita: 2
+2024-10-10 23:52:42,453 [INFO] log.logger_config: Registro inserido na tabela 'maturidade_cana' para id_colheita: 2
+2024-10-10 23:52:42,467 [INFO] log.logger_config: Registro inserido na tabela 'condicoes_solo' para id_colheita: 2
+2024-10-10 23:52:42,478 [INFO] log.logger_config: Registro inserido na tabela 'colheita' com id_colheita: 3
+2024-10-10 23:52:42,509 [INFO] log.logger_config: Registro inserido na tabela 'clima' para id_colheita: 3
+2024-10-10 23:52:42,517 [INFO] log.logger_config: Registro inserido na tabela 'maturidade_cana' para id_colheita: 3
+2024-10-10 23:52:42,528 [INFO] log.logger_config: Registro inserido na tabela 'condicoes_solo' para id_colheita: 3
+2024-10-10 23:52:42,537 [INFO] log.logger_config: Dados inseridos com sucesso.
+2024-10-10 23:52:42,551 [INFO] log.logger_config: Conexão com o banco de dados encerrada.

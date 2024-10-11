@@ -1,7 +1,13 @@
 import os
 import json
 import oracledb
+import matplotlib.pyplot as plt
+import pandas as pd
 from dotenv import load_dotenv
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error
+from datetime import datetime
 
 load_dotenv()
 
@@ -181,7 +187,7 @@ def listar_arquivos_json():
     return arquivos_json
 
 # Nova função para carregar dados de um arquivo JSON selecionado
-def carregar_dados_json_selecionado(conn):
+def carregar_dados_json(conn):
     arquivos_json = listar_arquivos_json()
     
     if not arquivos_json:
@@ -301,6 +307,300 @@ def gerar_dados_simulados():
             }
         }
     ]
+
+#Treinamento Machine Learning
+# Função para carregar dados do banco de dados para um DataFrame
+def carregar_dados_db(conn):
+    try:
+        query = """
+        SELECT c.ano, c.quantidade_colhida, cl.temperatura_media, cl.precipitacao, 
+               m.indice_maturidade, s.ph, s.nutrientes
+        FROM Colheita c
+        JOIN Clima cl ON c.ano = cl.ano
+        JOIN MaturidadeCana m ON c.ano = m.ano
+        JOIN CondicoesSolo s ON c.ano = s.ano
+        """
+        df = pd.read_sql(query, conn)
+        return df
+    except oracledb.DatabaseError as e:
+        print(f"Erro ao carregar dados do banco: {e}")
+        return None
+
+# Função para preparar os dados para o modelo
+def preparar_dados(df):
+    X = df[['temperatura_media', 'precipitacao', 'indice_maturidade', 'ph', 'nutrientes']]
+    y = df['quantidade_colhida']
+    return X, y
+
+# Função para treinar o modelo de machine learning
+def treinar_modelo(X, y):
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    modelo = RandomForestRegressor(n_estimators=100, random_state=42)
+    modelo.fit(X_train, y_train)
+    
+    previsoes = modelo.predict(X_test)
+    erro = mean_squared_error(y_test, previsoes, squared=False)
+    print(f'Erro médio absoluto: {erro:.2f} toneladas')
+    
+    return modelo
+
+# Função para fazer previsões
+def fazer_previsao(modelo, conn):
+    print("\nInsira os dados para a previsão:")
+    temperatura = float(input("Temperatura média: "))
+    precipitacao = float(input("Precipitação: "))
+    indice_maturidade = float(input("Índice de maturidade: "))
+    ph = float(input("pH do solo: "))
+    nutrientes = float(input("Quantidade de nutrientes: "))
+
+    dados_previsao = pd.DataFrame([[temperatura, precipitacao, indice_maturidade, ph, nutrientes]], 
+                                  columns=['temperatura_media', 'precipitacao', 'indice_maturidade', 'ph', 'nutrientes'])
+    
+    previsao = modelo.predict(dados_previsao)
+    print(f"\nPrevisão de colheita: {previsao[0]:.2f} toneladas")
+
+# Função principal do menu atualizada
+def menu_principal():
+    conn = conectar_banco()
+    if not conn:
+        return
+
+    modelo = None
+
+    while True:
+        print("\n=== Menu Principal ===")
+        print("1. Inserir dados simulados")
+        print("2. Alterar dados")
+        print("3. Incluir novos dados")
+        print("4. Excluir um dado específico")
+        print("5. Excluir todos os dados")
+        print("6. Carregar dados de arquivo JSON")
+        print("7. Treinar modelo de previsão")
+        print("8. Fazer previsão de colheita")
+        print("9. Sair")
+
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == '1':
+            inserir_dados_banco(conn, gerar_dados_simulados())
+        elif opcao == '2':
+            alterar_dados(conn)
+        elif opcao == '3':
+            incluir_dados(conn)
+        elif opcao == '4':
+            excluir_dado(conn)
+        elif opcao == '5':
+            excluir_todos_dados(conn)
+        elif opcao == '6':
+            carregar_dados_json(conn)
+        elif opcao == '7':
+            df = carregar_dados_db(conn)
+            if df is not None and not df.empty:
+                X, y = preparar_dados(df)
+                modelo = treinar_modelo(X, y)
+                print("Modelo treinado com sucesso!")
+            else:
+                print("Não há dados suficientes para treinar o modelo.")
+        elif opcao == '8':
+            if modelo is None:
+                print("Primeiro treine o modelo usando a opção 7.")
+            else:
+                fazer_previsao(modelo, conn)
+        elif opcao == '9':
+            print("Saindo do programa...")
+            break
+        else:
+            print("Opção inválida. Por favor, tente novamente.")
+
+    conn.close()
+
+
+# Função para agendar colheita
+def agendar_colheita(conn):
+    try:
+        cursor = conn.cursor()
+        plantacao_id = int(input("ID da plantação: "))
+        data_colheita = input("Data da colheita (YYYY-MM-DD): ")
+        
+        # Validar o formato da data
+        try:
+            datetime.strptime(data_colheita, '%Y-%m-%d')
+        except ValueError:
+            print("Formato de data inválido. Use YYYY-MM-DD.")
+            return
+
+        sql = "INSERT INTO agendamentos (plantacao_id, data_colheita) VALUES (:1, TO_DATE(:2, 'YYYY-MM-DD'))"
+        cursor.execute(sql, (plantacao_id, data_colheita))
+        conn.commit()
+        print("Colheita agendada com sucesso.")
+    except oracledb.DatabaseError as e:
+        print(f"Erro ao agendar colheita: {e}")
+    finally:
+        cursor.close()
+
+# Função para listar agendamentos
+def listar_agendamentos(conn):
+    try:
+        cursor = conn.cursor()
+        cursor.execute("SELECT plantacao_id, TO_CHAR(data_colheita, 'YYYY-MM-DD') FROM agendamentos ORDER BY data_colheita")
+        agendamentos = cursor.fetchall()
+        if agendamentos:
+            print("\nAgendamentos de Colheita:")
+            for row in agendamentos:
+                print(f"Plantação ID: {row[0]}, Data Colheita: {row[1]}")
+        else:
+            print("Não há agendamentos de colheita.")
+    except oracledb.DatabaseError as e:
+        print(f"Erro ao listar agendamentos: {e}")
+    finally:
+        cursor.close()
+
+# Função para alocar recursos
+def alocar_recursos(conn):
+    try:
+        cursor = conn.cursor()
+        plantacao_id = int(input("ID da plantação: "))
+        tipo_recurso = input("Tipo de recurso (ex: colhedora, trator): ")
+        quantidade = int(input("Quantidade: "))
+        
+        sql = "INSERT INTO recursos_alocados (plantacao_id, tipo_recurso, quantidade) VALUES (:1, :2, :3)"
+        cursor.execute(sql, (plantacao_id, tipo_recurso, quantidade))
+        conn.commit()
+        print("Recursos alocados com sucesso.")
+    except oracledb.DatabaseError as e:
+        print(f"Erro ao alocar recursos: {e}")
+    finally:
+        cursor.close()
+
+# Função para listar recursos alocados
+def listar_recursos_alocados(conn):
+    try:
+        cursor = conn.cursor()
+        cursor.execute("SELECT plantacao_id, tipo_recurso, quantidade FROM recursos_alocados")
+        recursos = cursor.fetchall()
+        if recursos:
+            print("\nRecursos Alocados:")
+            for row in recursos:
+                print(f"Plantação ID: {row[0]}, Tipo: {row[1]}, Quantidade: {row[2]}")
+        else:
+            print("Não há recursos alocados.")
+    except oracledb.DatabaseError as e:
+        print(f"Erro ao listar recursos alocados: {e}")
+    finally:
+        cursor.close()
+
+# Função para criar gráficos
+def criar_graficos(conn):
+    try:
+        df = carregar_dados_db(conn)
+        if df is None or df.empty:
+            print("Não há dados suficientes para criar gráficos.")
+            return
+
+        # Gráfico de linha para quantidade colhida ao longo dos anos
+        plt.figure(figsize=(10, 6))
+        plt.plot(df['ano'], df['quantidade_colhida'], marker='o')
+        plt.title('Quantidade Colhida ao Longo dos Anos')
+        plt.xlabel('Ano')
+        plt.ylabel('Quantidade Colhida')
+        plt.grid(True)
+        plt.savefig('nome_do_arquivo.png')
+
+        # Gráfico de barras para temperatura média e precipitação
+        fig, ax1 = plt.subplots(figsize=(10, 6))
+        ax2 = ax1.twinx()
+        ax1.bar(df['ano'], df['temperatura_media'], color='r', alpha=0.5, label='Temperatura Média')
+        ax2.bar(df['ano'], df['precipitacao'], color='b', alpha=0.5, label='Precipitação')
+        ax1.set_xlabel('Ano')
+        ax1.set_ylabel('Temperatura Média (°C)', color='r')
+        ax2.set_ylabel('Precipitação (mm)', color='b')
+        plt.title('Temperatura Média e Precipitação por Ano')
+        ax1.legend(loc='upper left')
+        ax2.legend(loc='upper right')
+        plt.savefig('nome_do_arquivo.png')
+
+        # Gráfico de dispersão para relação entre índice de maturidade e quantidade colhida
+        plt.figure(figsize=(10, 6))
+        plt.scatter(df['indice_maturidade'], df['quantidade_colhida'])
+        plt.title('Relação entre Índice de Maturidade e Quantidade Colhida')
+        plt.xlabel('Índice de Maturidade')
+        plt.ylabel('Quantidade Colhida')
+        plt.grid(True)
+        plt.savefig('nome_do_arquivo.png')
+
+    except Exception as e:
+        print(f"Erro ao criar gráficos: {e}")
+
+# Função principal do menu atualizada
+def menu_principal():
+    conn = conectar_banco()
+    if not conn:
+        return
+
+    modelo = None
+
+    while True:
+        print("\n=== Menu Principal ===")
+        print("1. Inserir dados simulados")
+        print("2. Alterar dados")
+        print("3. Incluir novos dados")
+        print("4. Excluir um dado específico")
+        print("5. Excluir todos os dados")
+        print("6. Carregar dados de arquivo JSON")
+        print("7. Treinar modelo de previsão")
+        print("8. Fazer previsão de colheita")
+        print("9. Agendar colheita")
+        print("10. Listar agendamentos de colheita")
+        print("11. Alocar recursos")
+        print("12. Listar recursos alocados")
+        print("13. Criar gráficos")  
+        print("14. Sair")
+
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == '1':
+            inserir_dados_banco(conn, gerar_dados_simulados())
+        elif opcao == '2':
+            alterar_dados(conn)
+        elif opcao == '3':
+            incluir_dados(conn)
+        elif opcao == '4':
+            excluir_dado(conn)
+        elif opcao == '5':
+            excluir_todos_dados(conn)
+        elif opcao == '6':
+            carregar_dados_json(conn)
+        elif opcao == '7':
+            df = carregar_dados_db(conn)
+            if df is not None and not df.empty:
+                X, y = preparar_dados(df)
+                modelo = treinar_modelo(X, y)
+                print("Modelo treinado com sucesso!")
+            else:
+                print("Não há dados suficientes para treinar o modelo.")
+        elif opcao == '8':
+            if modelo is None:
+                print("Primeiro treine o modelo usando a opção 7.")
+            else:
+                fazer_previsao(modelo, conn)
+        elif opcao == '9':
+            agendar_colheita(conn)
+        elif opcao == '10':
+            listar_agendamentos(conn)
+        elif opcao == '11':
+            alocar_recursos(conn)
+        elif opcao == '12':
+            listar_recursos_alocados(conn)
+        elif opcao == '13':
+            criar_graficos(conn)
+        elif opcao == '14':
+            print("Saindo do programa...")
+            break
+        else:
+            print("Opção inválida. Por favor, tente novamente.")
+
+    conn.close()
 
 # Executar o menu principal
 if __name__ == "__main__":
