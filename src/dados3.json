@@ -1,0 +1,47 @@
+[
+    {
+        "ano": 2021,
+        "quantidade_colhida": 1500,
+        "clima": {
+            "temperatura_media": 25.3,
+            "precipitacao": 1200
+        },
+        "maturidade_cana": {
+            "indice_maturidade": 0.85
+        },
+        "condicoes_solo": {
+            "ph": 6.5,
+            "nutrientes": 0.75
+        }
+    },
+    {
+        "ano": 2022,
+        "quantidade_colhida": 1600,
+        "clima": {
+            "temperatura_media": 26.1,
+            "precipitacao": 1100
+        },
+        "maturidade_cana": {
+            "indice_maturidade": 0.88
+        },
+        "condicoes_solo": {
+            "ph": 6.4,
+            "nutrientes": 0.78
+        }
+    },
+    {
+        "ano": 2023,
+        "quantidade_colhida": 1550,
+        "clima": {
+            "temperatura_media": 25.8,
+            "precipitacao": 1150
+        },
+        "maturidade_cana": {
+            "indice_maturidade": 0.86
+        },
+        "condicoes_solo": {
+            "ph": 6.6,
+            "nutrientes": 0.76
+        }
+    }
+]
