@@ -2,9 +2,12 @@
 import os
 import oracledb
 from dotenv import load_dotenv
+from dataclasses import asdict
+from datetime import datetime
 
-from log.logger_config import configurar_logging  # Importa o logger configurado
-from setup_db import criar_tabelas  # Importa a função de criação de tabelas (opcional)
+from log.logger_config import configurar_logging
+from setup_bd import setup_banco_dados
+from app import Colheita, Clima, MaturidadeCana, CondicoesSolo, DadosCompletos
 
 # Configura o logging
 logger = configurar_logging()
@@ -14,68 +17,39 @@ def gerar_dados_simulados():
     Gera os dados simulados para inserção.
     """
     dados = [
-        {
-            "ano": 2021,
-            "quantidade_colhida": 1500,
-            "clima": {
-                "temperatura_media": 25.3,
-                "precipitacao": 1200
-            },
-            "maturidade_cana": {
-                "indice_maturidade": 0.85
-            },
-            "condicoes_solo": {
-                "ph": 6.5,
-                "nutrientes": 0.75
-            }
-        },
-        {
-            "ano": 2022,
-            "quantidade_colhida": 1600,
-            "clima": {
-                "temperatura_media": 26.1,
-                "precipitacao": 1100
-            },
-            "maturidade_cana": {
-                "indice_maturidade": 0.88
-            },
-            "condicoes_solo": {
-                "ph": 6.4,
-                "nutrientes": 0.78
-            }
-        },
-        {
-            "ano": 2023,
-            "quantidade_colhida": 1550,
-            "clima": {
-                "temperatura_media": 25.8,
-                "precipitacao": 1150
-            },
-            "maturidade_cana": {
-                "indice_maturidade": 0.86
-            },
-            "condicoes_solo": {
-                "ph": 6.6,
-                "nutrientes": 0.76
-            }
-        }
+        DadosCompletos(
+            colheita=Colheita(ano=2021, quantidade_colhida=1500),
+            clima=Clima(ano=2021, temperatura_media=25.3, precipitacao=1200),
+            maturidade=MaturidadeCana(ano=2021, indice_maturidade=0.85),
+            solo=CondicoesSolo(ano=2021, ph=6.5, nutrientes=0.75)
+        ),
+        DadosCompletos(
+            colheita=Colheita(ano=2022, quantidade_colhida=1600),
+            clima=Clima(ano=2022, temperatura_media=26.1, precipitacao=1100),
+            maturidade=MaturidadeCana(ano=2022, indice_maturidade=0.88),
+            solo=CondicoesSolo(ano=2022, ph=6.4, nutrientes=0.78)
+        ),
+        DadosCompletos(
+            colheita=Colheita(ano=2023, quantidade_colhida=1550),
+            clima=Clima(ano=2023, temperatura_media=25.8, precipitacao=1150),
+            maturidade=MaturidadeCana(ano=2023, indice_maturidade=0.86),
+            solo=CondicoesSolo(ano=2023, ph=6.6, nutrientes=0.76)
+        )
     ]
     logger.info("Dados simulados gerados.")
     return dados
 
-def conectar_banco(logger):
+def conectar_banco():
     """
     Conecta ao banco de dados Oracle utilizando as variáveis de ambiente.
     
-    :param logger: Logger para registrar mensagens.
     :return: Objeto de conexão ou None em caso de erro.
     """
-    load_dotenv()  # Carrega as variáveis de ambiente
+    load_dotenv()
     user = os.getenv('DB_USER')
     password = os.getenv('DB_PASSWORD')
     dsn = os.getenv('DB_DSN')
 
-    # Verificar se as variáveis de ambiente foram carregadas
     if not all([user, password, dsn]):
         logger.error("Uma ou mais variáveis de ambiente não estão definidas.")
         return None
@@ -88,19 +62,18 @@ def conectar_banco(logger):
         logger.error(f"Erro ao conectar ao banco de dados: {e}")
         return None
 
-def verificar_dados_existentes(conn, logger):
+def verificar_dados_existentes(conn):
     """
-    Verifica se já existem dados na tabela 'colheita'.
+    Verifica se já existem dados na tabela 'Colheita'.
     
     :param conn: Conexão com o banco de dados.
-    :param logger: Logger para registrar mensagens.
     :return: True se existirem dados, False caso contrário.
     """
     cursor = conn.cursor()
     try:
-        cursor.execute("SELECT COUNT(*) FROM colheita")
+        cursor.execute("SELECT COUNT(*) FROM Colheita")
         count = cursor.fetchone()[0]
-        logger.info(f"Quantidade de registros na tabela 'colheita': {count}")
+        logger.info(f"Quantidade de registros na tabela 'Colheita': {count}")
         return count > 0
     except oracledb.DatabaseError as e:
         logger.error(f"Erro ao verificar dados existentes: {e}")
@@ -108,54 +81,43 @@ def verificar_dados_existentes(conn, logger):
     finally:
         cursor.close()
 
-def inserir_dados(conn, dados, logger):
+def inserir_dados(conn, dados):
     """
     Insere os dados simulados nas tabelas correspondentes.
     
     :param conn: Conexão com o banco de dados Oracle.
-    :param dados: Lista de dicionários com os dados a serem inseridos.
-    :param logger: Logger para registrar mensagens.
+    :param dados: Lista de objetos DadosCompletos com os dados a serem inseridos.
     """
     cursor = conn.cursor()
     try:
         for item in dados:
-            # Criar uma variável de ligação para id_colheita
-            id_colheita_var = cursor.var(int)
-
-            # Inserir na tabela colheita com RETURNING INTO
+            # Inserir na tabela Colheita
             cursor.execute("""
-                INSERT INTO colheita (ano, quantidade_colhida)
+                INSERT INTO Colheita (ano, quantidade_colhida)
                 VALUES (:ano, :quantidade_colhida)
-                RETURNING id_colheita INTO :id_colheita
-            """, ano=item["ano"], quantidade_colhida=item["quantidade_colhida"], id_colheita=id_colheita_var)
+            """, ano=item.colheita.ano, quantidade_colhida=item.colheita.quantidade_colhida)
+            logger.info(f"Registro inserido na tabela 'Colheita' para o ano: {item.colheita.ano}")
 
-            # Recuperar o valor de id_colheita
-            id_colheita = id_colheita_var.getvalue()[0]
-            logger.info(f"Registro inserido na tabela 'colheita' com id_colheita: {id_colheita}")
-
-            # Inserir na tabela clima
-            clima = item["clima"]
+            # Inserir na tabela Clima
             cursor.execute("""
-                INSERT INTO clima (id_colheita, temperatura_media, precipitacao)
-                VALUES (:id_colheita, :temperatura_media, :precipitacao)
-            """, id_colheita=id_colheita, temperatura_media=clima["temperatura_media"], precipitacao=clima["precipitacao"])
-            logger.info(f"Registro inserido na tabela 'clima' para id_colheita: {id_colheita}")
+                INSERT INTO Clima (ano, temperatura_media, precipitacao)
+                VALUES (:ano, :temperatura_media, :precipitacao)
+            """, ano=item.clima.ano, temperatura_media=item.clima.temperatura_media, precipitacao=item.clima.precipitacao)
+            logger.info(f"Registro inserido na tabela 'Clima' para o ano: {item.clima.ano}")
 
-            # Inserir na tabela maturidade_cana
-            maturidade = item["maturidade_cana"]
+            # Inserir na tabela MaturidadeCana
             cursor.execute("""
-                INSERT INTO maturidade_cana (id_colheita, indice_maturidade)
-                VALUES (:id_colheita, :indice_maturidade)
-            """, id_colheita=id_colheita, indice_maturidade=maturidade["indice_maturidade"])
-            logger.info(f"Registro inserido na tabela 'maturidade_cana' para id_colheita: {id_colheita}")
+                INSERT INTO MaturidadeCana (ano, indice_maturidade)
+                VALUES (:ano, :indice_maturidade)
+            """, ano=item.maturidade.ano, indice_maturidade=item.maturidade.indice_maturidade)
+            logger.info(f"Registro inserido na tabela 'MaturidadeCana' para o ano: {item.maturidade.ano}")
 
-            # Inserir na tabela condicoes_solo
-            solo = item["condicoes_solo"]
+            # Inserir na tabela CondicoesSolo
             cursor.execute("""
-                INSERT INTO condicoes_solo (id_colheita, ph, nutrientes)
-                VALUES (:id_colheita, :ph, :nutrientes)
-            """, id_colheita=id_colheita, ph=solo["ph"], nutrientes=solo["nutrientes"])
-            logger.info(f"Registro inserido na tabela 'condicoes_solo' para id_colheita: {id_colheita}")
+                INSERT INTO CondicoesSolo (ano, ph, nutrientes)
+                VALUES (:ano, :ph, :nutrientes)
+            """, ano=item.solo.ano, ph=item.solo.ph, nutrientes=item.solo.nutrientes)
+            logger.info(f"Registro inserido na tabela 'CondicoesSolo' para o ano: {item.solo.ano}")
 
         # Commit das inserções
         conn.commit()
@@ -168,15 +130,15 @@ def inserir_dados(conn, dados, logger):
 
 def main():
     # Conecta ao banco de dados
-    conn = conectar_banco(logger)
+    conn = conectar_banco()
     if conn:
-        # Opcional: Cria as tabelas se ainda não existirem
-        criar_tabelas(conn, logger)
+        # Configura o banco de dados
+        setup_banco_dados(conn)
 
-        # Verifica se já existem dados na tabela 'colheita' para evitar duplicações
-        if not verificar_dados_existentes(conn, logger):
+        # Verifica se já existem dados na tabela 'Colheita' para evitar duplicações
+        if not verificar_dados_existentes(conn):
             dados = gerar_dados_simulados()
-            inserir_dados(conn, dados, logger)
+            inserir_dados(conn, dados)
         else:
             logger.info("Dados já existem no banco de dados. Inserção não realizada.")
 

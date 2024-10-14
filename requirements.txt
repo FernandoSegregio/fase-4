@@ -3,7 +3,8 @@ cryptography==43.0.1
 oracledb==2.4.1
 pycparser==2.22
 python-dotenv==1.0.1
-pandas
-scikit-learn
-oracledb
-python-dotenv
+matplotlib==3.7.1
+pandas==1.5.3
+scikit-learn==1.2.2
+SQLAlchemy==2.0.15
+numpy==1.24.3

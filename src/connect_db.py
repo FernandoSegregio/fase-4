@@ -1,12 +1,17 @@
 import oracledb
 from dotenv import load_dotenv
 from log.logger_config import configurar_logging
-from setup_db import criar_tabelas
 import os
 
-def conectar_banco(logger):
-    #Conecta ao banco de dados Oracle utilizando as variáveis de ambiente.
+# Configura o logging
+logger = configurar_logging()
+
+def conectar_banco():
+    """
+    Conecta ao banco de dados Oracle utilizando as variáveis de ambiente.
     
+    :return: Objeto de conexão ou None em caso de erro.
+    """
     load_dotenv()  # Carrega as variáveis de ambiente
     user = os.getenv('DB_USER')
     password = os.getenv('DB_PASSWORD')
@@ -25,17 +30,23 @@ def conectar_banco(logger):
         logger.error(f"Erro ao conectar ao banco de dados: {e}")
         return None
 
-def main():
-    # Configura o logging
-    logger = configurar_logging()
+def fechar_conexao(conn):
+    """
+    Fecha a conexão com o banco de dados.
 
-    # Conecta ao banco de dados
-    conn = conectar_banco(logger)
+    :param conn: Objeto de conexão com o banco de dados.
+    """
     if conn:
-        # Chama a função para criar tabelas
-        criar_tabelas(conn, logger)
         conn.close()
         logger.info("Conexão com o banco de dados encerrada.")
+
+def main():
+    # Conecta ao banco de dados
+    conn = conectar_banco()
+    if conn:
+        # Configura o banco de dados
+       # setup_banco_dados(conn)
+        fechar_conexao(conn)
 
 if __name__ == "__main__":
     main()

@@ -24,3 +24,46 @@
 2024-10-10 23:52:42,528 [INFO] log.logger_config: Registro inserido na tabela 'condicoes_solo' para id_colheita: 3
 2024-10-10 23:52:42,537 [INFO] log.logger_config: Dados inseridos com sucesso.
 2024-10-10 23:52:42,551 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-12 20:50:13,779 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-12 20:50:13,880 [INFO] log.logger_config: Verificação da tabela 'COLHEITA': Existe
+2024-10-12 20:50:13,880 [INFO] log.logger_config: Tabela 'colheita' já existe.
+2024-10-12 20:50:13,886 [INFO] log.logger_config: Verificação da tabela 'CLIMA': Existe
+2024-10-12 20:50:13,886 [INFO] log.logger_config: Tabela 'clima' já existe.
+2024-10-12 20:50:13,960 [INFO] log.logger_config: Verificação da tabela 'MATURIDADE_CANA': Existe
+2024-10-12 20:50:13,960 [INFO] log.logger_config: Tabela 'maturidade_cana' já existe.
+2024-10-12 20:50:13,966 [INFO] log.logger_config: Verificação da tabela 'CONDICOES_SOLO': Existe
+2024-10-12 20:50:13,967 [INFO] log.logger_config: Tabela 'condicoes_solo' já existe.
+2024-10-12 20:50:13,977 [INFO] log.logger_config: Todas as tabelas foram criadas ou já existiam.
+2024-10-12 20:50:13,986 [INFO] log.logger_config: Quantidade de registros na tabela 'colheita': 3
+2024-10-12 20:50:13,986 [INFO] log.logger_config: Dados já existem no banco de dados. Inserção não realizada.
+2024-10-12 20:50:13,993 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-13 22:17:04,402 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-13 22:17:21,573 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-13 22:17:21,581 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-13 22:24:47,519 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-13 22:24:47,522 [INFO] root: Iniciando configuração do banco de dados
+2024-10-13 22:24:47,530 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-13 22:24:47,530 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-13 22:24:47,536 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-13 22:24:47,537 [INFO] root: Tabela 'Clima' já existe.
+2024-10-13 22:24:47,541 [INFO] root: Verificação da tabela 'MATURIDADECANA': Não existe
+2024-10-13 22:24:47,589 [ERROR] root: Erro ao criar tabelas: ORA-02270: no matching unique or primary key for this column-list
+Help: https://docs.oracle.com/error-help/db/ora-02270/
+2024-10-13 22:24:47,594 [INFO] root: Configuração do banco de dados concluída
+2024-10-13 22:24:47,594 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-13 22:25:24,454 [ERROR] root: Erro ao carregar dados do arquivo JSON 1: [Errno 2] No such file or directory: '1'
+2024-10-13 22:25:56,077 [ERROR] root: Erro ao carregar dados do banco: (oracledb.exceptions.DatabaseError) ORA-00942: table or view does not exist
+Help: https://docs.oracle.com/error-help/db/ora-00942/
+[SQL: 
+        SELECT c.ano, c.quantidade_colhida, cl.temperatura_media, cl.precipitacao, 
+               m.indice_maturidade, s.ph, s.nutrientes
+        FROM Colheita c
+        JOIN Clima cl ON c.ano = cl.ano
+        JOIN MaturidadeCana m ON c.ano = m.ano
+        JOIN CondicoesSolo s ON c.ano = s.ano
+        ]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-10-13 22:26:33,312 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-13 22:27:58,855 [ERROR] root: Erro inesperado: time data '20241201' does not match format '%Y-%m-%d'
+2024-10-13 22:27:58,866 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-13 22:27:58,866 [INFO] root: Conexão com o banco de dados fechada
