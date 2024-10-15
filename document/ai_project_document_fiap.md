@@ -194,6 +194,6 @@ Listar operações pendentes: Exibe operações que ainda não foram finalizadas
 - As operações de inserção de dados e carregamento de arquivos são essenciais para alimentar a aplicação com informações necessárias para as funcionalidades de análise e previsão, sempre que realizar o carregamento de algum item para ser inserido no banco é nescessário executar a funcionalidade **15 - Sincronizar com o Banco de dados**.
 
 
-Dicas: Experimente, inserir dados simulados (1), os dados serão carregados a partir de uma lista carregada previamente, ou experimente, usar a função que carrega dados de um JSON (6) com os valores das colheiras e produção de ans anteriores. Após selecionar de onde você quer inserir dados, use a função para sincronizar dados com o banco (15), após garantir a existência de dados no banco, treine o modelo, crie gráficos e muito mais!
+Dicas: Experimente, inserir dados simulados (1), os dados serão carregados a partir de uma lista carregada previamente, ou experimente, usar a função que carrega dados de um JSON (6) com os valores das colheitas e produção de anos anteriores. Após selecionar de onde você quer inserir dados, use a função para sincronizar dados com o banco (15), após garantir a existência de dados no banco, treine o modelo, crie gráficos e muito mais!
 
 
