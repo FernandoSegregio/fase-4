@@ -15,9 +15,10 @@
     TerraFusion Tech
 
 ## 👨‍🎓 Integrantes: 
-- <a target="_blank" href="https://www.linkedin.com/in/ana-kolodji-94ba66324/">Ana Kolodi</a>
-- <a target="_blank" href="https://www.linkedin.com/in/fernando-segregio/">Fernando Miranda Segregio</a>
-- <a target="_blank" href="https://www.linkedin.com/in/tatiana-vieira-lopes-dos-santos-368396b3">Tatiana Lopes</a>
+- <a href="https://www.linkedin.com/in/ana-kolodji-94ba66324/" target="_blank">Ana Kolodi</a>
+- <a href="https://www.linkedin.com/in/fernando-segregio/" target="_blank">Fernando Miranda Segregio</a>
+- <a href="https://www.linkedin.com/in/tatiana-vieira-lopes-dos-santos-368396b3" target="_blank">Tatiana Lopes</a>
+
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
