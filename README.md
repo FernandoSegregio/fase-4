@@ -125,8 +125,8 @@ python src/app.py
 ```
 
 Dicas:
-1 - Variáveis de Ambiente: Lembre-se de preencher o arquivo .env com os valores corretos para DB_USER, DB_PASSWORD e DB_DSN antes de rodar o aplicativo.
-2 - Antes de ativar o ambiente verifique qual é seu sistema operacional e escolha o comando correto.
+- 1 - Variáveis de Ambiente: Lembre-se de preencher o arquivo **.env** com os valores corretos para **DB_USER**, **DB_PASSWORD** e **DB_DSN** antes de rodar o aplicativo.<br />
+- 2 - Antes de **ativar o ambiente** verifique qual é seu **sistema operacional** e escolha o comando correto.
 
 ## 🗃 Histórico de lançamentos
 
