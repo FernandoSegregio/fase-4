@@ -1,0 +1,47 @@
+[
+    {
+        "ano": 2014,
+        "quantidade_colhida": 1700,
+        "clima": {
+            "temperatura_media": 26.5,
+            "precipitacao": 1000
+        },
+        "maturidade_cana": {
+            "indice_maturidade": 0.92
+        },
+        "condicoes_solo": {
+            "ph": 6.8,
+            "nutrientes": 0.82
+        }
+    },
+    {
+        "ano": 2015,
+        "quantidade_colhida": 1710,
+        "clima": {
+            "temperatura_media": 26.6,
+            "precipitacao": 990
+        },
+        "maturidade_cana": {
+            "indice_maturidade": 0.93
+        },
+        "condicoes_solo": {
+            "ph": 6.85,
+            "nutrientes": 0.83
+        }
+    },
+    {
+        "ano": 2016,
+        "quantidade_colhida": 1720,
+        "clima": {
+            "temperatura_media": 26.7,
+            "precipitacao": 980
+        },
+        "maturidade_cana": {
+            "indice_maturidade": 0.94
+        },
+        "condicoes_solo": {
+            "ph": 6.9,
+            "nutrientes": 0.84
+        }
+    }
+  ]
