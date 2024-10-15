@@ -67,3 +67,2372 @@ Help: https://docs.oracle.com/error-help/db/ora-00942/
 2024-10-13 22:27:58,855 [ERROR] root: Erro inesperado: time data '20241201' does not match format '%Y-%m-%d'
 2024-10-13 22:27:58,866 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
 2024-10-13 22:27:58,866 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:14:26,081 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:14:26,083 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:14:26,142 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:14:26,142 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:14:26,181 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:14:26,182 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:14:26,224 [INFO] root: Verificação da tabela 'MATURIDADECANA': Não existe
+2024-10-14 21:14:26,330 [ERROR] root: Erro ao criar tabelas: ORA-02270: no matching unique or primary key for this column-list
+Help: https://docs.oracle.com/error-help/db/ora-02270/
+2024-10-14 21:14:26,376 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:14:26,376 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 21:26:48,196 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 21:26:48,272 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:26:48,272 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:26:59,397 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:26:59,398 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:26:59,449 [INFO] root: Verificação da tabela 'COLHEITA': Não existe
+2024-10-14 21:26:59,606 [ERROR] root: Erro ao criar tabelas: ORA-02261: such unique or primary key already exists in the table
+Help: https://docs.oracle.com/error-help/db/ora-02261/
+2024-10-14 21:26:59,655 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:26:59,655 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:26:59,696 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:26:59,696 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:27:33,618 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:27:33,619 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:27:33,664 [INFO] root: Verificação da tabela 'COLHEITA': Não existe
+2024-10-14 21:27:33,818 [ERROR] root: Erro ao criar tabelas: ORA-02261: such unique or primary key already exists in the table
+Help: https://docs.oracle.com/error-help/db/ora-02261/
+2024-10-14 21:27:33,865 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:27:33,865 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:27:33,912 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:27:33,913 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:28:05,076 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:28:05,077 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:28:05,131 [INFO] root: Verificação da tabela 'COLHEITA': Não existe
+2024-10-14 21:28:05,284 [ERROR] root: Erro ao criar tabelas: ORA-02261: such unique or primary key already exists in the table
+Help: https://docs.oracle.com/error-help/db/ora-02261/
+2024-10-14 21:28:05,320 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:28:05,323 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:28:05,374 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:28:05,374 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:28:27,898 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:28:27,899 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:28:27,943 [INFO] root: Verificação da tabela 'COLHEITA': Não existe
+2024-10-14 21:28:28,064 [INFO] root: Tabela 'Colheita' criada com sucesso.
+2024-10-14 21:28:28,111 [INFO] root: Verificação da tabela 'CLIMA': Não existe
+2024-10-14 21:28:28,179 [INFO] root: Tabela 'Clima' criada com sucesso.
+2024-10-14 21:28:28,236 [INFO] root: Verificação da tabela 'MATURIDADECANA': Não existe
+2024-10-14 21:28:28,310 [INFO] root: Tabela 'MaturidadeCana' criada com sucesso.
+2024-10-14 21:28:28,354 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Não existe
+2024-10-14 21:28:28,419 [INFO] root: Tabela 'CondicoesSolo' criada com sucesso.
+2024-10-14 21:28:28,462 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 21:28:28,462 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:28:28,464 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:28:28,509 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:28:28,510 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:33:12,467 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:33:12,468 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:33:12,515 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:33:12,515 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:33:12,561 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:33:12,562 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:33:12,604 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 21:33:12,604 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 21:33:12,646 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 21:33:12,646 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 21:33:12,686 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 21:33:12,687 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:33:12,688 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:33:12,728 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:33:12,728 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:34:01,085 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:34:01,086 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:34:01,135 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:34:01,135 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:34:01,183 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:34:01,184 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:34:01,229 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 21:34:01,229 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 21:34:01,270 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 21:34:01,270 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 21:34:01,316 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 21:34:01,318 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:34:01,319 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:34:01,364 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:34:01,364 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:35:09,199 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:35:09,199 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:35:09,246 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:35:09,250 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:35:09,296 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:35:09,307 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:35:09,348 [INFO] root: Verificação da tabela 'MATURIDA_DE_CANA': Não existe
+2024-10-14 21:35:09,522 [ERROR] root: Erro ao criar tabelas: ORA-02264: name already used by an existing constraint
+Help: https://docs.oracle.com/error-help/db/ora-02264/
+2024-10-14 21:35:09,564 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:35:09,565 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:35:09,653 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:35:09,653 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:36:00,734 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:36:00,781 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:36:17,532 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:36:17,533 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:36:17,587 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:36:17,587 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:36:17,629 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:36:17,629 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:36:17,675 [INFO] root: Verificação da tabela 'MATURIDA_DE_CANA': Não existe
+2024-10-14 21:36:17,851 [ERROR] root: Erro ao criar tabelas: ORA-02264: name already used by an existing constraint
+Help: https://docs.oracle.com/error-help/db/ora-02264/
+2024-10-14 21:36:17,892 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:36:17,892 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:36:17,934 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:36:17,935 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:36:45,356 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:36:45,357 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:36:45,402 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:36:45,402 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:36:45,446 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:36:45,446 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:36:45,491 [INFO] root: Verificação da tabela 'MATURIDA_DE_CANA': Não existe
+2024-10-14 21:36:45,667 [ERROR] root: Erro ao criar tabelas: ORA-02264: name already used by an existing constraint
+Help: https://docs.oracle.com/error-help/db/ora-02264/
+2024-10-14 21:36:45,713 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:36:45,713 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 21:36:59,684 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 21:36:59,687 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 21:36:59,687 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 21:37:11,312 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 21:38:37,581 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 21:38:37,591 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 21:38:37,591 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 21:41:25,547 [ERROR] root: Erro ao carregar dados do arquivo JSON dados1.json: [Errno 2] No such file or directory: 'dados1.json'
+2024-10-14 21:41:42,745 [INFO] root: Dados adicionados para o ano 2017
+2024-10-14 21:41:42,745 [INFO] root: Dados adicionados para o ano 2018
+2024-10-14 21:41:42,746 [INFO] root: Dados adicionados para o ano 2019
+2024-10-14 21:41:42,746 [INFO] root: Dados carregados do arquivo JSON src/dados1.json
+2024-10-14 21:42:24,475 [ERROR] root: Erro ao carregar dados do arquivo JSON [A[A: [Errno 2] No such file or directory: '\x1b[A\x1b[A'
+2024-10-14 21:42:37,163 [INFO] root: Dados adicionados para o ano 2014
+2024-10-14 21:42:37,164 [INFO] root: Dados adicionados para o ano 2015
+2024-10-14 21:42:37,164 [INFO] root: Dados adicionados para o ano 2016
+2024-10-14 21:42:37,164 [INFO] root: Dados carregados do arquivo JSON src/dados2.json
+2024-10-14 21:48:38,818 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 21:48:38,881 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:48:38,881 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:48:47,080 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:48:47,081 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:48:47,222 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:48:47,222 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:48:47,266 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:48:47,266 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:48:47,383 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 21:48:47,383 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 21:48:47,423 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 21:48:47,423 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 21:48:47,469 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 21:48:47,470 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:48:47,471 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 21:48:47,516 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:48:47,517 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:48:56,545 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:48:56,546 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:48:56,589 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:48:56,589 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:48:56,631 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:48:56,631 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:48:56,676 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 21:48:56,677 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 21:48:56,730 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 21:48:56,730 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 21:48:56,767 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 21:48:56,767 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:48:56,768 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 21:49:00,384 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 21:49:00,385 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 21:49:00,386 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 21:50:25,346 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2021
+2024-10-14 21:50:25,403 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2021
+2024-10-14 21:50:25,444 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2021
+2024-10-14 21:50:25,493 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2021
+2024-10-14 21:50:25,542 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2022
+2024-10-14 21:50:25,582 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2022
+2024-10-14 21:50:25,629 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2022
+2024-10-14 21:50:25,670 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2022
+2024-10-14 21:50:25,705 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2023
+2024-10-14 21:50:25,747 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2023
+2024-10-14 21:50:25,792 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2023
+2024-10-14 21:50:25,843 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2023
+2024-10-14 21:50:25,895 [INFO] root: Dados sincronizados com o banco de dados com sucesso
+2024-10-14 21:52:14,283 [INFO] root: Dados adicionados para o ano 2014
+2024-10-14 21:52:14,285 [INFO] root: Dados adicionados para o ano 2015
+2024-10-14 21:52:14,286 [INFO] root: Dados adicionados para o ano 2016
+2024-10-14 21:52:14,286 [INFO] root: Dados carregados do arquivo JSON src/dados2.json
+2024-10-14 21:57:37,105 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 21:57:37,156 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:57:37,156 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:57:52,475 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:57:52,476 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:57:52,530 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:57:52,531 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:57:52,574 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:57:52,574 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:57:52,616 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 21:57:52,616 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 21:57:52,679 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 21:57:52,679 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 21:57:52,721 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 21:57:52,722 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:57:52,722 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 21:59:02,113 [ERROR] root: Erro inesperado: 
+2024-10-14 21:59:02,160 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 21:59:02,161 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 21:59:28,479 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 21:59:28,479 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 21:59:28,531 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 21:59:28,531 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 21:59:28,572 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 21:59:28,572 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 21:59:28,622 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 21:59:28,622 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 21:59:28,663 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 21:59:28,663 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 21:59:28,703 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 21:59:28,704 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 21:59:28,704 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 21:59:43,804 [INFO] root: Dados sincronizados com o banco de dados com sucesso
+2024-10-14 21:59:51,057 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 21:59:51,058 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 21:59:51,058 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:03:04,180 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:03:04,243 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:03:04,243 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:03:16,854 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:03:16,855 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:03:16,905 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:03:16,905 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:03:16,947 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:03:16,947 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:03:16,988 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:03:16,988 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:03:17,037 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:03:17,038 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:03:17,081 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:03:17,082 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:03:17,082 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:03:27,634 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:03:27,636 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:03:27,636 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:04:38,456 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:04:38,499 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:04:38,499 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:04:48,724 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:04:48,724 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:04:48,775 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:04:48,775 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:04:48,817 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:04:48,818 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:04:48,863 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:04:48,863 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:04:48,904 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:04:48,904 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:04:48,952 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:04:48,953 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:04:48,953 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:05:02,091 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:05:02,092 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:05:02,093 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:05:18,992 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:05:18,994 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:05:18,995 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:05:18,995 [INFO] root: Dados carregados do arquivo JSON src/dados3.json
+2024-10-14 22:07:20,967 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:07:21,027 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:07:21,027 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:07:29,628 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:07:29,630 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:07:29,671 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:07:29,671 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:07:29,717 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:07:29,717 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:07:29,757 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:07:29,757 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:07:29,805 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:07:29,806 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:07:29,843 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:07:29,843 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:07:29,843 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:07:43,440 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:07:43,442 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:07:43,442 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:11:20,040 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:11:20,083 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:11:20,084 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:11:32,938 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:11:32,938 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:11:32,988 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:11:32,988 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:11:33,028 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:11:33,029 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:11:33,071 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:11:33,071 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:11:33,121 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:11:33,121 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:11:33,170 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:11:33,171 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:11:33,172 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 22:11:33,216 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:11:33,217 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:13:25,592 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:13:25,593 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:13:25,644 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:13:25,644 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:13:25,689 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:13:25,689 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:13:25,732 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:13:25,733 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:13:25,774 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:13:25,774 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:13:25,821 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:13:25,822 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:13:25,822 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:13:32,937 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:13:32,938 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:13:32,939 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:13:38,542 [ERROR] root: Erro inesperado: 'method' object is not iterable
+2024-10-14 22:13:38,590 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:13:38,591 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:14:09,816 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:14:09,817 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:14:09,865 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:14:09,865 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:14:09,905 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:14:09,906 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:14:09,955 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:14:09,956 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:14:10,005 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:14:10,006 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:14:10,051 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:14:10,051 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:14:10,051 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:14:13,754 [ERROR] root: Erro inesperado: 'GerenciadorDados' object has no attribute 'listar_operacoes_pendentes'
+2024-10-14 22:14:13,794 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:14:13,795 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:14:26,218 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:14:26,218 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:14:26,265 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:14:26,265 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:14:26,312 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:14:26,312 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:14:26,354 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:14:26,354 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:14:26,398 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:14:26,398 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:14:26,439 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:14:26,440 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:14:26,440 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:14:28,513 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:14:28,513 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:14:28,514 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:14:36,736 [ERROR] root: Erro inesperado: 'GerenciadorDados' object has no attribute 'listar_operacoes_pendentes'
+2024-10-14 22:14:36,783 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:14:36,784 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:15:02,596 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:15:02,597 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:15:02,659 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:15:02,659 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:15:02,698 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:15:02,698 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:15:02,744 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:15:02,744 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:15:02,789 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:15:02,789 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:15:02,830 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:15:02,831 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:15:02,831 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:15:03,875 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:15:03,876 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:15:03,876 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:15:11,778 [ERROR] root: Erro inesperado: 'method' object is not iterable
+2024-10-14 22:15:11,821 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:15:11,821 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:15:58,393 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:15:58,394 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:15:58,446 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:15:58,447 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:15:58,490 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:15:58,491 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:15:58,535 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:15:58,535 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:15:58,583 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:15:58,584 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:15:58,627 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:15:58,628 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:15:58,628 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:16:00,161 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:16:00,162 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:16:00,162 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:16:29,847 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:16:29,893 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:16:29,894 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:21:12,796 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:21:12,797 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:21:12,847 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:21:12,847 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:21:12,894 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:21:12,895 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:21:12,942 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:21:12,942 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:21:12,987 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:21:12,988 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:21:13,035 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:21:13,036 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:21:13,036 [ERROR] root: Erro ao carregar o estado: Ran out of input
+2024-10-14 22:21:13,037 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:21:13,084 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:21:13,084 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:21:28,452 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:21:28,453 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:21:28,499 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:21:28,499 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:21:28,536 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:21:28,537 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:21:28,581 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:21:28,581 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:21:28,619 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:21:28,620 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:21:28,665 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:21:28,665 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:21:28,665 [WARNING] root: Arquivo estado.pkl não encontrado. Retornando gerenciador vazio.
+2024-10-14 22:21:28,666 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:21:28,707 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:21:28,707 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:21:47,228 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:21:47,228 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:21:47,271 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:21:47,271 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:21:47,314 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:21:47,315 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:21:47,353 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:21:47,353 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:21:47,401 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:21:47,401 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:21:47,443 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:21:47,443 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:21:47,444 [ERROR] root: Erro ao carregar o estado: Ran out of input
+2024-10-14 22:21:47,445 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:21:47,487 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:21:47,488 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:22:01,519 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:22:01,520 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:22:01,567 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:22:01,568 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:22:01,614 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:22:01,614 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:22:01,660 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:22:01,660 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:22:01,703 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:22:01,703 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:22:01,745 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:22:01,745 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:22:01,745 [WARNING] root: Arquivo estado.pkl não encontrado. Retornando gerenciador vazio.
+2024-10-14 22:22:04,079 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:22:04,080 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:22:04,080 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:23:33,526 [ERROR] root: Erro ao inserir dados para o ano 2021: ORA-00001: unique constraint (RM559582.SYS_C003595027) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2024-10-14 22:23:33,573 [ERROR] root: Erro ao sincronizar dados com o banco: ORA-00001: unique constraint (RM559582.SYS_C003595027) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2024-10-14 22:23:41,769 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:23:41,812 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:23:41,812 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:23:52,852 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:23:52,852 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:23:52,899 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:23:52,899 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:23:52,945 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:23:52,945 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:23:52,990 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:23:52,990 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:23:53,032 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:23:53,032 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:23:53,079 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:23:53,080 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:23:53,080 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:24:51,007 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:24:51,009 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:24:51,010 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:25:09,006 [ERROR] root: Erro inesperado: "None of [Index(['temperatura_media', 'precipitacao', 'indice_maturidade', 'ph',\n       'nutrientes'],\n      dtype='object')] are in the [columns]"
+2024-10-14 22:25:09,052 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:25:09,052 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:25:21,012 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:25:21,013 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:25:21,056 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:25:21,056 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:25:21,093 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:25:21,093 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:25:21,130 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:25:21,131 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:25:21,167 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:25:21,167 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:25:21,209 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:25:21,209 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:25:21,209 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:36:27,348 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:36:27,353 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:36:27,353 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:37:01,250 [ERROR] root: Erro inesperado: DPY-4011: the database or network closed the connection
+[Errno 32] Broken pipe
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpy-4011
+2024-10-14 22:37:01,253 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:37:01,253 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:37:32,056 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:37:32,057 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:37:32,100 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:37:32,101 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:37:32,141 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:37:32,141 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:37:32,188 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:37:32,188 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:37:32,230 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:37:32,230 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:37:32,277 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:37:32,278 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:37:32,278 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:37:44,802 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 22:37:44,804 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 22:37:44,804 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 22:37:48,301 [ERROR] root: Erro inesperado: "None of [Index(['temperatura_media', 'precipitacao', 'indice_maturidade', 'ph',\n       'nutrientes'],\n      dtype='object')] are in the [columns]"
+2024-10-14 22:37:48,343 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:37:48,343 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:38:43,414 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:38:43,414 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:38:43,469 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:38:43,469 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:38:43,503 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:38:43,503 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:38:43,540 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:38:43,540 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:38:43,584 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:38:43,584 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:38:43,640 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:38:43,641 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:38:43,641 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:38:47,742 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:38:47,743 [INFO] root: Dados adicionados para o ano 2021.0
+2024-10-14 22:38:47,743 [INFO] root: Dados adicionados para o ano 2022.0
+2024-10-14 22:38:47,744 [INFO] root: Dados adicionados para o ano 2023.0
+2024-10-14 22:39:02,817 [ERROR] root: Erro inesperado: "None of [Index(['temperatura_media', 'precipitacao', 'indice_maturidade', 'ph',\n       'nutrientes'],\n      dtype='object')] are in the [columns]"
+2024-10-14 22:39:02,861 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:39:02,861 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:42:34,070 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:42:34,071 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:42:34,113 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:42:34,114 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:42:34,155 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:42:34,155 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:42:34,194 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:42:34,194 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:42:34,238 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:42:34,238 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:42:34,279 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:42:34,280 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:42:34,280 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:42:55,321 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:42:55,327 [INFO] root: Dados adicionados para o ano 2021.0
+2024-10-14 22:42:55,328 [INFO] root: Dados adicionados para o ano 2022.0
+2024-10-14 22:42:55,329 [INFO] root: Dados adicionados para o ano 2023.0
+2024-10-14 22:43:03,173 [ERROR] root: Erro inesperado: "None of [Index(['temperatura_media', 'precipitacao', 'indice_maturidade', 'ph',\n       'nutrientes'],\n      dtype='object')] are in the [columns]"
+2024-10-14 22:43:03,215 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:43:03,215 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:44:00,888 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:44:00,889 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:44:00,937 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:44:00,937 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:44:00,982 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:44:00,982 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:44:01,024 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:44:01,025 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:44:01,067 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:44:01,068 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:44:01,113 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:44:01,115 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:44:01,115 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:44:07,022 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:44:07,026 [INFO] root: Dados adicionados para o ano 2021.0
+2024-10-14 22:44:07,027 [INFO] root: Dados adicionados para o ano 2022.0
+2024-10-14 22:44:07,027 [INFO] root: Dados adicionados para o ano 2023.0
+2024-10-14 22:44:10,883 [ERROR] root: Erro inesperado: "None of [Index(['temperatura_media', 'precipitacao', 'indice_maturidade', 'ph',\n       'nutrientes'],\n      dtype='object')] are in the [columns]"
+2024-10-14 22:44:10,929 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:44:10,930 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:45:10,074 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:45:10,075 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:45:10,121 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:45:10,121 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:45:10,167 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:45:10,168 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:45:10,210 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:45:10,210 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:45:10,251 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:45:10,251 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:45:10,291 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:45:10,291 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:45:10,291 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:45:29,427 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:45:29,429 [INFO] root: Dados adicionados para o ano 2021.0
+2024-10-14 22:45:29,430 [INFO] root: Dados adicionados para o ano 2022.0
+2024-10-14 22:45:29,430 [INFO] root: Dados adicionados para o ano 2023.0
+2024-10-14 22:46:43,818 [ERROR] root: Erro inesperado: "None of [Index(['temperatura_media', 'precipitacao', 'indice_maturidade', 'ph',\n       'nutrientes'],\n      dtype='object')] are in the [columns]"
+2024-10-14 22:46:43,864 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:46:43,865 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:46:55,110 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:46:55,111 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:46:55,160 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:46:55,160 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:46:55,202 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:46:55,202 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:46:55,245 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:46:55,246 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:46:55,285 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:46:55,286 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:46:55,331 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:46:55,332 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:46:55,332 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:46:59,170 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:46:59,171 [INFO] root: Dados adicionados para o ano 2021.0
+2024-10-14 22:46:59,171 [INFO] root: Dados adicionados para o ano 2022.0
+2024-10-14 22:46:59,172 [INFO] root: Dados adicionados para o ano 2023.0
+2024-10-14 22:48:18,568 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:48:18,705 [INFO] root: Modelo treinado. Erro médio absoluto: 67.50 toneladas
+2024-10-14 22:50:24,842 [INFO] root: Previsão realizada: 1584.50 toneladas
+2024-10-14 22:50:36,101 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 22:51:19,831 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:51:19,873 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:51:19,873 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:51:32,638 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:51:32,638 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:51:32,683 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:51:32,684 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:51:32,724 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:51:32,724 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:51:32,765 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:51:32,766 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:51:32,808 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:51:32,808 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:51:32,851 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:51:32,851 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:51:32,853 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 22:51:32,900 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:51:32,901 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:51:43,652 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:51:43,653 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:51:43,702 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:51:43,702 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:51:43,751 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:51:43,751 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:51:43,798 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:51:43,798 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:51:43,839 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:51:43,839 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:51:43,878 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:51:43,878 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:51:43,878 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:51:51,025 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:51:51,135 [INFO] root: Modelo treinado. Erro médio absoluto: 67.50 toneladas
+2024-10-14 22:53:58,668 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:53:58,801 [INFO] root: Modelo treinado. Erro médio absoluto: 67.50 toneladas
+2024-10-14 22:58:09,356 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:58:09,479 [INFO] root: Modelo treinado. Erro médio absoluto: 67.50 toneladas
+2024-10-14 22:58:33,904 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 22:58:33,952 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 22:58:33,952 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 22:58:43,843 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 22:58:43,843 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 22:58:43,889 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 22:58:43,889 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 22:58:43,932 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 22:58:43,932 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 22:58:43,970 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 22:58:43,970 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 22:58:44,021 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 22:58:44,022 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 22:58:44,069 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 22:58:44,070 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 22:58:44,070 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 22:58:51,415 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 22:58:51,537 [INFO] root: Modelo treinado. Erro quadrático médio (RMSE): 67.50 toneladas
+2024-10-14 23:06:00,422 [INFO] root: Recurso 0 alocado
+2024-10-14 23:06:47,362 [ERROR] root: Erro ao carregar dados do arquivo JSON 0: [Errno 2] No such file or directory: '0'
+2024-10-14 23:06:59,032 [ERROR] root: Erro inesperado: 
+2024-10-14 23:06:59,083 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:06:59,083 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:07:04,543 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:07:04,543 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:07:04,591 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:07:04,591 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:07:04,635 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:07:04,635 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:07:04,681 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:07:04,682 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:07:04,723 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:07:04,724 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:07:04,759 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:07:04,759 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:07:04,759 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:08:25,850 [ERROR] root: Erro inesperado: 
+2024-10-14 23:08:25,895 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:08:25,896 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:08:36,805 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:08:36,805 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:08:36,856 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:08:36,856 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:08:36,898 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:08:36,899 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:08:36,942 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:08:36,942 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:08:36,986 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:08:36,986 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:08:37,027 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:08:37,027 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:08:37,028 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:08:42,829 [INFO] root: Dados adicionados para o ano 2017
+2024-10-14 23:08:42,829 [INFO] root: Dados adicionados para o ano 2018
+2024-10-14 23:08:42,830 [INFO] root: Dados adicionados para o ano 2019
+2024-10-14 23:09:51,586 [ERROR] root: Erro inesperado: 
+2024-10-14 23:09:51,632 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:09:51,632 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:09:56,289 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:09:56,290 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:09:56,331 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:09:56,331 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:09:56,377 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:09:56,378 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:09:56,426 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:09:56,426 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:09:56,473 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:09:56,473 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:09:56,521 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:09:56,521 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:09:56,522 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:10:03,515 [INFO] root: Dados adicionados para o ano 2014
+2024-10-14 23:10:03,516 [INFO] root: Dados adicionados para o ano 2015
+2024-10-14 23:10:03,516 [INFO] root: Dados adicionados para o ano 2016
+2024-10-14 23:12:20,742 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:12:20,860 [INFO] root: Modelo treinado. Erro quadrático médio (RMSE): 67.50 toneladas
+2024-10-14 23:13:08,578 [ERROR] root: Erro inesperado: 
+2024-10-14 23:13:08,625 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:13:08,625 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:13:13,804 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:13:13,804 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:13:13,851 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:13:13,851 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:13:13,896 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:13:13,896 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:13:13,938 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:13:13,938 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:13:13,985 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:13:13,985 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:13:14,021 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:13:14,022 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:13:14,022 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:13:19,430 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:13:19,573 [INFO] root: Modelo treinado. Erro quadrático médio (RMSE): 67.50 toneladas
+2024-10-14 23:13:38,312 [INFO] root: Dados adicionados para o ano 2017
+2024-10-14 23:13:38,313 [INFO] root: Dados adicionados para o ano 2018
+2024-10-14 23:13:38,313 [INFO] root: Dados adicionados para o ano 2019
+2024-10-14 23:13:42,034 [INFO] root: Dados adicionados para o ano 2014
+2024-10-14 23:13:42,034 [INFO] root: Dados adicionados para o ano 2015
+2024-10-14 23:13:42,034 [INFO] root: Dados adicionados para o ano 2016
+2024-10-14 23:13:45,289 [INFO] root: Dados adicionados para o ano 2021
+2024-10-14 23:13:45,290 [INFO] root: Dados adicionados para o ano 2022
+2024-10-14 23:13:45,291 [INFO] root: Dados adicionados para o ano 2023
+2024-10-14 23:13:54,121 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:13:54,365 [INFO] root: Modelo treinado. Erro quadrático médio (RMSE): 67.50 toneladas
+2024-10-14 23:14:11,842 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2017
+2024-10-14 23:14:11,903 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2017
+2024-10-14 23:14:11,949 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2017
+2024-10-14 23:14:11,995 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2017
+2024-10-14 23:14:12,034 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2018
+2024-10-14 23:14:12,078 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2018
+2024-10-14 23:14:12,127 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2018
+2024-10-14 23:14:12,177 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2018
+2024-10-14 23:14:12,219 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2019
+2024-10-14 23:14:12,259 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2019
+2024-10-14 23:14:12,299 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2019
+2024-10-14 23:14:12,341 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2019
+2024-10-14 23:14:12,387 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2014
+2024-10-14 23:14:12,428 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2014
+2024-10-14 23:14:12,469 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2014
+2024-10-14 23:14:12,520 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2014
+2024-10-14 23:14:12,565 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2015
+2024-10-14 23:14:12,605 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2015
+2024-10-14 23:14:12,648 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2015
+2024-10-14 23:14:12,694 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2015
+2024-10-14 23:14:12,740 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2016
+2024-10-14 23:14:12,783 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2016
+2024-10-14 23:14:12,820 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2016
+2024-10-14 23:14:12,861 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2016
+2024-10-14 23:14:12,956 [ERROR] root: Erro ao inserir dados para o ano 2021: ORA-00001: unique constraint (RM559582.SYS_C003595027) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2024-10-14 23:14:13,003 [ERROR] root: Erro ao sincronizar dados com o banco: ORA-00001: unique constraint (RM559582.SYS_C003595027) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2024-10-14 23:14:26,056 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:14:26,253 [INFO] root: Modelo treinado. Erro quadrático médio (RMSE): 67.50 toneladas
+2024-10-14 23:17:07,191 [INFO] root: Dados adicionados para o ano 2011
+2024-10-14 23:17:07,192 [INFO] root: Dados adicionados para o ano 2012
+2024-10-14 23:17:07,193 [INFO] root: Dados adicionados para o ano 2013
+2024-10-14 23:17:14,099 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:17:14,104 [INFO] root: Dados adicionados para o ano 2021.0
+2024-10-14 23:17:14,105 [INFO] root: Dados adicionados para o ano 2022.0
+2024-10-14 23:17:14,106 [INFO] root: Dados adicionados para o ano 2023.0
+2024-10-14 23:18:33,516 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2017
+2024-10-14 23:18:33,571 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2017
+2024-10-14 23:18:33,621 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2017
+2024-10-14 23:18:33,669 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2017
+2024-10-14 23:18:33,706 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2018
+2024-10-14 23:18:33,745 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2018
+2024-10-14 23:18:33,792 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2018
+2024-10-14 23:18:33,839 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2018
+2024-10-14 23:18:33,875 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2019
+2024-10-14 23:18:33,918 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2019
+2024-10-14 23:18:33,964 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2019
+2024-10-14 23:18:34,009 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2019
+2024-10-14 23:18:34,054 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2014
+2024-10-14 23:18:34,103 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2014
+2024-10-14 23:18:34,144 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2014
+2024-10-14 23:18:34,191 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2014
+2024-10-14 23:18:34,239 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2015
+2024-10-14 23:18:34,280 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2015
+2024-10-14 23:18:34,322 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2015
+2024-10-14 23:18:34,369 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2015
+2024-10-14 23:18:34,414 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2016
+2024-10-14 23:18:34,462 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2016
+2024-10-14 23:18:34,507 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2016
+2024-10-14 23:18:34,543 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2016
+2024-10-14 23:18:34,632 [ERROR] root: Erro ao inserir dados para o ano 2021: ORA-00001: unique constraint (RM559582.SYS_C003595027) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2024-10-14 23:18:34,679 [ERROR] root: Erro ao sincronizar dados com o banco: ORA-00001: unique constraint (RM559582.SYS_C003595027) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2024-10-14 23:18:43,443 [ERROR] root: Erro inesperado: 
+2024-10-14 23:18:43,488 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:18:43,488 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:18:50,930 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:18:50,931 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:18:50,975 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:18:50,976 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:18:51,022 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:18:51,022 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:18:51,062 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:18:51,062 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:18:51,108 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:18:51,108 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:18:51,151 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:18:51,152 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:18:51,152 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:18:55,518 [INFO] root: Dados sincronizados com o banco de dados com sucesso
+2024-10-14 23:19:02,105 [INFO] root: Dados adicionados para o ano 2017
+2024-10-14 23:19:02,106 [INFO] root: Dados adicionados para o ano 2018
+2024-10-14 23:19:02,106 [INFO] root: Dados adicionados para o ano 2019
+2024-10-14 23:19:08,736 [INFO] root: Dados adicionados para o ano 2014
+2024-10-14 23:19:08,736 [INFO] root: Dados adicionados para o ano 2015
+2024-10-14 23:19:08,736 [INFO] root: Dados adicionados para o ano 2016
+2024-10-14 23:19:15,921 [INFO] root: Dados adicionados para o ano 2011
+2024-10-14 23:19:15,922 [INFO] root: Dados adicionados para o ano 2012
+2024-10-14 23:19:15,922 [INFO] root: Dados adicionados para o ano 2013
+2024-10-14 23:19:20,612 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2017
+2024-10-14 23:19:20,669 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2017
+2024-10-14 23:19:20,714 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2017
+2024-10-14 23:19:20,763 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2017
+2024-10-14 23:19:20,819 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2018
+2024-10-14 23:19:20,864 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2018
+2024-10-14 23:19:20,908 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2018
+2024-10-14 23:19:20,952 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2018
+2024-10-14 23:19:20,991 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2019
+2024-10-14 23:19:21,034 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2019
+2024-10-14 23:19:21,068 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2019
+2024-10-14 23:19:21,111 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2019
+2024-10-14 23:19:21,148 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2014
+2024-10-14 23:19:21,189 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2014
+2024-10-14 23:19:21,228 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2014
+2024-10-14 23:19:21,269 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2014
+2024-10-14 23:19:21,306 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2015
+2024-10-14 23:19:21,347 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2015
+2024-10-14 23:19:21,386 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2015
+2024-10-14 23:19:21,429 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2015
+2024-10-14 23:19:21,475 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2016
+2024-10-14 23:19:21,515 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2016
+2024-10-14 23:19:21,555 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2016
+2024-10-14 23:19:21,603 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2016
+2024-10-14 23:19:21,641 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2011
+2024-10-14 23:19:21,688 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2011
+2024-10-14 23:19:21,726 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2011
+2024-10-14 23:19:21,784 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2011
+2024-10-14 23:19:21,821 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2012
+2024-10-14 23:19:21,871 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2012
+2024-10-14 23:19:21,911 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2012
+2024-10-14 23:19:21,956 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2012
+2024-10-14 23:19:21,997 [INFO] root: Registro inserido na tabela 'Colheita' para o ano: 2013
+2024-10-14 23:19:22,042 [INFO] root: Registro inserido na tabela 'Clima' para o ano: 2013
+2024-10-14 23:19:22,083 [INFO] root: Registro inserido na tabela 'MaturidadeCana' para o ano: 2013
+2024-10-14 23:19:22,125 [INFO] root: Registro inserido na tabela 'CondicoesSolo' para o ano: 2013
+2024-10-14 23:19:22,168 [INFO] root: Dados sincronizados com o banco de dados com sucesso
+2024-10-14 23:19:29,867 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:19:29,870 [INFO] root: Dados adicionados para o ano 2021.0
+2024-10-14 23:19:29,871 [INFO] root: Dados adicionados para o ano 2022.0
+2024-10-14 23:19:29,871 [INFO] root: Dados adicionados para o ano 2023.0
+2024-10-14 23:19:29,872 [INFO] root: Dados adicionados para o ano 2017.0
+2024-10-14 23:19:29,872 [INFO] root: Dados adicionados para o ano 2018.0
+2024-10-14 23:19:29,873 [INFO] root: Dados adicionados para o ano 2019.0
+2024-10-14 23:19:29,873 [INFO] root: Dados adicionados para o ano 2014.0
+2024-10-14 23:19:29,874 [INFO] root: Dados adicionados para o ano 2015.0
+2024-10-14 23:19:29,874 [INFO] root: Dados adicionados para o ano 2016.0
+2024-10-14 23:19:29,875 [INFO] root: Dados adicionados para o ano 2011.0
+2024-10-14 23:19:29,875 [INFO] root: Dados adicionados para o ano 2012.0
+2024-10-14 23:19:29,876 [INFO] root: Dados adicionados para o ano 2013.0
+2024-10-14 23:19:40,544 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:19:40,743 [INFO] root: Modelo treinado. Erro quadrático médio (RMSE): 137.91 toneladas
+2024-10-14 23:20:20,087 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 23:22:34,360 [ERROR] root: Erro inesperado: 
+2024-10-14 23:22:34,417 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:22:34,418 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:22:39,538 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:22:39,538 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:22:39,587 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:22:39,587 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:22:39,634 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:22:39,634 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:22:39,676 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:22:39,676 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:22:39,716 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:22:39,716 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:22:39,767 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:22:39,767 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:22:39,767 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:24:35,324 [ERROR] root: Erro inesperado: 
+2024-10-14 23:24:35,380 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:24:35,381 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:24:39,776 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:24:39,776 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:24:39,826 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:24:39,826 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:24:39,867 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:24:39,868 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:24:39,917 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:24:39,917 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:24:40,146 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:24:40,146 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:24:40,187 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:24:40,187 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:24:40,188 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:30:55,202 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 23:30:55,261 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:30:55,262 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:31:06,246 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:31:06,246 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:31:06,312 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:31:06,313 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:31:06,366 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:31:06,366 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:31:06,421 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:31:06,422 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:31:06,471 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:31:06,471 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:31:06,775 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:31:06,776 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:31:06,776 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:31:19,863 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:31:19,865 [INFO] root: Dados adicionados para o ano 2021.0
+2024-10-14 23:31:19,865 [INFO] root: Dados adicionados para o ano 2022.0
+2024-10-14 23:31:19,866 [INFO] root: Dados adicionados para o ano 2023.0
+2024-10-14 23:31:19,866 [INFO] root: Dados adicionados para o ano 2017.0
+2024-10-14 23:31:19,866 [INFO] root: Dados adicionados para o ano 2018.0
+2024-10-14 23:31:19,866 [INFO] root: Dados adicionados para o ano 2019.0
+2024-10-14 23:31:19,867 [INFO] root: Dados adicionados para o ano 2014.0
+2024-10-14 23:31:19,867 [INFO] root: Dados adicionados para o ano 2015.0
+2024-10-14 23:31:19,867 [INFO] root: Dados adicionados para o ano 2016.0
+2024-10-14 23:31:19,868 [INFO] root: Dados adicionados para o ano 2011.0
+2024-10-14 23:31:19,868 [INFO] root: Dados adicionados para o ano 2012.0
+2024-10-14 23:31:19,868 [INFO] root: Dados adicionados para o ano 2013.0
+2024-10-14 23:31:27,635 [INFO] root: Ano: [np.float64(2021.0), np.float64(2022.0), np.float64(2023.0), np.float64(2017.0), np.float64(2018.0), np.float64(2019.0), np.float64(2014.0), np.float64(2015.0), np.float64(2016.0), np.float64(2011.0), np.float64(2012.0), np.float64(2013.0)], Quantidades: [np.float64(1500.0), np.float64(1600.0), np.float64(1550.0), np.float64(1650.0), np.float64(1660.0), np.float64(1670.0), np.float64(1700.0), np.float64(1710.0), np.float64(1720.0), np.float64(1200.0), np.float64(1350.0), np.float64(1310.0)], Temperaturas: [np.float64(25.3), np.float64(26.1), np.float64(25.8), np.float64(26.3), np.float64(26.4), np.float64(26.5), np.float64(26.5), np.float64(26.6), np.float64(26.7), np.float64(21.4), np.float64(22.1), np.float64(24.8)], Precipitações: [np.float64(1200.0), np.float64(1100.0), np.float64(1150.0), np.float64(1050.0), np.float64(1040.0), np.float64(1030.0), np.float64(1000.0), np.float64(990.0), np.float64(980.0), np.float64(1150.0), np.float64(1220.0), np.float64(1050.0)]
+2024-10-14 23:31:28,805 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 23:31:45,105 [ERROR] root: Erro inesperado: 
+2024-10-14 23:31:45,164 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:31:45,164 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:31:49,990 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:31:49,990 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:31:50,039 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:31:50,040 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:31:50,086 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:31:50,086 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:31:50,126 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:31:50,127 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:31:50,174 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:31:50,175 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:31:50,212 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:31:50,215 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:31:50,215 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:32:51,847 [INFO] root: Ano: [], Quantidades: [], Temperaturas: [], Precipitações: []
+2024-10-14 23:32:52,286 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 23:34:59,831 [ERROR] root: Erro inesperado: 
+2024-10-14 23:34:59,876 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:34:59,876 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:35:07,172 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:35:07,173 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:35:07,214 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:35:07,215 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:35:07,260 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:35:07,260 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:35:07,308 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:35:07,308 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:35:07,353 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:35:07,354 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:35:07,395 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:35:07,396 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:35:07,396 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:35:13,359 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:35:13,359 [ERROR] root: Erro inesperado: 'DataFrame' object has no attribute 'dados_por_ano'
+2024-10-14 23:35:13,404 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:35:13,404 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:39:01,122 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:39:01,122 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:39:01,169 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:39:01,170 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:39:01,215 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:39:01,216 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:39:01,250 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:39:01,250 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:39:01,291 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:39:01,292 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:39:01,336 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:39:01,336 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:39:01,337 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:39:06,894 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:39:06,895 [ERROR] root: Erro inesperado: 'DataFrame' object has no attribute 'dados_por_ano'
+2024-10-14 23:39:06,939 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:39:06,939 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:41:07,475 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:41:07,475 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:41:07,527 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:41:07,527 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:41:07,568 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:41:07,569 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:41:07,616 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:41:07,616 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:41:07,663 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:41:07,664 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:41:07,711 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:41:07,712 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:41:07,712 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:41:11,041 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:41:11,071 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 23:42:20,181 [ERROR] root: Erro inesperado: 
+2024-10-14 23:42:20,229 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:42:20,229 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:42:24,583 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:42:24,584 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:42:24,631 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:42:24,632 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:42:24,677 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:42:24,677 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:42:24,720 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:42:24,720 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:42:24,763 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:42:24,763 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:42:24,811 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:42:24,811 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:42:24,811 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:42:28,430 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:42:28,452 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 23:46:17,491 [ERROR] root: Erro inesperado: 
+2024-10-14 23:46:17,554 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:46:17,554 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:46:21,709 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:46:21,710 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:46:21,754 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:46:21,755 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:46:21,798 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:46:21,799 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:46:21,838 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:46:21,838 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:46:21,878 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:46:21,878 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:46:21,915 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:46:21,916 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:46:21,916 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:46:24,380 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:46:24,394 [ERROR] root: Erro inesperado: 'quantidades'
+2024-10-14 23:46:24,432 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:46:24,433 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:46:42,607 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:46:42,608 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:46:42,659 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:46:42,659 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:46:42,706 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:46:42,706 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:46:42,746 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:46:42,746 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:46:42,789 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:46:42,789 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:46:42,828 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:46:42,829 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:46:42,829 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:46:45,272 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:46:45,303 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-14 23:46:46,355 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 23:47:33,768 [ERROR] root: Erro inesperado: 
+2024-10-14 23:47:33,810 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:47:33,810 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:48:02,282 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:48:02,283 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:48:02,335 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:48:02,335 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:48:02,374 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:48:02,375 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:48:02,416 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:48:02,416 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:48:02,457 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:48:02,457 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:48:02,500 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:48:02,501 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:48:02,501 [WARNING] root: Arquivo estado.pkl não encontrado. Criando novo gerenciador.
+2024-10-14 23:48:07,305 [INFO] root: Dados carregados do banco com sucesso
+2024-10-14 23:48:07,330 [INFO] root: Ano: [2021, 2022, 2023, 2017, 2018, 2019, 2014, 2015, 2016, 2011, 2012, 2013], Quantidades: 0     1500
+1     1600
+2     1550
+3     1650
+4     1660
+5     1670
+6     1700
+7     1710
+8     1720
+9     1200
+10    1350
+11    1310
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     25.3
+1     26.1
+2     25.8
+3     26.3
+4     26.4
+5     26.5
+6     26.5
+7     26.6
+8     26.7
+9     21.4
+10    22.1
+11    24.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1200
+1     1100
+2     1150
+3     1050
+4     1040
+5     1030
+6     1000
+7      990
+8      980
+9     1150
+10    1220
+11    1050
+Name: precipitacao, dtype: int64
+2024-10-14 23:48:07,756 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-14 23:49:49,553 [ERROR] root: Erro inesperado: cannot pickle '_thread.lock' object
+2024-10-14 23:49:49,597 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:49:49,597 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:50:01,414 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:50:01,415 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:50:01,465 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:50:01,465 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:50:01,510 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:50:01,510 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:50:01,552 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:50:01,552 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:50:01,598 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:50:01,598 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:50:01,643 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:50:01,643 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:50:01,645 [ERROR] root: Erro inesperado: Ran out of input
+2024-10-14 23:50:01,694 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:50:01,694 [INFO] root: Conexão com o banco de dados fechada
+2024-10-14 23:55:32,951 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-14 23:55:32,952 [INFO] root: Iniciando configuração do banco de dados
+2024-10-14 23:55:33,002 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-14 23:55:33,002 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-14 23:55:33,044 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-14 23:55:33,044 [INFO] root: Tabela 'Clima' já existe.
+2024-10-14 23:55:33,089 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-14 23:55:33,089 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-14 23:55:33,134 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-14 23:55:33,135 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-14 23:55:33,178 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-14 23:55:33,178 [INFO] root: Configuração do banco de dados concluída
+2024-10-14 23:56:28,887 [ERROR] root: Erro inesperado: 
+2024-10-14 23:56:28,953 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-14 23:56:28,957 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:00:59,511 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:00:59,512 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:00:59,559 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:00:59,559 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:00:59,600 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Não existe
+2024-10-15 00:00:59,697 [ERROR] root: Erro ao criar tabelas: ORA-00922: missing or invalid option
+Help: https://docs.oracle.com/error-help/db/ora-00922/
+2024-10-15 00:00:59,734 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:01:21,134 [ERROR] root: Erro inesperado: 
+2024-10-15 00:01:21,178 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:01:21,179 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:02:15,157 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:02:15,158 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:02:15,205 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:02:15,205 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:02:15,251 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Não existe
+2024-10-15 00:02:15,337 [ERROR] root: Erro ao criar tabelas: ORA-00922: missing or invalid option
+Help: https://docs.oracle.com/error-help/db/ora-00922/
+2024-10-15 00:02:15,388 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:03:15,961 [ERROR] root: Erro inesperado: 
+2024-10-15 00:03:16,018 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:03:16,018 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:03:21,438 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:03:21,439 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:03:21,485 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:03:21,485 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:03:21,531 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:03:21,531 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:03:21,578 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:03:21,578 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:03:21,615 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:03:21,615 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:03:21,664 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Não existe
+2024-10-15 00:03:21,762 [ERROR] root: Erro ao criar tabelas: ORA-00922: missing or invalid option
+Help: https://docs.oracle.com/error-help/db/ora-00922/
+2024-10-15 00:03:21,811 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:04:39,128 [ERROR] root: Erro inesperado: 
+2024-10-15 00:04:39,202 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:04:39,202 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:04:44,074 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:04:44,074 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:04:44,128 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:04:44,129 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:04:44,170 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:04:44,170 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:04:44,215 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:04:44,216 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:04:44,255 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:04:44,255 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:04:44,299 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Não existe
+2024-10-15 00:04:44,380 [ERROR] root: Erro ao criar tabelas: ORA-00922: missing or invalid option
+Help: https://docs.oracle.com/error-help/db/ora-00922/
+2024-10-15 00:04:44,423 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:05:42,085 [ERROR] root: Erro inesperado: 
+2024-10-15 00:05:42,126 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:05:42,127 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:05:47,559 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:05:47,560 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:05:47,609 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:05:47,609 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:05:47,650 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:05:47,650 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:05:47,691 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:05:47,691 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:05:47,736 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:05:47,736 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:05:47,777 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Não existe
+2024-10-15 00:05:47,904 [INFO] root: Tabela 'Recursos_alocados' criada com sucesso.
+2024-10-15 00:05:47,939 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:05:47,939 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:07:05,476 [ERROR] root: Erro inesperado: 
+2024-10-15 00:07:05,526 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:07:05,526 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:07:22,379 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:07:22,380 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:07:22,432 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:07:22,432 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:07:22,477 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:07:22,478 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:07:22,532 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:07:22,532 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:07:22,579 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:07:22,579 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:07:22,626 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:07:22,626 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:07:22,665 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:07:22,667 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:07:28,653 [ERROR] root: Erro inesperado: cannot access local variable 'recurso' where it is not associated with a value
+2024-10-15 00:07:28,700 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:07:28,701 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:08:17,782 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:08:17,782 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:08:17,830 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:08:17,831 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:08:17,872 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:08:17,873 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:08:17,917 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:08:17,917 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:08:17,955 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:08:17,955 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:08:17,996 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:08:17,996 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:08:18,040 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:08:18,040 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:08:58,818 [ERROR] root: Erro inesperado: cannot access local variable 'cursor' where it is not associated with a value
+2024-10-15 00:08:58,866 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:08:58,866 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:09:49,217 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:09:49,218 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:09:49,260 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:09:49,260 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:09:49,298 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:09:49,299 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:09:49,331 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:09:49,332 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:09:49,373 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:09:49,374 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:09:49,414 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:09:49,414 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:09:49,452 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:09:49,453 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:09:54,193 [ERROR] root: Erro inesperado: cannot access local variable 'cursor' where it is not associated with a value
+2024-10-15 00:09:54,236 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:09:54,236 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:10:56,927 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:10:56,927 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:10:56,979 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:10:56,979 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:10:57,018 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:10:57,019 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:10:57,064 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:10:57,065 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:10:57,108 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:10:57,109 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:10:57,154 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:10:57,154 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:10:57,198 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:10:57,199 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:10:59,196 [ERROR] root: Erro inesperado: GerenciadorDados.alocar_recurso() takes 1 positional argument but 2 were given
+2024-10-15 00:10:59,238 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:10:59,239 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:11:55,684 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:11:55,685 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:11:55,732 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:11:55,732 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:11:55,772 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:11:55,772 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:11:55,810 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:11:55,811 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:11:55,855 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:11:55,855 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:11:55,898 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:11:55,898 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:11:55,939 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:11:55,939 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:11:56,959 [ERROR] root: Erro inesperado: GerenciadorDados.alocar_recurso() takes 1 positional argument but 2 were given
+2024-10-15 00:11:56,998 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:11:56,999 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:12:36,243 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:12:36,244 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:12:36,289 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:12:36,290 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:12:36,332 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:12:36,333 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:12:36,378 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:12:36,379 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:12:36,422 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:12:36,423 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:12:36,463 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:12:36,463 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:12:36,510 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:12:36,510 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:12:37,319 [ERROR] root: Erro inesperado: GerenciadorDados.alocar_recurso() takes 1 positional argument but 2 were given
+2024-10-15 00:12:37,358 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:12:37,358 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:16:35,327 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:16:35,328 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:16:35,381 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:16:35,381 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:16:35,428 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:16:35,428 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:16:35,476 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:16:35,476 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:16:35,524 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:16:35,524 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:16:35,572 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:16:35,572 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:16:35,618 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:16:35,619 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:19:08,298 [ERROR] root: Erro inesperado: 
+2024-10-15 00:19:08,354 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:19:08,354 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:19:14,162 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:19:14,162 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:19:14,210 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:19:14,211 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:19:14,258 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:19:14,258 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:19:14,297 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:19:14,298 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:19:14,344 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:19:14,344 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:19:14,390 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:19:14,390 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:19:14,431 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:19:14,431 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:21:41,499 [ERROR] root: Erro inesperado: 
+2024-10-15 00:21:41,561 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:21:41,561 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:21:45,978 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:21:45,978 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:21:46,027 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:21:46,028 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:21:46,076 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:21:46,076 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:21:46,120 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:21:46,120 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:21:46,166 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:21:46,167 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:21:46,209 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:21:46,209 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:21:46,257 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:21:46,258 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:22:08,240 [INFO] root: Colheita agendada para plantação 1 em 2024-10-10 00:00:00
+2024-10-15 00:23:25,436 [INFO] root: Dados sincronizados com o banco de dados com sucesso
+2024-10-15 00:23:31,933 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:23:31,934 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:23:31,935 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:23:35,957 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:23:35,991 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:23:35,992 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:23:56,381 [INFO] root: Dados alterados para o ano 2021, campo 0
+2024-10-15 00:35:19,216 [ERROR] root: Erro inesperado: 
+2024-10-15 00:35:19,287 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:35:19,287 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:36:56,958 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:36:56,959 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:36:57,007 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:36:57,007 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:36:57,057 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:36:57,057 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:36:57,105 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:36:57,105 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:36:57,156 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:36:57,156 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:36:57,203 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:36:57,203 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:36:57,251 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:36:57,252 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:36:57,252 [ERROR] root: Erro inesperado: GerenciadorDados.__init__() takes 1 positional argument but 2 were given
+2024-10-15 00:36:57,299 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:36:57,299 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:37:16,532 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:37:16,533 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:37:16,583 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:37:16,584 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:37:16,630 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:37:16,630 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:37:16,676 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:37:16,676 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:37:16,726 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:37:16,726 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:37:16,769 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:37:16,770 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:37:16,818 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:37:16,819 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:37:16,819 [ERROR] root: Erro inesperado: GerenciadorDados.__init__() takes 1 positional argument but 2 were given
+2024-10-15 00:37:16,861 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:37:16,861 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:37:55,168 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:37:55,168 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:37:55,217 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:37:55,217 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:37:55,263 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:37:55,263 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:37:55,310 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:37:55,311 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:37:55,355 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:37:55,356 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:37:55,405 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:37:55,406 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:37:55,450 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:37:55,451 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:37:57,514 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:37:57,515 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:37:57,515 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:38:05,206 [INFO] root: Dados adicionados para o ano 2011
+2024-10-15 00:38:05,206 [INFO] root: Dados adicionados para o ano 2012
+2024-10-15 00:38:05,206 [INFO] root: Dados adicionados para o ano 2013
+2024-10-15 00:38:11,437 [INFO] root: Dados adicionados para o ano 2017
+2024-10-15 00:38:11,438 [INFO] root: Dados adicionados para o ano 2018
+2024-10-15 00:38:11,438 [INFO] root: Dados adicionados para o ano 2019
+2024-10-15 00:38:11,438 [INFO] root: Dados adicionados para o ano 2020
+2024-10-15 00:38:14,143 [INFO] root: Dados adicionados para o ano 2014
+2024-10-15 00:38:14,143 [INFO] root: Dados adicionados para o ano 2015
+2024-10-15 00:38:14,143 [INFO] root: Dados adicionados para o ano 2016
+2024-10-15 00:40:14,921 [ERROR] root: Erro inesperado: 
+2024-10-15 00:40:14,979 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:40:14,980 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:40:18,793 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:40:18,794 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:40:18,844 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:40:18,844 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:40:18,891 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:40:18,891 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:40:18,937 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:40:18,937 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:40:18,984 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:40:18,984 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:40:19,031 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:40:19,032 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:40:19,078 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:40:19,079 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:40:28,580 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:40:28,581 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:40:28,581 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:40:31,909 [INFO] root: Dados adicionados para o ano 2011
+2024-10-15 00:40:31,910 [INFO] root: Dados adicionados para o ano 2012
+2024-10-15 00:40:31,910 [INFO] root: Dados adicionados para o ano 2013
+2024-10-15 00:40:33,046 [INFO] root: Dados adicionados para o ano 2017
+2024-10-15 00:40:33,046 [INFO] root: Dados adicionados para o ano 2018
+2024-10-15 00:40:33,046 [INFO] root: Dados adicionados para o ano 2019
+2024-10-15 00:40:33,047 [INFO] root: Dados adicionados para o ano 2020
+2024-10-15 00:40:34,398 [INFO] root: Dados adicionados para o ano 2014
+2024-10-15 00:40:34,398 [INFO] root: Dados adicionados para o ano 2015
+2024-10-15 00:40:34,399 [INFO] root: Dados adicionados para o ano 2016
+2024-10-15 00:42:26,573 [ERROR] root: Erro inesperado: 
+2024-10-15 00:42:26,621 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:42:26,622 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:42:30,549 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:42:30,550 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:42:30,599 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:42:30,599 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:42:30,644 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:42:30,644 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:42:30,687 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:42:30,687 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:42:30,732 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:42:30,733 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:42:30,779 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:42:30,779 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:42:30,827 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:42:30,827 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:42:33,257 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:42:33,258 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:42:33,258 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:43:45,427 [ERROR] root: Erro inesperado: 
+2024-10-15 00:43:45,469 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:43:45,470 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:43:48,679 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:43:48,680 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:43:48,728 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:43:48,729 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:43:48,774 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:43:48,775 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:43:48,820 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:43:48,821 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:43:48,868 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:43:48,869 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:43:48,916 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:43:48,917 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:43:48,962 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:43:48,962 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:43:50,518 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:43:50,519 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:43:50,519 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:44:16,151 [ERROR] root: Erro inesperado: 
+2024-10-15 00:44:16,203 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:44:16,203 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:44:20,012 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:44:20,013 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:44:20,063 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:44:20,063 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:44:20,114 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:44:20,114 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:44:20,163 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:44:20,164 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:44:20,212 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:44:20,213 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:44:20,261 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:44:20,261 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:44:20,312 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:44:20,313 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:44:21,054 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:44:21,054 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:44:21,055 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:44:27,018 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:44:27,018 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:44:27,018 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:45:16,013 [ERROR] root: Erro inesperado: 
+2024-10-15 00:45:16,064 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:45:16,064 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:45:19,863 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:45:19,864 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:45:19,911 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:45:19,911 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:45:19,955 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:45:19,955 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:45:20,001 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:45:20,001 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:45:20,047 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:45:20,048 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:45:20,094 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:45:20,094 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:45:20,138 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:45:20,139 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:45:21,520 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:45:21,520 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:45:21,521 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:46:47,443 [ERROR] root: Erro inesperado: 
+2024-10-15 00:46:47,495 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:46:47,496 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:47:49,885 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:47:49,886 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:47:49,933 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:47:49,933 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:47:49,978 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:47:49,978 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:47:50,023 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:47:50,024 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:47:50,069 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:47:50,070 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:47:50,118 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:47:50,120 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:47:50,164 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:47:50,165 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:47:51,967 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:47:51,967 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:47:51,967 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:48:58,251 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:48:58,253 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:48:58,254 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:48:59,400 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:48:59,401 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:49:05,411 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:49:05,412 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:49:05,460 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:49:05,460 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:49:05,504 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:49:05,504 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:49:05,551 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:49:05,552 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:49:05,601 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:49:05,602 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:49:05,643 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:49:05,644 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:49:05,691 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:49:05,691 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:49:07,153 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:49:07,154 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:49:07,154 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:50:11,357 [ERROR] root: Erro inesperado: 
+2024-10-15 00:50:11,403 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:50:11,403 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:50:55,633 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:50:55,633 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:50:55,683 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:50:55,683 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:50:55,728 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:50:55,728 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:50:55,776 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:50:55,777 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:50:55,821 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:50:55,821 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:50:55,869 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:50:55,869 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:50:55,916 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:50:55,917 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:50:57,575 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:50:57,576 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:50:57,576 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:51:24,009 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:51:24,012 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:51:30,753 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:51:30,754 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:51:30,798 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:51:30,798 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:51:30,844 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:51:30,844 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:51:30,889 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:51:30,889 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:51:30,935 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:51:30,936 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:51:30,978 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:51:30,978 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:51:31,022 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:51:31,023 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:51:36,613 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:51:36,614 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:51:36,614 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:51:38,113 [ERROR] root: Erro inesperado: name 'inde' is not defined
+2024-10-15 00:51:38,162 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:51:38,162 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:51:52,774 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:51:52,775 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:51:52,825 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:51:52,826 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:51:52,873 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:51:52,873 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:51:52,914 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:51:52,914 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:51:52,959 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:51:52,960 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:51:53,003 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:51:53,003 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:51:53,050 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:51:53,051 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:51:54,488 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:51:54,489 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:51:54,489 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 00:52:03,800 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 00:52:03,801 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 00:53:28,252 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 00:53:28,253 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 00:53:28,298 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 00:53:28,298 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 00:53:28,344 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 00:53:28,344 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 00:53:28,392 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 00:53:28,392 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 00:53:28,438 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 00:53:28,439 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 00:53:28,487 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 00:53:28,487 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 00:53:28,530 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 00:53:28,530 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 00:53:31,252 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 00:53:31,253 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 00:53:31,253 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 01:08:55,625 [ERROR] root: Erro inesperado: 
+2024-10-15 01:10:03,283 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:10:03,283 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:10:03,333 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:10:03,333 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:10:03,372 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:10:03,372 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:10:03,421 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:10:03,422 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:10:03,465 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:10:03,465 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:10:03,504 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:10:03,505 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:10:03,552 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:10:03,553 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:10:07,037 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 01:10:07,038 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 01:10:07,038 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 01:10:16,542 [ERROR] root: Erro inesperado: carregar_dados_db() missing 1 required positional argument: 'logging'
+2024-10-15 01:10:16,593 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:10:16,594 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:11:08,085 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:11:08,086 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:11:08,134 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:11:08,134 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:11:08,179 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:11:08,180 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:11:08,225 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:11:08,226 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:11:08,267 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:11:08,268 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:11:08,320 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:11:08,320 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:11:08,361 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:11:08,362 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:11:12,042 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:11:12,185 [INFO] root: Modelo treinado. Erro quadrático médio (RMSE): 125.05 toneladas
+2024-10-15 01:11:25,032 [ERROR] root: Erro inesperado: carregar_dados_db() missing 1 required positional argument: 'logging'
+2024-10-15 01:11:25,080 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:11:25,081 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:12:01,158 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:12:01,159 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:12:01,206 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:12:01,206 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:12:01,246 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:12:01,247 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:12:01,288 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:12:01,288 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:12:01,335 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:12:01,336 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:12:01,384 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:12:01,385 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:12:01,429 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:12:01,430 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:12:04,832 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:12:04,833 [ERROR] root: Erro inesperado: criar_graficos() missing 1 required positional argument: 'logging'
+2024-10-15 01:12:04,878 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:12:04,878 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:13:25,871 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:13:25,871 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:13:25,921 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:13:25,922 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:13:25,970 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:13:25,970 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:13:26,017 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:13:26,017 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:13:26,065 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:13:26,065 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:13:26,113 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:13:26,113 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:13:26,160 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:13:26,161 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:13:28,102 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:13:28,133 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:13:29,319 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-15 01:14:25,320 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:14:25,323 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:14:33,625 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:14:33,625 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:14:33,675 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:14:33,676 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:14:33,718 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:14:33,718 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:14:33,794 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:14:33,794 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:14:33,838 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:14:33,838 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:14:33,886 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:14:33,886 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:14:33,928 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:14:33,928 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:14:38,405 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:14:38,435 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:14:38,685 [ERROR] root: Erro inesperado: [Errno 2] No such file or directory: '/Users/Fernando/FIAP/alem_py/alem_do_python/src/graficos/quantidade_colhida.png'
+2024-10-15 01:14:38,728 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:14:38,728 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:15:02,921 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:15:02,921 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:15:02,969 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:15:02,970 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:15:03,013 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:15:03,014 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:15:03,058 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:15:03,058 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:15:03,100 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:15:03,100 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:15:03,148 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:15:03,148 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:15:03,189 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:15:03,190 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:15:05,906 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:15:05,937 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:15:06,344 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-15 01:23:15,695 [ERROR] root: Erro inesperado: 
+2024-10-15 01:23:15,756 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:23:15,756 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:23:21,000 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:23:21,000 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:23:21,049 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:23:21,050 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:23:21,096 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:23:21,096 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:23:21,143 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:23:21,143 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:23:21,193 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:23:21,194 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:23:21,241 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:23:21,242 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:23:21,289 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:23:21,290 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:23:23,916 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:23:23,937 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:23:23,937 [ERROR] root: Erro inesperado: module 'datetime' has no attribute 'now'
+2024-10-15 01:23:23,979 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:23:23,980 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:23:50,012 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:23:50,013 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:23:50,061 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:23:50,061 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:23:50,108 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:23:50,108 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:23:50,156 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:23:50,156 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:23:50,203 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:23:50,204 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:23:50,250 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:23:50,250 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:23:50,297 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:23:50,298 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:23:52,379 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:23:52,409 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:23:53,530 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-15 01:24:41,392 [ERROR] root: Erro inesperado: 
+2024-10-15 01:24:41,442 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:24:41,443 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:24:45,845 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:24:45,845 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:24:45,890 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:24:45,890 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:24:45,939 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:24:45,940 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:24:45,986 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:24:45,986 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:24:46,034 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:24:46,034 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:24:46,076 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:24:46,077 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:24:46,118 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:24:46,119 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:24:47,974 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:24:48,004 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:24:57,808 [INFO] root: Gráficos criados e salvos como 'quantidade_colhida.png' e 'clima.png'
+2024-10-15 01:26:41,544 [ERROR] root: Erro inesperado: 
+2024-10-15 01:26:41,606 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:26:41,606 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:26:46,201 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:26:46,201 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:26:46,252 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:26:46,252 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:26:46,294 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:26:46,294 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:26:46,343 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:26:46,343 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:26:46,386 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:26:46,386 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:26:46,434 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:26:46,434 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:26:46,475 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:26:46,475 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:26:49,145 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:26:49,177 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:28:04,188 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:28:04,189 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:28:04,240 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:28:04,241 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:28:04,286 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:28:04,286 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:28:04,333 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:28:04,333 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:28:04,380 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:28:04,381 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:28:04,427 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:28:04,428 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:28:04,475 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:28:04,476 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:28:06,803 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:28:06,834 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:29:54,820 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:29:54,821 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:29:54,873 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:29:54,873 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:29:54,918 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:29:54,918 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:29:54,965 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:29:54,966 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:29:55,011 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:29:55,012 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:29:55,058 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:29:55,059 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:29:55,106 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:29:55,107 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:29:57,640 [INFO] root: Dados carregados do banco com sucesso
+2024-10-15 01:29:57,672 [INFO] root: Ano: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], Quantidades: 0     1200
+1     1350
+2     1310
+3     1700
+4     1710
+5     1720
+6     1650
+7     1660
+8     1670
+9     1500
+10    1600
+11    1550
+Name: quantidade_colhida, dtype: int64, Temperaturas: 0     21.4
+1     22.1
+2     24.8
+3     26.5
+4     26.6
+5     26.7
+6     26.3
+7     26.4
+8     26.5
+9     25.3
+10    26.1
+11    25.8
+Name: temperatura_media, dtype: float64, Precipitações: 0     1150
+1     1220
+2     1050
+3     1000
+4      990
+5      980
+6     1050
+7     1040
+8     1030
+9     1200
+10    1100
+11    1150
+Name: precipitacao, dtype: int64
+2024-10-15 01:29:58,718 [INFO] root: Gráficos criados e salvos como src/graficos/clima_2024-10-15_01-29-57.png e src/graficos/quantidade_colhida_2024-10-15_01-29-57.png
+2024-10-15 01:34:26,533 [ERROR] root: Erro inesperado: 
+2024-10-15 01:34:26,584 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:34:26,585 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 01:49:58,819 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 01:49:58,819 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 01:49:58,870 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 01:49:58,870 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 01:49:58,917 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 01:49:58,918 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 01:49:58,965 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 01:49:58,966 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 01:49:59,011 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 01:49:59,012 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 01:49:59,059 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 01:49:59,059 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 01:49:59,105 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 01:49:59,106 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 01:51:24,531 [ERROR] root: Erro inesperado: 
+2024-10-15 01:51:24,579 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 01:51:24,580 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 02:11:59,935 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 02:11:59,936 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 02:11:59,987 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 02:11:59,988 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 02:12:00,035 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 02:12:00,036 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 02:12:00,082 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 02:12:00,082 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 02:12:00,129 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 02:12:00,129 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 02:12:00,176 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 02:12:00,177 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 02:12:00,224 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 02:12:00,224 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 02:12:02,552 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 02:12:02,552 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 02:12:02,553 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 02:12:13,525 [ERROR] root: Erro inesperado: 
+2024-10-15 02:12:13,575 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 02:12:13,575 [INFO] root: Conexão com o banco de dados fechada
+2024-10-15 02:12:17,692 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-10-15 02:12:17,692 [INFO] root: Iniciando configuração do banco de dados
+2024-10-15 02:12:17,742 [INFO] root: Verificação da tabela 'COLHEITA': Existe
+2024-10-15 02:12:17,742 [INFO] root: Tabela 'Colheita' já existe.
+2024-10-15 02:12:17,789 [INFO] root: Verificação da tabela 'CLIMA': Existe
+2024-10-15 02:12:17,789 [INFO] root: Tabela 'Clima' já existe.
+2024-10-15 02:12:17,836 [INFO] root: Verificação da tabela 'MATURIDADECANA': Existe
+2024-10-15 02:12:17,837 [INFO] root: Tabela 'MaturidadeCana' já existe.
+2024-10-15 02:12:17,883 [INFO] root: Verificação da tabela 'CONDICOESSOLO': Existe
+2024-10-15 02:12:17,883 [INFO] root: Tabela 'CondicoesSolo' já existe.
+2024-10-15 02:12:17,930 [INFO] root: Verificação da tabela 'RECURSOS_ALOCADOS': Existe
+2024-10-15 02:12:17,931 [INFO] root: Tabela 'Recursos_alocados' já existe.
+2024-10-15 02:12:17,973 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-10-15 02:12:17,974 [INFO] root: Configuração do banco de dados concluída
+2024-10-15 02:12:19,878 [INFO] root: Dados adicionados para o ano 2021
+2024-10-15 02:12:19,878 [INFO] root: Dados adicionados para o ano 2022
+2024-10-15 02:12:19,879 [INFO] root: Dados adicionados para o ano 2023
+2024-10-15 02:12:22,545 [ERROR] root: Erro ao inserir dados para o ano 2021: ORA-00001: unique constraint (RM559582.SYS_C003595027) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2024-10-15 02:12:22,590 [ERROR] root: Erro ao sincronizar dados com o banco: ORA-00001: unique constraint (RM559582.SYS_C003595027) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2024-10-15 02:14:35,981 [ERROR] root: Erro inesperado: 
+2024-10-15 02:14:36,038 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-10-15 02:14:36,038 [INFO] root: Conexão com o banco de dados fechada
