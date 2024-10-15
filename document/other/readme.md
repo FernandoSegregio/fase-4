@@ -1,1 +1,1 @@
-Posicione aqui arquivos extras de documentação do game. Apague este arquivo ao final do módulo 
+Posicione aqui arquivos extras de documentação do projeto. 

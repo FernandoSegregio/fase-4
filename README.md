@@ -13,7 +13,7 @@
     TerraFusion Tech
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Ana Kolodi</a>
+- <a href="https://www.linkedin.com/in/ana-kolodji-94ba66324/">Ana Kolodi</a>
 - <a href="https://www.linkedin.com/in/fernando-segregio/">Fernando Miranda Segregio</a>
 - <a href="https://www.linkedin.com/in/tatiana-vieira-lopes-dos-santos-368396b3">Tatiana Lopes</a>
 
@@ -29,6 +29,10 @@
 ### Sistema de Gestão e Previsão de Colheita de Cana-de-Açúcar
 
 Este projeto é um sistema de gestão e previsão para a colheita de cana-de-açúcar, desenvolvido como parte de uma atividade acadêmica focada no agronegócio brasileiro. O sistema aborda um dos principais desafios do setor: a otimização da colheita de cana-de-açúcar, considerando fatores como clima, maturidade da cana e condições do solo.
+
+## Documentação Secundária
+
+Para mais detalhes técnicos sobre o código e as funcionalidades implementadas no sistema de gestão agrícola, consulte o [README.md do Sistema de Gestão Agrícola e Previsão de Colheita de Cana-de-Açucar](./document/ai_project_document_fiap.md).
 
 
 ## 📁 Estrutura de pastas
@@ -50,6 +54,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - <b>log</b>: Pasta para guardar os logs da aplicação em um arquivo txt.
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+
 
 ## 🔧 Como executar o código
 

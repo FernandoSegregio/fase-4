@@ -1,14 +1,16 @@
 
 <img src="../assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=30% height=30%>
 
-# AI Project Document - Módulo 1 - FIAP
-
-**_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
+# Além do Python - Fase 2 - FIAP
 
 ## Nome do Grupo
+TerraFusion Tech
+
 
 #### Nomes dos integrantes do grupo
-
+- <a href="https://www.linkedin.com/in/ana-kolodji-94ba66324/">Ana Kolodi</a>
+- <a href="https://www.linkedin.com/in/fernando-segregio/">Fernando Miranda Segregio</a>
+- <a href="https://www.linkedin.com/in/tatiana-vieira-lopes-dos-santos-368396b3">Tatiana Lopes</a>
 
 
 ## Sumário
@@ -19,14 +21,7 @@
 
 [3. Desenvolvimento do Projeto](#c3)
 
-[4. Resultados e Avaliações](#c4)
-
-[5. Conclusões e Trabalhos Futuros](#c5)
-
-[6. Referências](#c6)
-
-[Anexos](#c7)
-
+<br>
 <br>
 
 # <a name="c1"></a>1. Introdução
@@ -35,58 +30,109 @@
 
 ### 1.1.1. Contexto da Inteligência Artificial
 
-*Descreva aqui o contexto da indústria de Inteligência Artificial. Explique o segmento de atuação, as atividades executadas e a abrangência das suas aplicações (internacional, nacional ou regional).*
+O agronegócio é um dos setores mais importantes e complexos do Brasil, representando uma grande parcela da economia nacional. Ele envolve cadeias produtivas interconectadas, desde a produção agrícola e pecuária até o processamento, distribuição e comercialização de alimentos e produtos derivados. Dada essa complexidade, identificar pontos de melhoria e dores específicas dentro desse segmento é essencial para aumentar a eficiência, a sustentabilidade e a lucratividade das operações.
+
 
 ### 1.1.2. Descrição da Solução Desenvolvida
 
-*Descreva brevemente a solução de IA desenvolvida. Inclua aspectos essenciais para a criação de valor do produto com o objetivo de entender melhor a realidade do cliente e entregar uma solução alinhada com suas expectativas.*
+O Brasil é líder mundial na produção de cana-de-açúcar, mas enfrenta desafios significativos relacionados às perdas durante a colheita. Essas perdas podem chegar a 15% quando a colheita é realizada mecanicamente, representando um prejuízo considerável para os produtores e para a economia como um todo.
+
+Nossa solução integra:
+- Gestão de dados históricos de colheita
+- Análise de fatores climáticos e do solo
+- Previsão de colheita utilizando machine learning
+- Agendamento e alocação de recursos para a colheita
 
 # <a name="c2"></a>2. Visão Geral do Projeto
 
 ## 2.1. Objetivos do Projeto
 
-*Defina claramente os objetivos do projeto de IA. O que o projeto pretende alcançar?*
+O objetivo deste projeto é criar uma solução tecnológica que auxilie a tomada de decisão em um dos processos críticos dentro do agronegócio, com ênfase em:
+
+Gestão de Recursos Agrícolas: Otimização da alocação de maquinário, recursos humanos e insumos agrícolas para as atividades de plantio e colheita.
+Monitoramento das Condições Climáticas e do Solo: Armazenamento e análise de dados climáticos e do solo para prever a melhor época de colheita e otimizar o uso de fertilizantes e irrigação.
+Análise da Produção e da Colheita: Analisar a quantidade colhida ao longo dos anos para identificar tendências e prever safras futuras.
 
 ## 2.2. Público-Alvo
 
-*Identifique o público-alvo do projeto. Quem são os usuários finais da solução desenvolvida?*
+1. Produtores Rurais e Gerentes de Propriedades Agrícolas
+Objetivo: Utilizar o sistema para gerenciar as operações de colheita de cana-de-açúcar em suas propriedades.
+Necessidade: Aumentar a eficiência, prever a melhor época para colher e reduzir perdas financeiras.
+2. Engenheiros Agrônomos e Consultores Agrícolas
+Objetivo: Analisar dados históricos, climáticos e do solo para fornecer recomendações otimizadas sobre a colheita e o manejo agrícola.
+Necessidade: Utilizar ferramentas tecnológicas para tomar decisões informadas e baseadas em dados.
+3. Empresas e Cooperativas do Agronegócio
+Objetivo: Aumentar a produtividade e lucratividade por meio da automação e previsões precisas.
+Necessidade: Gerenciar grandes áreas de produção com o uso otimizado de recursos e pessoal.
 
 ## 2.3. Metodologia
 
-*Descreva a metodologia utilizada para desenvolver o projeto. Quais foram as etapas e processos seguidos?*
+A metodologia utilizada para o desenvolvimento do projeto foi baseada em CRISP-DM (Cross Industry Standard Process for Data Mining), que é amplamente utilizada em projetos de mineração de dados e machine learning. As etapas seguidas foram:
+
+Compreensão do Negócio: Estudamos o setor do agronegócio, focando nos desafios da colheita de cana-de-açúcar. Isso incluiu o levantamento de dados históricos de colheita e análise de fatores como clima e maturidade da cana.
+
+Compreensão dos Dados: Coletamos e analisamos os dados, incluindo informações climáticas e de solo. Exploramos esses dados para identificar padrões e outliers que pudessem afetar a colheita.
+
+Modelagem: Desenvolvemos modelos de machine learning para prever o momento ideal de colheita. Utilizamos algoritmos como Random Forest e Regressão Linear, considerando variáveis climáticas e condições do solo.
+
+Avaliação: Avaliamos o desempenho dos modelos utilizando métricas como acurácia e erro médio absoluto (MAE), garantindo que o modelo fosse capaz de prever com precisão o melhor momento para a colheita.
+
+Implementação: Integramos o modelo preditivo ao sistema de gestão, permitindo a automação do agendamento da colheita e a otimização de recursos.
+
+2.3. Metodologia
+A metodologia seguida no projeto foi baseada em um pipeline de machine learning, utilizando dados históricos e técnicas de aprendizado supervisionado. As principais etapas foram:
+
+Coleta e Preparação de Dados: Utilizamos o Pandas para manipulação e análise dos dados. O dataset continha variáveis como temperatura média, precipitação, índice de maturidade da cana-de-açúcar, pH do solo e quantidade de nutrientes, além da variável alvo quantidade colhida.
+
+Selecionamos features relevantes (temperatura, precipitação, índice de maturidade, pH e nutrientes).
+Definir a variável alvo y como a quantidade colhida.
+Treinamento do Modelo: O modelo escolhido foi o Random Forest Regressor, uma técnica robusta para problemas de regressão e que lida bem com dados de alta dimensionalidade e não linearidades.
+
+Divisão dos dados: Usamos a função train_test_split da biblioteca Scikit-learn para dividir os dados em conjuntos de treino e teste, reservando 20% dos dados para o conjunto de teste.
+
+Treinamento: A função treinar_modelo(X, y, logging) realizou o treinamento do modelo com 100 estimadores, utilizando a métrica de erro quadrático médio (RMSE) para avaliar a performance.
+
+Avaliação: O RMSE foi calculado utilizando a função root_mean_squared_error, permitindo medir a precisão das previsões em toneladas de colheita.
+Predição: Após o treinamento, a função fazer_previsao(modelo, logging) permitiu que os usuários fizessem previsões fornecendo novos dados sobre temperatura, precipitação, índice de maturidade, pH e nutrientes.
+
+Os dados inseridos foram convertidos em um DataFrame do Pandas, com a estrutura esperada pelo modelo.
+A previsão foi feita utilizando o modelo treinado, retornando a estimativa da quantidade colhida em toneladas.
+Ferramentas Utilizadas:
+
 
 # <a name="c3"></a>3. Desenvolvimento do Projeto
 
-## 3.1. Tecnologias Utilizadas
+## 3.1. Tecnologias Utilizadas e funcionalidades
+* Python como linguagem principal de programação.
+* Pandas para manipulação e análise de dados.
+* Scikit-learn para as funções de machine learning, como RandomForestRegressor, train_test_split, e root_mean_squared_error.
+* Funções auxiliares customizadas como input_float para coleta de dados interativa.
+* Logging para registrar informações relevantes, como o RMSE após o treinamento e os resultados das previsões.
+* Oracledb SQLAlchemy conexão e manipulação de banco
+* Logging para esvrever logs em arquivo txt
+* Matplotlib para geração de Grafocps 
 
-*Liste as tecnologias, ferramentas e bibliotecas utilizadas no desenvolvimento do projeto de IA.*
+1. Inserção e Manipulação de Dados
+Inserir dados simulados: Gerar dados simulados automaticamente para testes.
+Alterar dados: Modificar valores específicos nos dados já existentes.
+Incluir novos dados: Adicionar dados manuais de colheita, clima, maturidade e solo.
+Excluir dados: Remover dados de um ano específico ou excluir todos os dados armazenados.
+2. Carga de Dados
+Carregar dados de arquivo JSON: Importar dados a partir de um arquivo JSON.
+Carregar dados do banco de dados: Sincronizar e carregar dados diretamente do banco de dados.
+3. Machine Learning
+Treinar modelo de previsão: Utiliza aprendizado de máquina para treinar um modelo de previsão da colheita.
+Fazer previsão de colheita: Utiliza o modelo treinado para prever a colheita de cana-de-açúcar com base nos dados inseridos.
+4. Agendamento de Colheitas
+Agendar colheita: Planejar uma colheita futura com base em uma data definida pelo usuário.
+Listar agendamentos de colheita: Exibir todas as colheitas agendadas.
+5. Alocação de Recursos
+Alocar recursos: Automatiza a alocação de recursos para o processo de colheita.
+Listar recursos alocados: Exibe os recursos que foram alocados.
+6. Geração de Gráficos
+Criar gráficos: Gerar gráficos para visualização dos dados, facilitando a análise das condições da colheita.
+7. Sincronização e Operações Pendentes
+Sincronizar com banco de dados: Sincroniza os dados manipulados com o banco de dados.
+Listar operações pendentes: Exibe operações que ainda não foram finalizadas ou sincronizadas.
 
-## 3.2. Modelagem e Algoritmos
 
-*Descreva os modelos e algoritmos de IA utilizados no projeto. Explique por que esses modelos foram escolhidos e como foram implementados.*
-
-## 3.3. Treinamento e Teste
-
-*Descreva o processo de treinamento e teste dos modelos de IA. Inclua informações sobre os conjuntos de dados utilizados, métricas de avaliação e resultados obtidos.*
-
-# <a name="c4"></a>4. Resultados e Avaliações
-
-## 4.1. Análise dos Resultados
-
-*Analise os resultados obtidos com os modelos de IA. Compare os resultados esperados com os resultados reais e discuta as possíveis razões para as diferenças.*
-
-## 4.2. Feedback dos Usuários
-
-*Inclua feedback recebido de usuários finais durante o processo de avaliação do projeto.*
-
-# <a name="c5"></a>5. Conclusões e Trabalhos Futuros
-
-*Descreva de que formas a solução desenvolvida atingiu os objetivos do projeto. Indique pontos fortes e pontos a melhorar. Relacione os pontos de melhorias evidenciados e elabore um plano de ações para serem implementadas no futuro.*
-
-# <a name="c6"></a>6. Referências
-
-_Incluir as principais referências de seu projeto, para que outros possam consultar caso tenham interesse em aprofundar._
-
-# <a name="c7"></a>Anexos
-
-*Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso).*
