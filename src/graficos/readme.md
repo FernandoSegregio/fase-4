@@ -1,0 +1,1 @@
+Diretorio onde a funcao de gerar graficos salva as imagens.
