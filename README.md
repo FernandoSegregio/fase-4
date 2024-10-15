@@ -1,7 +1,9 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+    <a target="_blank" href="https://www.fiap.com.br/">
+        <img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%>
+    </a>
 </p>
 
 <br>
@@ -13,15 +15,15 @@
     TerraFusion Tech
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/in/ana-kolodji-94ba66324/">Ana Kolodi</a>
-- <a href="https://www.linkedin.com/in/fernando-segregio/">Fernando Miranda Segregio</a>
-- <a href="https://www.linkedin.com/in/tatiana-vieira-lopes-dos-santos-368396b3">Tatiana Lopes</a>
+- <a target="_blank" href="https://www.linkedin.com/in/ana-kolodji-94ba66324/">Ana Kolodi</a>
+- <a target="_blank" href="https://www.linkedin.com/in/fernando-segregio/">Fernando Miranda Segregio</a>
+- <a target="_blank" href="https://www.linkedin.com/in/tatiana-vieira-lopes-dos-santos-368396b3">Tatiana Lopes</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Gomes Moreira</a>
+- <a target="_blank" href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Gomes Moreira</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi</a>
+- <a target="_blank" href="https://www.linkedin.com/in/profandregodoi/">André Godoi</a>
 
 
 ## 📜 Descrição
