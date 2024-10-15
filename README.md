@@ -72,11 +72,11 @@ oracledb: Para conexão com o banco de dados Oracle
 logging: Para Logs da aplicação
 
 #### 4. Versões
-Python: 3.8
-Matplotlib: 3.4.3
-Pandas: 1.3.2
-OracleDB: 1.0.0
-Outras versões bibliotecas e versãoes seguem *requirements.txt*
+* Python: >= 3.8
+* Matplotlib: 3.9.2
+* Pandas: 2.4.1
+* OracleDB: 2.4.1
+* Outras versões bibliotecas e versãoes seguem *requirements.txt*
 
 
 #### Passos para configurar o ambiente:
