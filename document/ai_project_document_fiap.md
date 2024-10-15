@@ -135,4 +135,64 @@ Criar gráficos: Gerar gráficos para visualização dos dados, facilitando a an
 Sincronizar com banco de dados: Sincroniza os dados manipulados com o banco de dados.
 Listar operações pendentes: Exibe operações que ainda não foram finalizadas ou sincronizadas.
 
+## 3.1.1 Todas Funcionalidades
+
+### Atividades do Usuário na Aplicação
+
+1. **Inserir Dados Simulados**:
+   - O usuário pode gerar e inserir dados simulados na aplicação.
+
+2. **Alterar Dados**:
+   - O usuário pode modificar os dados existentes, alterando campos específicos de um ano determinado.
+
+3. **Incluir Novos Dados**:
+   - O usuário pode adicionar novos dados de colheita, clima, maturidade e condições do solo para um ano específico.
+
+4. **Excluir específicos**:
+   - O usuário pode excluir dados específicos de um ano escolhido.
+
+5. **Excluir todos os dados**:
+   - O usuário pode excluir todos os dados, mediante confirmação.
+
+6. **Carregar Dados de Arquivo JSON**:
+   - O usuário pode carregar dados de um arquivo JSON que contém informações de anos anteriores.
+
+7. **Carregar Dados do Banco**:
+   - O usuário pode carregar dados existentes do banco de dados para visualizar ou manipular.
+
+8. **Treinar Modelo de Previsão**:
+   - O usuário pode treinar um modelo de previsão, desde que haja dados suficientes carregados do banco de dados.
+
+9. **Fazer Previsão de Colheita**:
+   - O usuário pode fazer previsões de colheita utilizando um modelo previamente treinado.
+
+10. **Agendar Colheita**:
+   - O usuário pode agendar uma colheita para uma plantação específica em uma data escolhida.
+
+11. **Listar Agendamentos de Colheita**:
+    - O usuário pode visualizar todos os agendamentos de colheita existentes.
+
+12. **Alocar Recursos**:
+    - O usuário pode alocar recursos necessários para a colheita.
+
+13. **Listar Recursos Alocados**:
+    - O usuário pode visualizar todos os recursos que foram alocados.
+
+14. **Criar Gráficos**:
+    - O usuário pode gerar gráficos com base nos dados disponíveis no banco de dados.
+
+15. **Sincronizar com Banco de Dados**:
+    - O usuário pode sincronizar os dados manipulados na aplicação com o banco de dados.
+
+16. **Listar Operações Pendentes**:
+    - O usuário pode visualizar as operações pendentes que estão agendadas na aplicação.
+
+### 3.1.2 Considerações
+
+- Para realizar **Treinar Modelo de Previsão** e **Criar Gráficos**, o usuário precisa garantir que existem dados no banco de dados, que podem ser inseridos através das atividades **Inserir Dados Simulados** ou **Carregar Dados de Arquivo JSON**.
+- As operações de inserção de dados e carregamento de arquivos são essenciais para alimentar a aplicação com informações necessárias para as funcionalidades de análise e previsão, sempre que realizar o carregamento de algum item para ser inserido no banco é nescessário executar a funcionalidade **15 - Sincronizar com o Banco de dados**.
+
+
+Dicas: Experimente, inserir dados simulados (1), os dados serão carregados a partir de uma lista carregada previamente, ou experimente, usar a função que carrega dados de um JSON (6) com os valores das colheiras e produção de ans anteriores. Após selecionar de onde você quer inserir dados, use a função para sincronizar dados com o banco (15), após garantir a existência de dados no banco, treine o modelo, crie gráficos e muito mais!
+
 
