@@ -23,7 +23,9 @@
 
 ## 📜 Descrição
 
-Sistema de Automação de Plantações é um projeto desenvolvido pela equipe TerraFusion Tech. O sistema é projetado para realizar a gestão e automação de irrigação agrícola, monitorando sensores de umidade, temperatura, pH e nutrientes, e controlando bombas de água para irrigação automatizada.
+O Sistema de Automação de Plantações é um projeto desenvolvido pela equipe TerraFusion Tech. O sistema é projetado para realizar a gestão e automação de irrigação agrícola, monitorando sensores de umidade, temperatura, pH e nutrientes, e controlando bombas de água para irrigação automatizada.
+
+A lógica de controle da bomba de água é baseada no valor de umidade. Quando a umidade registrada é menor que 50%, o sistema liga a bomba de água automaticamente, enviando uma mensagem MQTT de ativação para o ESP32. Se a umidade é maior ou igual a 50%, o sistema desliga a bomba, enviando uma mensagem MQTT de desativação. Essa automação garante que o solo seja irrigado apenas quando necessário, economizando recursos e evitando irrigação excessiva.
 
 ### Sistema Automação de Planaçãoes
 
@@ -90,71 +92,55 @@ echo -e "DB_USER=\nDB_PASSWORD=\nDB_DSN=" > .env
 ```
 </br>
 
-#### Antes de iniciar a aplicação em Python, vamos inicar a aplicação em so Simulador, nosso sistema é todo automativo, o simulador dos sensores, envia via fila do hivemq os dados para a aplicação em Python que consome essses dados.
+#### Antes de iniciar a aplicação em Python, vamos inicar a aplicação em so Simulador, nosso sistema é todo automatico, o sistema de irrigação envia via fila do hivemq os dados para a aplicação em Python que consome essses dados.
 
 ### Iniciando a automação ###
 
-1. Instalar o PlatformIO
-
-```
-pip install -U platformio
-
-```
-
-2. Limpar e Compilar o Projeto
-
-
-```
-pio run --target clean
-pio run
-
-
-```
-3. Executar o Projeto
-Após compilar, você pode carregar e executar o código clicando no botão "Play" do diagrama de simulação.
-
-
-2 - Crie um ambiente virtual, atualize o pip e instale os pacotes necessários:
+1. Setup da Maquina
 
 #### Para macOS/Linux:
 
 ```
-python -m venv .venv
-source .venv/bin/activate
-pip install -U pip
-pip install -r requirements.txt
-
+make setup1
 ```
 
 #### Para Windows:
-
 ```
-python -m venv .venv
-.\.venv\Scripts\activate
-pip install -U pip
-pip install -r requirements.txt
-
+make setup2
 ```
 
-3 - Rode o arquivo setup.py (para criar as tabelas que o sistema usa)
+2. Iniciar a Automação
 
 
 ```
-python src/scripts/setup.py
-
+make start
 ```
+3. Executar o Projeto
+Após compilar, você pode carregar e executar o código clicando no botão "Play" do diagram.json que está na pasta PlatformIO/Projects/agric_machine
 
-4 - Rode o python mqtt_client.py (para criar ativar o sistema de filas)
+<br />
 
-
-```
-python src/mqtt_client.py
-
-5 - Enquanto a automação acontece abra o app.py para ver o menu de opções 
+4. Faça o setup do banco de dados
 
 
 ```
-python src/app.py
+make setup_db
+```
+
+5. Rode em um novo terminal o sitema de filas.
+
+
+```
+make mqtt
+```
+
+
+6. Enquanto a automação acontece abra um novo terminal e chame o menu de opções 
+
+
+```
+make run
+```
 
 
 Dicas:

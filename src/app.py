@@ -1,16 +1,55 @@
 import os
+import json
 import logging
+import paho.mqtt.client as mqtt
 from dotenv import load_dotenv
 
 from scripts.connect_db import conectar_banco, fechar_conexao
 from scripts.setup_db import setup_banco_dados
 from scripts.consulta_banco import carregar_dados_db
+from scripts.consulta_banco import inserir_leitura_umidade, inserir_leitura_temperatura, inserir_leitura_ph
+
+# Configuração de MQTT e Tópicos
+mqtt_server = "91c5f1ea0f494ccebe45208ea8ffceff.s1.eu.hivemq.cloud"
+mqtt_port = 8883
+mqtt_user = "admin1"
+mqtt_password = "Asd123***"
+humidity_topic = "sensor/umidade"
+ph_sensor = "sensor/ph"
+k_button_topic = "sensor/potassio"
+p_button_topic = "sensor/sodio"
+pump_topic = "sensor/bomba"
 
 # Configuração de logging
 logging.basicConfig(
     filename='app.log', level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
+# Configurações do cliente MQTT
+client = mqtt.Client()
+
+def on_connect(client, userdata, flags, rc):
+    print(f"Conectado com código de resultado {rc}")
+    client.subscribe(humidity_topic)
+    client.subscribe(ph_sensor)
+    client.subscribe(k_button_topic)
+    client.subscribe(p_button_topic)
+
+client.on_connect = on_connect
+client.username_pw_set(mqtt_user, mqtt_password)
+client.connect(mqtt_server, mqtt_port, 60)
+client.loop_start()
+
+# Função para ligar a bomba de água manualmente
+def ligar_bomba_agua():
+    client.publish(pump_topic, "ON")
+    print("Comando 'ON' enviado para ligar a bomba de água.")
+
+# Função para desligar a bomba de água manualmente
+def desligar_bomba_agua():
+    client.publish(pump_topic, "OFF")
+    print("Comando 'OFF' enviado para desligar a bomba de água.")
 
 # Função para exibir dados do sensor de umidade
 def exibir_dados_sensor_umidade(conn):
@@ -53,10 +92,6 @@ def apagar_dados_sensor_temperatura(conn):
     except Exception as e:
         logging.error(f"Erro ao apagar dados do sensor de temperatura: {e}")
 
-# Função para ligar a bomba de água
-def ligar_bomba_agua():
-    print("Bomba de água ligada com sucesso.")
-
 # Função para carregar dados do banco de dados
 def carregar_dados_do_banco(conn):
     try:
@@ -88,8 +123,9 @@ def menu_principal():
             print("2. Exiba os dados do sensor de temperatura")
             print("3. Apague os dados do sensor de temperatura")
             print("4. Ligar bomba de água")
-            print("5. Carregar dados do banco")
-            print("6. Sair")
+            print("5. Desligar bomba de água")
+            print("6. Carregar dados do banco")
+            print("7. Sair")
 
             opcao = input("Escolha uma opção: ")
 
@@ -102,8 +138,10 @@ def menu_principal():
             elif opcao == '4':
                 ligar_bomba_agua()
             elif opcao == '5':
-                carregar_dados_do_banco(conn)
+                desligar_bomba_agua()
             elif opcao == '6':
+                carregar_dados_do_banco(conn)
+            elif opcao == '7':
                 print("Saindo do programa...")
                 break
             else:
@@ -117,6 +155,7 @@ def menu_principal():
         if conn:
             fechar_conexao(conn)
         logging.info("Conexão com o banco de dados fechada")
+        client.loop_stop()
 
 # Executar o menu principal
 if __name__ == "__main__":
