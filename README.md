@@ -27,6 +27,7 @@ Sistema de Automação de Plantações é um projeto desenvolvido pela equipe Te
 
 ### Sistema Automação de Planaçãoes
 
+![Automação irrigação](image.png)
 
 
 ## 📁 Estrutura de pastas
