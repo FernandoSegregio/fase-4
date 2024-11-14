@@ -1,1 +1,0 @@
-Diretorio para os arquivos no formato JSON que contem os dados das colheitas de anos para alimentar o banco de dados.

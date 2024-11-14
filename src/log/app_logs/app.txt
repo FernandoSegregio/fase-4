@@ -2436,3 +2436,122 @@ Help: https://docs.oracle.com/error-help/db/ora-00001/
 2024-10-15 02:14:35,981 [ERROR] root: Erro inesperado: 
 2024-10-15 02:14:36,038 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
 2024-10-15 02:14:36,038 [INFO] root: Conexão com o banco de dados fechada
+2024-11-12 21:18:01,595 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-12 21:18:01,597 [INFO] root: Iniciando configuração do banco de dados
+2024-11-12 21:18:01,767 [INFO] root: Verificação da tabela 'PRODUTOR': Não existe
+2024-11-12 21:18:01,974 [INFO] root: Tabela 'Produtor' criada com sucesso.
+2024-11-12 21:18:02,094 [INFO] root: Verificação da tabela 'PROPRIEDADE': Não existe
+2024-11-12 21:18:02,167 [INFO] root: Tabela 'Propriedade' criada com sucesso.
+2024-11-12 21:18:02,215 [INFO] root: Verificação da tabela 'CAMPO': Não existe
+2024-11-12 21:18:02,287 [INFO] root: Tabela 'Campo' criada com sucesso.
+2024-11-12 21:18:02,337 [INFO] root: Verificação da tabela 'SENSOR_UMIDADE': Não existe
+2024-11-12 21:18:02,435 [ERROR] root: Erro ao criar tabelas: ORA-00902: invalid datatype
+Help: https://docs.oracle.com/error-help/db/ora-00902/
+2024-11-12 21:18:02,478 [INFO] root: Configuração do banco de dados concluída
+2024-11-12 21:23:28,355 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-11-12 21:23:28,364 [INFO] root: Conexão com o banco de dados fechada
+2024-11-12 21:23:37,959 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-12 21:23:37,959 [INFO] root: Iniciando configuração do banco de dados
+2024-11-12 21:23:38,006 [INFO] root: Verificação da tabela 'PRODUTOR': Existe
+2024-11-12 21:23:38,006 [INFO] root: Tabela 'Produtor' já existe.
+2024-11-12 21:23:38,054 [INFO] root: Verificação da tabela 'PROPRIEDADE': Existe
+2024-11-12 21:23:38,054 [INFO] root: Tabela 'Propriedade' já existe.
+2024-11-12 21:23:38,098 [INFO] root: Verificação da tabela 'CAMPO': Existe
+2024-11-12 21:23:38,098 [INFO] root: Tabela 'Campo' já existe.
+2024-11-12 21:23:38,149 [INFO] root: Verificação da tabela 'SENSOR_UMIDADE': Não existe
+2024-11-12 21:23:38,249 [ERROR] root: Erro ao criar tabelas: ORA-00902: invalid datatype
+Help: https://docs.oracle.com/error-help/db/ora-00902/
+2024-11-12 21:23:38,297 [INFO] root: Configuração do banco de dados concluída
+2024-11-12 21:23:54,552 [ERROR] root: Erro inesperado: invalid literal for int() with base 10: ''
+2024-11-12 21:23:54,609 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-11-12 21:23:54,609 [INFO] root: Conexão com o banco de dados fechada
+2024-11-12 21:24:26,250 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-12 21:24:26,250 [INFO] root: Iniciando configuração do banco de dados
+2024-11-12 21:24:26,304 [INFO] root: Verificação da tabela 'PRODUTOR': Existe
+2024-11-12 21:24:26,304 [INFO] root: Tabela 'Produtor' já existe.
+2024-11-12 21:24:26,349 [INFO] root: Verificação da tabela 'PROPRIEDADE': Existe
+2024-11-12 21:24:26,349 [INFO] root: Tabela 'Propriedade' já existe.
+2024-11-12 21:24:26,394 [INFO] root: Verificação da tabela 'CAMPO': Existe
+2024-11-12 21:24:26,395 [INFO] root: Tabela 'Campo' já existe.
+2024-11-12 21:24:26,439 [INFO] root: Verificação da tabela 'SENSOR_UMIDADE': Não existe
+2024-11-12 21:24:26,524 [ERROR] root: Erro ao criar tabelas: ORA-00902: invalid datatype
+Help: https://docs.oracle.com/error-help/db/ora-00902/
+2024-11-12 21:24:26,571 [INFO] root: Configuração do banco de dados concluída
+2024-11-12 21:24:48,681 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-11-12 21:24:48,682 [INFO] root: Conexão com o banco de dados fechada
+2024-11-12 21:24:53,289 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-12 21:24:53,289 [INFO] root: Iniciando configuração do banco de dados
+2024-11-12 21:24:53,335 [INFO] root: Verificação da tabela 'PRODUTOR': Existe
+2024-11-12 21:24:53,335 [INFO] root: Tabela 'Produtor' já existe.
+2024-11-12 21:24:53,383 [INFO] root: Verificação da tabela 'PROPRIEDADE': Existe
+2024-11-12 21:24:53,383 [INFO] root: Tabela 'Propriedade' já existe.
+2024-11-12 21:24:53,432 [INFO] root: Verificação da tabela 'CAMPO': Existe
+2024-11-12 21:24:53,432 [INFO] root: Tabela 'Campo' já existe.
+2024-11-12 21:24:53,476 [INFO] root: Verificação da tabela 'SENSOR_UMIDADE': Não existe
+2024-11-12 21:24:53,568 [ERROR] root: Erro ao criar tabelas: ORA-00902: invalid datatype
+Help: https://docs.oracle.com/error-help/db/ora-00902/
+2024-11-12 21:24:53,611 [INFO] root: Configuração do banco de dados concluída
+2024-11-12 21:27:10,078 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-11-12 21:27:10,080 [INFO] root: Conexão com o banco de dados fechada
+2024-11-12 21:27:14,487 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-12 21:27:14,487 [INFO] root: Iniciando configuração do banco de dados
+2024-11-12 21:27:14,535 [INFO] root: Verificação da tabela 'PRODUTOR': Existe
+2024-11-12 21:27:14,536 [INFO] root: Tabela 'Produtor' já existe.
+2024-11-12 21:27:14,580 [INFO] root: Verificação da tabela 'PROPRIEDADE': Existe
+2024-11-12 21:27:14,581 [INFO] root: Tabela 'Propriedade' já existe.
+2024-11-12 21:27:14,623 [INFO] root: Verificação da tabela 'CAMPO': Existe
+2024-11-12 21:27:14,624 [INFO] root: Tabela 'Campo' já existe.
+2024-11-12 21:27:14,667 [INFO] root: Verificação da tabela 'SENSOR_UMIDADE': Não existe
+2024-11-12 21:27:14,774 [ERROR] root: Erro ao criar tabelas: ORA-00902: invalid datatype
+Help: https://docs.oracle.com/error-help/db/ora-00902/
+2024-11-12 21:27:14,817 [INFO] root: Configuração do banco de dados concluída
+2024-11-12 21:44:17,815 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-12 21:44:17,816 [INFO] root: Iniciando configuração do banco de dados
+2024-11-12 21:44:17,865 [INFO] root: Verificação da tabela 'PRODUTOR': Não existe
+2024-11-12 21:44:18,076 [INFO] root: Tabela 'Produtor' criada com sucesso.
+2024-11-12 21:44:18,123 [INFO] root: Verificação da tabela 'PROPRIEDADE': Não existe
+2024-11-12 21:44:18,196 [INFO] root: Tabela 'Propriedade' criada com sucesso.
+2024-11-12 21:44:18,242 [INFO] root: Verificação da tabela 'CAMPO': Não existe
+2024-11-12 21:44:18,317 [INFO] root: Tabela 'Campo' criada com sucesso.
+2024-11-12 21:44:18,361 [INFO] root: Verificação da tabela 'SENSOR_UMIDADE': Não existe
+2024-11-12 21:44:18,460 [ERROR] root: Erro ao criar tabelas: ORA-00902: invalid datatype
+Help: https://docs.oracle.com/error-help/db/ora-00902/
+2024-11-12 21:44:18,510 [INFO] root: Configuração do banco de dados concluída
+2024-11-13 23:58:20,559 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-13 23:58:20,561 [INFO] root: Iniciando configuração do banco de dados
+2024-11-13 23:58:20,610 [INFO] root: Tabela 'PRODUTOR' já existe.
+2024-11-13 23:58:20,659 [INFO] root: Tabela 'PROPRIEDADE' já existe.
+2024-11-13 23:58:20,709 [INFO] root: Tabela 'CAMPO' já existe.
+2024-11-13 23:58:20,759 [INFO] root: Tabela 'SENSOR_UMIDADE' já existe.
+2024-11-13 23:58:20,811 [INFO] root: Tabela 'LEITURA_SENSOR_UMIDADE' já existe.
+2024-11-13 23:58:20,854 [INFO] root: Tabela 'LEITURA_SENSOR_TEMPERATURA' já existe.
+2024-11-13 23:58:20,904 [INFO] root: Tabela 'SENSOR_PH' já existe.
+2024-11-13 23:58:20,954 [INFO] root: Tabela 'LEITURA_SENSOR_PH' já existe.
+2024-11-13 23:58:21,004 [INFO] root: Tabela 'SENSOR_NUTRIENTES' já existe.
+2024-11-13 23:58:21,053 [INFO] root: Tabela 'LEITURA_SENSOR_NUTRIENTES' já existe.
+2024-11-13 23:58:21,099 [INFO] root: Tabela 'CLIMA' já existe.
+2024-11-13 23:58:21,145 [INFO] root: Tabela 'NUTRIENTES' já existe.
+2024-11-13 23:58:21,194 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-11-13 23:58:21,248 [INFO] root: Sequência 'PROPRIEDADE_SEQ' criada ou já existia.
+2024-11-13 23:58:21,393 [INFO] root: Trigger 'PROPRIEDADE_BI' criada para tabela 'PROPRIEDADE'.
+2024-11-13 23:58:21,443 [INFO] root: Sequência 'CAMPO_SEQ' criada ou já existia.
+2024-11-13 23:58:21,517 [INFO] root: Trigger 'CAMPO_BI' criada para tabela 'CAMPO'.
+2024-11-13 23:58:21,569 [INFO] root: Sequência 'SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-11-13 23:58:21,635 [INFO] root: Trigger 'SENSOR_UMIDADE_BI' criada para tabela 'SENSOR_UMIDADE'.
+2024-11-13 23:58:21,683 [INFO] root: Sequência 'LEITURA_SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-11-13 23:58:21,748 [INFO] root: Trigger 'LEITURA_SENSOR_UMIDADE_BI' criada para tabela 'LEITURA_SENSOR_UMIDADE'.
+2024-11-13 23:58:21,800 [INFO] root: Sequência 'LEITURA_SENSOR_TEMPERATURA_SEQ' criada ou já existia.
+2024-11-13 23:58:21,864 [INFO] root: Trigger 'LEITURA_SENSOR_TEMPERATURA_BI' criada para tabela 'LEITURA_SENSOR_TEMPERATURA'.
+2024-11-13 23:58:21,915 [INFO] root: Sequência 'SENSOR_PH_SEQ' criada ou já existia.
+2024-11-13 23:58:21,975 [INFO] root: Trigger 'SENSOR_PH_BI' criada para tabela 'SENSOR_PH'.
+2024-11-13 23:58:22,022 [INFO] root: Sequência 'LEITURA_SENSOR_PH_SEQ' criada ou já existia.
+2024-11-13 23:58:22,079 [INFO] root: Trigger 'LEITURA_SENSOR_PH_BI' criada para tabela 'LEITURA_SENSOR_PH'.
+2024-11-13 23:58:22,133 [INFO] root: Sequência 'SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-11-13 23:58:22,209 [INFO] root: Trigger 'SENSOR_NUTRIENTES_BI' criada para tabela 'SENSOR_NUTRIENTES'.
+2024-11-13 23:58:22,260 [INFO] root: Sequência 'LEITURA_SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-11-13 23:58:22,327 [INFO] root: Trigger 'LEITURA_SENSOR_NUTRIENTES_BI' criada para tabela 'LEITURA_SENSOR_NUTRIENTES'.
+2024-11-13 23:58:22,377 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
+2024-11-13 23:58:22,444 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
+2024-11-13 23:58:22,444 [INFO] root: Configuração do banco de dados concluída
+2024-11-14 00:01:08,279 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-11-14 00:01:08,287 [INFO] root: Conexão com o banco de dados fechada
