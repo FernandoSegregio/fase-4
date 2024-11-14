@@ -2,12 +2,12 @@ import os
 import json
 import logging
 import paho.mqtt.client as mqtt
+import ssl
 from dotenv import load_dotenv
 
 from scripts.connect_db import conectar_banco, fechar_conexao
 from scripts.setup_db import setup_banco_dados
-from scripts.consulta_banco import carregar_dados_db
-from scripts.consulta_banco import inserir_leitura_umidade, inserir_leitura_temperatura, inserir_leitura_ph
+from scripts.consulta_banco import carregar_dados_umidade
 
 # Configuração de MQTT e Tópicos
 mqtt_server = "91c5f1ea0f494ccebe45208ea8ffceff.s1.eu.hivemq.cloud"
@@ -15,9 +15,6 @@ mqtt_port = 8883
 mqtt_user = "admin1"
 mqtt_password = "Asd123***"
 humidity_topic = "sensor/umidade"
-ph_sensor = "sensor/ph"
-k_button_topic = "sensor/potassio"
-p_button_topic = "sensor/sodio"
 pump_topic = "sensor/bomba"
 
 # Configuração de logging
@@ -32,9 +29,7 @@ client = mqtt.Client()
 def on_connect(client, userdata, flags, rc):
     print(f"Conectado com código de resultado {rc}")
     client.subscribe(humidity_topic)
-    client.subscribe(ph_sensor)
-    client.subscribe(k_button_topic)
-    client.subscribe(p_button_topic)
+
 
 client.on_connect = on_connect
 client.username_pw_set(mqtt_user, mqtt_password)
@@ -42,9 +37,29 @@ client.connect(mqtt_server, mqtt_port, 60)
 client.loop_start()
 
 # Função para ligar a bomba de água manualmente
+# Defina o cliente MQTT globalmente
+client = mqtt.Client()
+
 def ligar_bomba_agua():
+    global client  # Acessa o cliente MQTT globalmente
     client.publish(pump_topic, "ON")
     print("Comando 'ON' enviado para ligar a bomba de água.")
+
+# Configuração do cliente MQTT
+client.username_pw_set(mqtt_user, mqtt_password)
+client.on_connect = on_connect
+
+# Configuração de TLS/SSL
+client.tls_set(cert_reqs=ssl.CERT_NONE)
+
+# Conexão com o broker
+client.connect(mqtt_server, mqtt_port, 60)
+
+# Inicia o loop de processamento
+client.loop_start()  # Inicia o loop MQTT em segundo plano
+
+# Exemplo de chamada para ligar a bomba
+ligar_bomba_agua()
 
 # Função para desligar a bomba de água manualmente
 def desligar_bomba_agua():
@@ -92,15 +107,25 @@ def apagar_dados_sensor_temperatura(conn):
     except Exception as e:
         logging.error(f"Erro ao apagar dados do sensor de temperatura: {e}")
 
+def apagar_dados_sensor_umidade(conn):
+    try:
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM LEITURA_SENSOR_UMIDADE")
+        conn.commit()
+        print("Dados do sensor de umidade apagados com sucesso.")
+        cursor.close()
+    except Exception as e:
+        logging.error(f"Erro ao apagar dados do sensor de umidade: {e}")
+
 # Função para carregar dados do banco de dados
 def carregar_dados_do_banco(conn):
     try:
-        df = carregar_dados_db(conn, logging)
+        df = carregar_dados_umidade(conn, logging)
         if df is not None and not df.empty:
             print("Dados carregados com sucesso:")
             print(df)
         else:
-            print("Não foi possível carregar dados do banco.")
+            print("Você não tem dados para carregar.")
     except Exception as e:
         logging.error(f"Erro ao carregar dados do banco: {e}")
 
@@ -121,11 +146,12 @@ def menu_principal():
             print("\n=== Menu Principal ===")
             print("1. Exiba os dados do sensor de umidade")
             print("2. Exiba os dados do sensor de temperatura")
-            print("3. Apague os dados do sensor de temperatura")
-            print("4. Ligar bomba de água")
-            print("5. Desligar bomba de água")
-            print("6. Carregar dados do banco")
-            print("7. Sair")
+            print("3. Apague os dados do sensor de umidade")
+            print("4. Apague os dados do sensor de temperatura")
+            print("5. Ligar bomba de água")
+            print("6. Desligar bomba de água")
+            print("7. Carregar dados do banco")
+            print("8. Sair")
 
             opcao = input("Escolha uma opção: ")
 
@@ -133,15 +159,17 @@ def menu_principal():
                 exibir_dados_sensor_umidade(conn)
             elif opcao == '2':
                 exibir_dados_sensor_temperatura(conn)
-            elif opcao == '3':
-                apagar_dados_sensor_temperatura(conn)
             elif opcao == '4':
-                ligar_bomba_agua()
+                apagar_dados_sensor_temperatura(conn)
+            elif opcao == '3':
+                apagar_dados_sensor_umidade(conn)
             elif opcao == '5':
-                desligar_bomba_agua()
+                ligar_bomba_agua()
             elif opcao == '6':
-                carregar_dados_do_banco(conn)
+                desligar_bomba_agua()
             elif opcao == '7':
+                carregar_dados_do_banco(conn)
+            elif opcao == '8':
                 print("Saindo do programa...")
                 break
             else:
