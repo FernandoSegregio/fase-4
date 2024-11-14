@@ -1,9 +1,14 @@
-import os
-import json
 import logging
 import paho.mqtt.client as mqtt
 import ssl
 from dotenv import load_dotenv
+import requests
+import paho.mqtt.client as mqtt
+import ssl
+from dotenv import load_dotenv
+from datetime import datetime
+from sqlalchemy import create_engine
+import pandas as pd
 
 from scripts.connect_db import conectar_banco, fechar_conexao
 from scripts.setup_db import setup_banco_dados
@@ -16,6 +21,34 @@ mqtt_user = "admin1"
 mqtt_password = "Asd123***"
 humidity_topic = "sensor/umidade"
 pump_topic = "sensor/bomba"
+
+
+
+# Configurações da API do OpenWeatherMap
+API_KEY = 'c60a4792ccbe5983e113c048825b78fb'
+CITY = 'Juiz de Fora'
+PREDICT_DAYS = 7  # Número de dias para prever
+
+
+# Função para consultar previsão do tempo
+def consultar_previsao_tempo(city, api_key):
+    link_rain = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric"
+    response = requests.get(link_rain)
+    
+    if response.status_code == 200:
+        data = response.json()
+        previsao = data['list']
+        
+        # Verifica se existe previsão de chuva nos próximos dias
+        chuva_prevista = any(item.get('pop', 0) > 0 for item in previsao[:PREDICT_DAYS * 8])  # 8 previsões por dia
+        if chuva_prevista:
+            print("Chuva prevista nos próximos 7 dias. Desligando a bomba de água.")
+            client.publish(pump_topic, "OFF")
+        else:
+            print("Sem previsão de chuva nos próximos 7 dias. A bomba de água permanecerá ligada.")
+    else:
+        print(f"Erro ao consultar a previsão do tempo. Status code: {response.status_code}")
+
 
 # Configuração de logging
 logging.basicConfig(
@@ -150,8 +183,9 @@ def menu_principal():
             print("4. Apague os dados do sensor de temperatura")
             print("5. Ligar bomba de água")
             print("6. Desligar bomba de água")
-            print("7. Carregar dados do banco")
-            print("8. Sair")
+            print("7. Consultar previsão do tempo para definar se liga ou não a bomba de água")
+            print("8. Carregar dados do banco")
+            print("9. Sair")
 
             opcao = input("Escolha uma opção: ")
 
@@ -168,8 +202,10 @@ def menu_principal():
             elif opcao == '6':
                 desligar_bomba_agua()
             elif opcao == '7':
-                carregar_dados_do_banco(conn)
+                consultar_previsao_tempo(CITY, API_KEY)
             elif opcao == '8':
+                carregar_dados_do_banco(conn)
+            elif opcao == '9':
                 print("Saindo do programa...")
                 break
             else:

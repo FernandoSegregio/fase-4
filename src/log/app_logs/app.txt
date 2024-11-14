@@ -2989,3 +2989,78 @@ Help: https://docs.oracle.com/error-help/db/ora-00942/
 2024-11-14 02:05:57,624 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
 2024-11-14 02:05:57,625 [INFO] root: Configuração do banco de dados concluída
 2024-11-14 02:07:27,289 [INFO] root: Dados de umidade carregados do banco com sucesso.
+2024-11-14 02:27:19,334 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-14 02:27:19,336 [INFO] root: Iniciando configuração do banco de dados
+2024-11-14 02:27:19,389 [INFO] root: Tabela 'PRODUTOR' já existe.
+2024-11-14 02:27:19,431 [INFO] root: Tabela 'PROPRIEDADE' já existe.
+2024-11-14 02:27:19,479 [INFO] root: Tabela 'CAMPO' já existe.
+2024-11-14 02:27:19,527 [INFO] root: Tabela 'SENSOR_UMIDADE' já existe.
+2024-11-14 02:27:19,576 [INFO] root: Tabela 'LEITURA_SENSOR_UMIDADE' já existe.
+2024-11-14 02:27:19,625 [INFO] root: Tabela 'LEITURA_SENSOR_TEMPERATURA' já existe.
+2024-11-14 02:27:19,673 [INFO] root: Tabela 'SENSOR_PH' já existe.
+2024-11-14 02:27:19,713 [INFO] root: Tabela 'LEITURA_SENSOR_PH' já existe.
+2024-11-14 02:27:19,759 [INFO] root: Tabela 'SENSOR_NUTRIENTES' já existe.
+2024-11-14 02:27:19,801 [INFO] root: Tabela 'LEITURA_SENSOR_NUTRIENTES' já existe.
+2024-11-14 02:27:19,847 [INFO] root: Tabela 'CLIMA' já existe.
+2024-11-14 02:27:19,895 [INFO] root: Tabela 'NUTRIENTES' já existe.
+2024-11-14 02:27:19,937 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-11-14 02:27:19,988 [INFO] root: Sequência 'PROPRIEDADE_SEQ' criada ou já existia.
+2024-11-14 02:27:20,131 [INFO] root: Trigger 'PROPRIEDADE_BI' criada para tabela 'PROPRIEDADE'.
+2024-11-14 02:27:20,174 [INFO] root: Sequência 'CAMPO_SEQ' criada ou já existia.
+2024-11-14 02:27:20,248 [INFO] root: Trigger 'CAMPO_BI' criada para tabela 'CAMPO'.
+2024-11-14 02:27:20,291 [INFO] root: Sequência 'SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-11-14 02:27:20,360 [INFO] root: Trigger 'SENSOR_UMIDADE_BI' criada para tabela 'SENSOR_UMIDADE'.
+2024-11-14 02:27:20,403 [INFO] root: Sequência 'LEITURA_SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-11-14 02:27:20,466 [INFO] root: Trigger 'LEITURA_SENSOR_UMIDADE_BI' criada para tabela 'LEITURA_SENSOR_UMIDADE'.
+2024-11-14 02:27:20,512 [INFO] root: Sequência 'LEITURA_SENSOR_TEMPERATURA_SEQ' criada ou já existia.
+2024-11-14 02:27:20,576 [INFO] root: Trigger 'LEITURA_SENSOR_TEMPERATURA_BI' criada para tabela 'LEITURA_SENSOR_TEMPERATURA'.
+2024-11-14 02:27:20,621 [INFO] root: Sequência 'SENSOR_PH_SEQ' criada ou já existia.
+2024-11-14 02:27:20,698 [INFO] root: Trigger 'SENSOR_PH_BI' criada para tabela 'SENSOR_PH'.
+2024-11-14 02:27:20,741 [INFO] root: Sequência 'LEITURA_SENSOR_PH_SEQ' criada ou já existia.
+2024-11-14 02:27:20,804 [INFO] root: Trigger 'LEITURA_SENSOR_PH_BI' criada para tabela 'LEITURA_SENSOR_PH'.
+2024-11-14 02:27:20,851 [INFO] root: Sequência 'SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-11-14 02:27:20,921 [INFO] root: Trigger 'SENSOR_NUTRIENTES_BI' criada para tabela 'SENSOR_NUTRIENTES'.
+2024-11-14 02:27:20,963 [INFO] root: Sequência 'LEITURA_SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-11-14 02:27:21,033 [INFO] root: Trigger 'LEITURA_SENSOR_NUTRIENTES_BI' criada para tabela 'LEITURA_SENSOR_NUTRIENTES'.
+2024-11-14 02:27:21,078 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
+2024-11-14 02:27:21,149 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
+2024-11-14 02:27:21,150 [INFO] root: Configuração do banco de dados concluída
+2024-11-14 02:27:25,165 [INFO] root: Dados de umidade carregados do banco com sucesso.
+2024-11-14 02:29:16,241 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-11-14 02:29:16,246 [INFO] root: Conexão com o banco de dados fechada
+2024-11-14 02:29:21,072 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-11-14 02:29:21,073 [INFO] root: Iniciando configuração do banco de dados
+2024-11-14 02:29:21,121 [INFO] root: Tabela 'PRODUTOR' já existe.
+2024-11-14 02:29:21,163 [INFO] root: Tabela 'PROPRIEDADE' já existe.
+2024-11-14 02:29:21,205 [INFO] root: Tabela 'CAMPO' já existe.
+2024-11-14 02:29:21,256 [INFO] root: Tabela 'SENSOR_UMIDADE' já existe.
+2024-11-14 02:29:21,299 [INFO] root: Tabela 'LEITURA_SENSOR_UMIDADE' já existe.
+2024-11-14 02:29:21,345 [INFO] root: Tabela 'LEITURA_SENSOR_TEMPERATURA' já existe.
+2024-11-14 02:29:21,395 [INFO] root: Tabela 'SENSOR_PH' já existe.
+2024-11-14 02:29:21,443 [INFO] root: Tabela 'LEITURA_SENSOR_PH' já existe.
+2024-11-14 02:29:21,491 [INFO] root: Tabela 'SENSOR_NUTRIENTES' já existe.
+2024-11-14 02:29:21,535 [INFO] root: Tabela 'LEITURA_SENSOR_NUTRIENTES' já existe.
+2024-11-14 02:29:21,583 [INFO] root: Tabela 'CLIMA' já existe.
+2024-11-14 02:29:21,627 [INFO] root: Tabela 'NUTRIENTES' já existe.
+2024-11-14 02:29:21,674 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-11-14 02:29:21,728 [INFO] root: Sequência 'PROPRIEDADE_SEQ' criada ou já existia.
+2024-11-14 02:29:21,869 [INFO] root: Trigger 'PROPRIEDADE_BI' criada para tabela 'PROPRIEDADE'.
+2024-11-14 02:29:21,916 [INFO] root: Sequência 'CAMPO_SEQ' criada ou já existia.
+2024-11-14 02:29:21,989 [INFO] root: Trigger 'CAMPO_BI' criada para tabela 'CAMPO'.
+2024-11-14 02:29:22,038 [INFO] root: Sequência 'SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-11-14 02:29:22,108 [INFO] root: Trigger 'SENSOR_UMIDADE_BI' criada para tabela 'SENSOR_UMIDADE'.
+2024-11-14 02:29:22,158 [INFO] root: Sequência 'LEITURA_SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-11-14 02:29:22,231 [INFO] root: Trigger 'LEITURA_SENSOR_UMIDADE_BI' criada para tabela 'LEITURA_SENSOR_UMIDADE'.
+2024-11-14 02:29:22,280 [INFO] root: Sequência 'LEITURA_SENSOR_TEMPERATURA_SEQ' criada ou já existia.
+2024-11-14 02:29:22,351 [INFO] root: Trigger 'LEITURA_SENSOR_TEMPERATURA_BI' criada para tabela 'LEITURA_SENSOR_TEMPERATURA'.
+2024-11-14 02:29:22,401 [INFO] root: Sequência 'SENSOR_PH_SEQ' criada ou já existia.
+2024-11-14 02:29:22,471 [INFO] root: Trigger 'SENSOR_PH_BI' criada para tabela 'SENSOR_PH'.
+2024-11-14 02:29:22,519 [INFO] root: Sequência 'LEITURA_SENSOR_PH_SEQ' criada ou já existia.
+2024-11-14 02:29:22,589 [INFO] root: Trigger 'LEITURA_SENSOR_PH_BI' criada para tabela 'LEITURA_SENSOR_PH'.
+2024-11-14 02:29:22,638 [INFO] root: Sequência 'SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-11-14 02:29:22,706 [INFO] root: Trigger 'SENSOR_NUTRIENTES_BI' criada para tabela 'SENSOR_NUTRIENTES'.
+2024-11-14 02:29:22,756 [INFO] root: Sequência 'LEITURA_SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-11-14 02:29:22,828 [INFO] root: Trigger 'LEITURA_SENSOR_NUTRIENTES_BI' criada para tabela 'LEITURA_SENSOR_NUTRIENTES'.
+2024-11-14 02:29:22,878 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
+2024-11-14 02:29:22,950 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
+2024-11-14 02:29:22,951 [INFO] root: Configuração do banco de dados concluída
