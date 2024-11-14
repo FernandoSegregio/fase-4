@@ -9,16 +9,10 @@
 <br>
 
 # Nome do projeto
-    Além do Python
+    Comstruindo uma Maquina Agricola
 
 ## Nome do grupo
-    TerraFusion Tech
-
-## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/in/ana-kolodji-94ba66324/">Ana Kolodi</a>
-- <a href="https://www.linkedin.com/in/fernando-segregio/">Fernando Miranda Segregio</a>
-- <a href="https://www.linkedin.com/in/tatiana-vieira-lopes-dos-santos-368396b3">Tatiana Lopes</a>
-
+    TerraFusion Tech - Sistema de Automação de Plantações
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
@@ -29,13 +23,10 @@
 
 ## 📜 Descrição
 
-### Sistema de Gestão e Previsão de Colheita de Cana-de-Açúcar
+Sistema de Automação de Plantações é um projeto desenvolvido pela equipe TerraFusion Tech. O sistema é projetado para realizar a gestão e automação de irrigação agrícola, monitorando sensores de umidade, temperatura, pH e nutrientes, e controlando bombas de água para irrigação automatizada.
 
-Este projeto é um sistema de gestão e previsão para a colheita de cana-de-açúcar, desenvolvido como parte de uma atividade acadêmica focada no agronegócio brasileiro. O sistema aborda um dos principais desafios do setor: a otimização da colheita de cana-de-açúcar, considerando fatores como clima, maturidade da cana e condições do solo.
+### Sistema Automação de Planaçãoes
 
-## Documentação Secundária
-
-Para mais detalhes técnicos sobre o código e as funcionalidades implementadas no sistema de gestão agrícola, consulte o [README.md do Sistema de Gestão Agrícola e Previsão de Colheita de Cana-de-Açucar](./document/ai_project_document_fiap.md).
 
 
 ## 📁 Estrutura de pastas
@@ -53,6 +44,8 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - <b>src/scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
 
 - <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
+
+- <b>PlatformIO</b>: Pasta com os arquivos da automação (wokwi + hivemq).
 
 - <b>log</b>: Pasta para guardar os logs da aplicação em um arquivo txt.
 
@@ -96,6 +89,30 @@ echo -e "DB_USER=\nDB_PASSWORD=\nDB_DSN=" > .env
 ```
 </br>
 
+#### Antes de iniciar a aplicação em Python, vamos inicar a aplicação em so Simulador, nosso sistema é todo automativo, o simulador dos sensores, envia via fila do hivemq os dados para a aplicação em Python que consome essses dados.
+
+### Iniciando a automação ###
+
+1. Instalar o PlatformIO
+
+```
+pip install -U platformio
+
+```
+
+2. Limpar e Compilar o Projeto
+
+
+```
+pio run --target clean
+pio run
+
+
+```
+3. Executar o Projeto
+Após compilar, você pode carregar e executar o código clicando no botão "Play" do diagrama de simulação.
+
+
 2 - Crie um ambiente virtual, atualize o pip e instale os pacotes necessários:
 
 #### Para macOS/Linux:
@@ -118,11 +135,26 @@ pip install -r requirements.txt
 
 ```
 
-3 - Rode o arquivo app.py
+3 - Rode o arquivo setup.py (para criar as tabelas que o sistema usa)
+
+
+```
+python src/scripts/setup.py
+
+```
+
+4 - Rode o python mqtt_client.py (para criar ativar o sistema de filas)
+
+
+```
+python src/mqtt_client.py
+
+5 - Enquanto a automação acontece abra o app.py para ver o menu de opções 
+
 
 ```
 python src/app.py
-```
+
 
 Dicas:
 - 1 - Variáveis de Ambiente: Lembre-se de preencher o arquivo **.env** com os valores corretos para **DB_USER**, **DB_PASSWORD** e **DB_DSN** antes de rodar o aplicativo.<br />
@@ -131,15 +163,15 @@ Dicas:
 ## 🗃 Histórico de lançamentos
 
 * 0.1.0 - 14/10/2024
-    <!-- * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
+ 
+* 0.1.1 - 13/11/2024
+  
+<!-- * 0.3.0 - XX/XX/2024
     * 
 * 0.2.0 - XX/XX/2024
     * 
-* 0.1.0 - XX/XX/2024
-    * -->
+* 0.1.0 - XX/XX/2024 -->
+
 
 ## 📋 Licença
 
