@@ -27,6 +27,22 @@ O Sistema de Automação de Plantações é um projeto desenvolvido pela equipe 
 
 A lógica de controle da bomba de água é baseada no valor de umidade. Quando a umidade registrada é menor que 50%, o sistema liga a bomba de água automaticamente, enviando uma mensagem MQTT de ativação para o ESP32. Se a umidade é maior ou igual a 50%, o sistema desliga a bomba, enviando uma mensagem MQTT de desativação. Essa automação garante que o solo seja irrigado apenas quando necessário, economizando recursos e evitando irrigação excessiva.
 
+Através do menu da aplicação o usuário consegue consultar uma API de previsão, de acordo com a previsão dos proxímos 7 dias, ele liga ou não a bomba de água.
+
+## Menu da aplicação
+
+ === Menu Principal ===
+1. Exiba os dados do sensor de umidade
+2. Exiba os dados do sensor de temperatura
+3. Apague os dados do sensor de umidade
+4. Apague os dados do sensor de temperatura
+5. Ligar bomba de água
+6. Desligar bomba de água
+7. Consultar previsão do tempo para definir se liga ou não a bomba de água
+8. Carregar dados do banco
+9. Sair
+
+
 ### Sistema Automação de Planaçãoes
 
 ![Automação irrigação](image.png)
