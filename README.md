@@ -161,6 +161,10 @@ Dicas:
 - 1 - Variáveis de Ambiente: Lembre-se de preencher o arquivo **.env** com os valores corretos para **DB_USER**, **DB_PASSWORD** e **DB_DSN** antes de rodar o aplicativo.<br />
 - 2 - Antes de **ativar o ambiente** verifique qual é seu **sistema operacional** e escolha o comando correto.
 
+Projeto Wokwi:
+
+https://wokwi.com/projects/414307725830476801
+
 ## 🗃 Histórico de lançamentos
 
 * 0.1.0 - 14/10/2024
