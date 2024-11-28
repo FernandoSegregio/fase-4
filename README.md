@@ -14,6 +14,11 @@
 ## Nome do grupo
     TerraFusion Tech - Sistema de Automação de Plantações
 
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/in/ana-kolodji-94ba66324/">Ana Kolodiji</a>
+- <a href="https://www.linkedin.com/in/fernando-segregio/">Fernando Segregio</a>    
+- <a href="https://www.linkedin.com/in/matheusconciani/">Matheus Conciani</a> 
+
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
 - <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Gomes Moreira</a>
