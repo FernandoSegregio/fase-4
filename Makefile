@@ -12,11 +12,14 @@ mqtt:
 clean:
 	find . -name "__pycache__" -exec rm -rf {} +
 
-setup1:
-	python -m venv .venv && source .venv/bin/activate && pip install -U pip && cd PlatformIO/Projects/agric_machine && pip install -U platformio && pio lib install "DHT sensor library for ESPx"
+setup-mac: 
+	python3 -m venv .venv && source .venv/bin/activate && pip install -U pip && pip install -r requirements.txt && cd PlatformIO/ && pip install -U platformio && pio pkg install -l "DHT sensor library for ESPx"
 
-setup2:
+setup-linux: 
+	python3 -m venv .venv && source .venv/bin/activate && pip install -U pip && pip install -r requirements.txt && cd PlatformIO/ && pip install -U platformio && pio pkg install -l "DHT sensor library for ESPx"
+
+setup-windows:
 	python -m venv .venv && .\.venv\Scripts\activate && pip install -U pip && pip install -r requirements.txt & cd PlatformIO/Projects/agric_machine && pip install -U platformio && pio lib install "DHT sensor library for ESPx"
 
-start:
-	cd PlatformIO/Projects/agric_machine && pio run --target clean && pio run
+prio-start:
+	cd PlatformIO/ && pio run --target clean && pio run
