@@ -17,8 +17,8 @@ from scripts.consulta_banco import carregar_dados_umidade
 # Configuração de MQTT e Tópicos
 mqtt_server = "91c5f1ea0f494ccebe45208ea8ffceff.s1.eu.hivemq.cloud"
 mqtt_port = 8883
-mqtt_user = "admin1"
-mqtt_password = "Asd123***"
+mqtt_user = "FARM_TECH"
+mqtt_password = "Pato1234"
 humidity_topic = "sensor/umidade"
 pump_topic = "sensor/bomba"
 
