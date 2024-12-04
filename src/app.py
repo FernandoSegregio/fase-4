@@ -183,7 +183,7 @@ def menu_principal():
             print("4. Apague os dados do sensor de temperatura")
             print("5. Ligar bomba de água")
             print("6. Desligar bomba de água")
-            print("7. Consultar previsão do tempo para definar se liga ou não a bomba de água")
+            print("7. Consultar previsão do tempo para definir se liga ou não a bomba de água")
             print("8. Carregar dados do banco")
             print("9. Sair")
 
