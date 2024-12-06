@@ -2,6 +2,7 @@ import oracledb
 from dotenv import load_dotenv
 from log.logger_config import configurar_logging
 import os
+import streamlit as st
 
 # Configura o logging
 logger = configurar_logging()
@@ -13,9 +14,9 @@ def conectar_banco():
     :return: Objeto de conexão ou None em caso de erro.
     """
     load_dotenv()  # Carrega as variáveis de ambiente
-    user = os.getenv('DB_USER')
-    password = os.getenv('DB_PASSWORD')
-    dsn = os.getenv('DB_DSN')
+    user = st.secrets["database"]["user"]
+    password = st.secrets["database"]["password"]
+    dsn = st.secrets["database"]["dsn"]
 
     # Verificar se as variáveis de ambiente foram carregadas
     if not all([user, password, dsn]):

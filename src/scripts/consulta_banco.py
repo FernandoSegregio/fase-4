@@ -1,11 +1,12 @@
 import os
 from sqlalchemy import create_engine
 import pandas as pd
+import streamlit as st
 
 class Config:
-    DB_USER = os.getenv('DB_USER')
-    DB_PASSWORD = os.getenv('DB_PASSWORD')
-    DB_DSN = os.getenv('DB_DSN')
+    DB_USER = st.secrets["database"]["user"]
+    DB_PASSWORD = st.secrets["database"]["password"]
+    DB_DSN = st.secrets["database"]["dsn"]
 
 def carregar_dados_umidade(conn, logging):
     """

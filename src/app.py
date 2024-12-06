@@ -72,10 +72,10 @@ st.markdown("""
 
 # Configurações globais
 load_dotenv()
-mqtt_server = "91c5f1ea0f494ccebe45208ea8ffceff.s1.eu.hivemq.cloud"
-mqtt_port = 8883
-mqtt_user = "FARM_TECH"
-mqtt_password = "Pato1234"
+mqtt_server = st.secrets["mqtt"]["server"]
+mqtt_port = st.secrets["mqtt"]["port"]
+mqtt_user = st.secrets["mqtt"]["user"]
+mqtt_password = st.secrets["mqtt"]["password"]
 humidity_topic = "sensor/umidade"
 pump_topic = "sensor/bomba"
 
