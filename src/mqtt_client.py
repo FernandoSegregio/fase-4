@@ -22,9 +22,9 @@ p_button_topic = "sensor/sodio"
 
 # Carrega as variáveis de ambiente para o banco de dados
 load_dotenv()
-db_user = st.secrets["database"]["user"]
-db_password = st.secrets["database"]["password"]
-db_dsn = st.secrets["database"]["dsn"]
+db_user = os.getenv('DB_USER') or st.secrets["database"]["user"]
+db_password = os.getenv('DB_PASSWORD') or st.secrets["database"]["password"] 
+db_dsn = os.getenv('DB_DSN') or st.secrets["database"]["dsn"]
 
 # Função para conectar ao banco de dados Oracle
 def conectar_banco():

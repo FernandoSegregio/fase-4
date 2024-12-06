@@ -18,9 +18,9 @@ def conectar_banco():
     :return: Objeto de conexão ou None em caso de erro.
     """
     load_dotenv()
-    user = st.secrets["database"]["user"]
-    password = st.secrets["database"]["password"]
-    dsn = st.secrets["database"]["dsn"]
+    user = os.getenv('DB_USER') or st.secrets["database"]["user"]
+    password = os.getenv('DB_PASSWORD') or st.secrets["database"]["password"] 
+    dsn = os.getenv('DB_DSN') or st.secrets["database"]["dsn"]
 
     if not all([user, password, dsn]):
         logger.error("Uma ou mais variáveis de ambiente não estão definidas.")

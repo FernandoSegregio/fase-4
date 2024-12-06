@@ -218,9 +218,9 @@ if __name__ == "__main__":
     
     try:
         conn = oracledb.connect(
-            user=st.secrets["database"]["user"],
-            password=st.secrets["database"]["password"],
-            dsn=st.secrets["database"]["dsn"]
+            user=os.getenv('DB_USER'),
+            password=os.getenv('DB_PASSWORD'),
+            dsn=os.getenv('DB_DSN')
         )
         setup_banco_dados(conn)
     except oracledb.DatabaseError as e:

@@ -14,9 +14,9 @@ def conectar_banco():
     :return: Objeto de conexão ou None em caso de erro.
     """
     load_dotenv()  # Carrega as variáveis de ambiente
-    user = st.secrets["database"]["user"]
-    password = st.secrets["database"]["password"]
-    dsn = st.secrets["database"]["dsn"]
+    user = os.getenv('DB_USER') or st.secrets["database"]["user"]
+    password = os.getenv('DB_PASSWORD') or st.secrets["database"]["password"] 
+    dsn = os.getenv('DB_DSN') or st.secrets["database"]["dsn"]
 
     # Verificar se as variáveis de ambiente foram carregadas
     if not all([user, password, dsn]):

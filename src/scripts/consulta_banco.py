@@ -4,9 +4,9 @@ import pandas as pd
 import streamlit as st
 
 class Config:
-    DB_USER = st.secrets["database"]["user"]
-    DB_PASSWORD = st.secrets["database"]["password"]
-    DB_DSN = st.secrets["database"]["dsn"]
+    user = os.getenv('DB_USER') or st.secrets["database"]["user"]
+    password = os.getenv('DB_PASSWORD') or st.secrets["database"]["password"] 
+    dsn = os.getenv('DB_DSN') or st.secrets["database"]["dsn"]
 
 def carregar_dados_umidade(conn, logging):
     """
@@ -22,7 +22,7 @@ def carregar_dados_umidade(conn, logging):
     """
     try:
         # Conexão usando SQLAlchemy com o Oracle
-        engine = create_engine(f'oracle+oracledb://{Config.DB_USER}:{Config.DB_PASSWORD}@{Config.DB_DSN}')
+        engine = create_engine(f'oracle+oracledb://{Config.user}:{Config.password}@{Config.dsn}')
         
         # Query para carregar apenas dados de leitura e umidade
         query = """
