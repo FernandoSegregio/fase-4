@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import oracledb
 import logging
+import streamlit as st
 
 # Configuração do logging
 logger = logging.getLogger()
@@ -217,9 +218,9 @@ if __name__ == "__main__":
     
     try:
         conn = oracledb.connect(
-            user=os.getenv('DB_USER'),
-            password=os.getenv('DB_PASSWORD'),
-            dsn=os.getenv('DB_DSN')
+            user=st.secrets["database"]["user"],
+            password=st.secrets["database"]["password"],
+            dsn=st.secrets["database"]["dsn"]
         )
         setup_banco_dados(conn)
     except oracledb.DatabaseError as e:

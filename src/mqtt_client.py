@@ -5,6 +5,7 @@ import oracledb
 import json
 from dotenv import load_dotenv
 from datetime import datetime
+import streamlit as st
 
 # Configurações do HiveMQ Cloud
 mqtt_server = "91c5f1ea0f494ccebe45208ea8ffceff.s1.eu.hivemq.cloud"
@@ -21,9 +22,9 @@ p_button_topic = "sensor/sodio"
 
 # Carrega as variáveis de ambiente para o banco de dados
 load_dotenv()
-db_user = os.getenv('DB_USER')
-db_password = os.getenv('DB_PASSWORD')
-db_dsn = os.getenv('DB_DSN')
+db_user = st.secrets["database"]["user"]
+db_password = st.secrets["database"]["password"]
+db_dsn = st.secrets["database"]["dsn"]
 
 # Função para conectar ao banco de dados Oracle
 def conectar_banco():

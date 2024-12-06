@@ -3,6 +3,7 @@ import os
 import oracledb
 from dotenv import load_dotenv
 from dados_simulados import gerar_dados_simulados
+import streamlit as st
 
 from log.logger_config import configurar_logging
 from scripts.setup_db import setup_banco_dados
@@ -17,9 +18,9 @@ def conectar_banco():
     :return: Objeto de conexão ou None em caso de erro.
     """
     load_dotenv()
-    user = os.getenv('DB_USER')
-    password = os.getenv('DB_PASSWORD')
-    dsn = os.getenv('DB_DSN')
+    user = st.secrets["database"]["user"]
+    password = st.secrets["database"]["password"]
+    dsn = st.secrets["database"]["dsn"]
 
     if not all([user, password, dsn]):
         logger.error("Uma ou mais variáveis de ambiente não estão definidas.")
