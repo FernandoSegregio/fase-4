@@ -9,7 +9,7 @@ def run_apps():
         # Iniciar MQTT Client em background
         mqtt_process = subprocess.Popen([
             sys.executable,
-            "mqtt_client.py"
+            "src/mqtt_client.py"
         ])
         
         # Iniciar Streamlit App
