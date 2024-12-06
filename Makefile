@@ -1,6 +1,6 @@
 # Executa o aplicativo principal
 run:
-	python src/app.py
+	streamlit run src/app.py
 
 setup_db:
 	python src/scripts/setup_db.py
