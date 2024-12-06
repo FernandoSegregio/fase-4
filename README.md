@@ -9,7 +9,7 @@
 <br>
 
 # Nome do projeto
-    Comstruindo uma Maquina Agricola
+    FarmTech Solution
 
 ## Nome do grupo
     TerraFusion Tech - Sistema de Automação de Plantações
@@ -30,27 +30,47 @@
 
 O Sistema de Automação de Plantações é um projeto desenvolvido pela equipe TerraFusion Tech. O sistema é projetado para realizar a gestão e automação de irrigação agrícola, monitorando sensores de umidade, temperatura, pH e nutrientes, e controlando bombas de água para irrigação automatizada.
 
-A lógica de controle da bomba de água é baseada no valor de umidade. Quando a umidade registrada é menor que 50%, o sistema liga a bomba de água automaticamente, enviando uma mensagem MQTT de ativação para o ESP32. Se a umidade é maior ou igual a 50%, o sistema desliga a bomba, enviando uma mensagem MQTT de desativação. Essa automação garante que o solo seja irrigado apenas quando necessário, economizando recursos e evitando irrigação excessiva.
+### Funcionalidades Principais:
 
-Através do menu da aplicação o usuário consegue consultar uma API de previsão, de acordo com a previsão dos proxímos 7 dias, ele liga ou não a bomba de água.
+#### 🌡️ Monitoramento Inteligente
+- Sensores de umidade, temperatura e pH em tempo real
+- Dashboard interativo com métricas e gráficos
+- Visualização histórica de dados
+- Indicadores visuais de status (normal/crítico)
 
-## Menu da aplicação
+#### 🤖 Automação de Irrigação
+- Controle automático baseado em umidade do solo
+- Ativação quando umidade < 50%
+- Desativação quando umidade ≥ 50%
+- Comunicação via MQTT com ESP32
 
- === Menu Principal ===
-1. Exiba os dados do sensor de umidade
-2. Exiba os dados do sensor de temperatura
-3. Apague os dados do sensor de umidade
-4. Apague os dados do sensor de temperatura
-5. Ligar bomba de água
-6. Desligar bomba de água
-7. Consultar previsão do tempo para definir se liga ou não a bomba de água
-8. Carregar dados do banco
-9. Sair
+#### 📊 Análise Preditiva
+- Modelo de machine learning para previsão de necessidade de irrigação
+- Análise de dados históricos de clima
+- Previsão de precipitação para 7 dias
+- Sugestões automáticas de ação
+
+#### 🌦️ Integração com APIs
+- Previsão do tempo em tempo real
+- Dados climatológicos históricos
+- Tomada de decisão baseada em múltiplas fontes
+
+O sistema utiliza análise avançada de dados e inteligência artificial para otimizar o uso de recursos hídricos, garantindo uma irrigação eficiente e sustentável das plantações.
+
+## Dashboard da aplicação
+
+![dashboard](image-3.png)
 
 
-### Sistema Automação de Planaçãoes
 
-![Automação irrigação](image.png)
+
+### Sistema Automação de Planaçãoes com leitor LCD
+
+![LCD do sistema de irrigação](image-1.png)
+
+### Grafico suavizado do Serial Plotter
+
+![Grafico do Serial Plotter ](image-2.png)
 
 
 ## 📁 Estrutura de pastas
@@ -96,12 +116,12 @@ SQLAlchemy: conexão com banco de dados
 oracledb: Para conexão com o banco de dados Oracle
 logging: Para Logs da aplicação
 
+Confira todas as bibliotecas utilizadas estão no arquivo requirements
+
 #### 4. Versões
-* Python: >= 3.8
-* Matplotlib: 3.9.2
-* Pandas: 2.4.1
-* OracleDB: 2.4.1
-* Outras versões bibliotecas e versãoes seguem *requirements.txt*
+As bibliotecas utilizadas estão no arquivo requirements
+
+*requirements.txt*
 
 
 #### Passos para configurar o ambiente:
@@ -119,49 +139,41 @@ echo -e "DB_USER=\nDB_PASSWORD=\nDB_DSN=" > .env
 
 1. Setup da Maquina
 
-#### Para macOS/Linux:
-
+#### Para macOS:
 ```
-make setup1
+setup-mac
+```
+
+#### Para Linux:
+```
+setup-linux
 ```
 
 #### Para Windows:
 ```
-make setup2
+setup-windows:
 ```
 
-2. Iniciar a Automação
-
-
-```
-make start
-```
-3. Executar o Projeto
-Após compilar, você pode carregar e executar o código clicando no botão "Play" do diagram.json que está na pasta PlatformIO/Projects/agric_machine
-
-<br />
-
-4. Faça o setup do banco de dados
-
-
+2. Faça o setup do banco de dados
 ```
 make setup_db
 ```
 
-5. Rode em um novo terminal o sitema de filas.
-
-
-```
-make mqtt
-```
-
-
-6. Enquanto a automação acontece abra um novo terminal e chame o menu de opções 
-
+3. Iniciar a aplicação
 
 ```
 make run
 ```
+3. Executar o Projeto
+
+Após compilar, você pode carregar e executar o código clicando no botão "Play" do diagram.json que está na pasta PlatformIO
+
+<br />
+
+Ou abra o link no navegador e aperte play
+
+https://wokwi.com/projects/416547430655986689
+
 
 
 Dicas:
@@ -170,7 +182,7 @@ Dicas:
 
 Projeto Wokwi:
 
-https://wokwi.com/projects/414307725830476801
+https://wokwi.com/projects/416547430655986689
 
 ## 🗃 Histórico de lançamentos
 
@@ -178,9 +190,9 @@ https://wokwi.com/projects/414307725830476801
  
 * 0.1.1 - 13/11/2024
   
-<!-- * 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
+* 0.2.0 - 06/12/2024
+    
+<!--* 0.2.0 - XX/XX/2024
     * 
 * 0.1.0 - XX/XX/2024 -->
 
