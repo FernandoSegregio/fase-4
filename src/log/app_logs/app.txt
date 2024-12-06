@@ -3765,3 +3765,11 @@ Help: https://docs.oracle.com/error-help/db/ora-00942/
 2024-12-06 16:39:21,654 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 298.34, 'feels_like': 298.74, 'temp_min': 298.34, 'temp_max': 298.34, 'pressure': 1011, 'humidity': 70, 'sea_level': 1011, 'grnd_level': 929}, 'visibility': 10000, 'wind': {'speed': 3.23, 'deg': 35, 'gust': 8.03}, 'clouds': {'all': 0}, 'dt': 1733513829, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
 2024-12-06 16:39:21,655 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
 2024-12-06 16:39:25,978 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 18:23:02,331 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 18:23:02,645 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 18:23:06,176 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 18:23:06,286 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 18:23:06,346 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 18:23:06,472 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 18:23:07,716 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 18:23:08,222 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
