@@ -3064,3 +3064,712 @@ Help: https://docs.oracle.com/error-help/db/ora-00942/
 2024-11-14 02:29:22,878 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
 2024-11-14 02:29:22,950 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
 2024-11-14 02:29:22,951 [INFO] root: Configuração do banco de dados concluída
+2024-12-03 22:39:37,474 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:39:37,657 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:40:23,791 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:40:23,962 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:40:52,988 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:40:53,186 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:41:05,748 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:41:05,800 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:43:18,227 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:43:18,290 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:43:27,960 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:43:28,143 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:43:34,240 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:43:34,387 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:43:37,693 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:43:37,747 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:43:42,422 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:43:42,473 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:43:44,990 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:43:45,711 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:43:56,423 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:43:56,428 [INFO] root: Iniciando configuração do banco de dados
+2024-12-03 22:43:56,477 [INFO] root: Tabela 'PRODUTOR' já existe.
+2024-12-03 22:43:56,525 [INFO] root: Tabela 'PROPRIEDADE' já existe.
+2024-12-03 22:43:56,573 [INFO] root: Tabela 'CAMPO' já existe.
+2024-12-03 22:43:56,617 [INFO] root: Tabela 'SENSOR_UMIDADE' já existe.
+2024-12-03 22:43:56,661 [INFO] root: Tabela 'LEITURA_SENSOR_UMIDADE' já existe.
+2024-12-03 22:43:56,707 [INFO] root: Tabela 'LEITURA_SENSOR_TEMPERATURA' já existe.
+2024-12-03 22:43:56,757 [INFO] root: Tabela 'SENSOR_PH' já existe.
+2024-12-03 22:43:56,806 [INFO] root: Tabela 'LEITURA_SENSOR_PH' já existe.
+2024-12-03 22:43:56,851 [INFO] root: Tabela 'SENSOR_NUTRIENTES' já existe.
+2024-12-03 22:43:56,895 [INFO] root: Tabela 'LEITURA_SENSOR_NUTRIENTES' já existe.
+2024-12-03 22:43:56,944 [INFO] root: Tabela 'CLIMA' já existe.
+2024-12-03 22:43:56,994 [INFO] root: Tabela 'NUTRIENTES' já existe.
+2024-12-03 22:43:57,038 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-12-03 22:43:57,091 [INFO] root: Sequência 'PROPRIEDADE_SEQ' criada ou já existia.
+2024-12-03 22:43:57,171 [INFO] root: Trigger 'PROPRIEDADE_BI' criada para tabela 'PROPRIEDADE'.
+2024-12-03 22:43:57,216 [INFO] root: Sequência 'CAMPO_SEQ' criada ou já existia.
+2024-12-03 22:43:57,283 [INFO] root: Trigger 'CAMPO_BI' criada para tabela 'CAMPO'.
+2024-12-03 22:43:57,330 [INFO] root: Sequência 'SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-03 22:43:57,398 [INFO] root: Trigger 'SENSOR_UMIDADE_BI' criada para tabela 'SENSOR_UMIDADE'.
+2024-12-03 22:43:57,446 [INFO] root: Sequência 'LEITURA_SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-03 22:43:57,512 [INFO] root: Trigger 'LEITURA_SENSOR_UMIDADE_BI' criada para tabela 'LEITURA_SENSOR_UMIDADE'.
+2024-12-03 22:43:57,555 [INFO] root: Sequência 'LEITURA_SENSOR_TEMPERATURA_SEQ' criada ou já existia.
+2024-12-03 22:43:57,617 [INFO] root: Trigger 'LEITURA_SENSOR_TEMPERATURA_BI' criada para tabela 'LEITURA_SENSOR_TEMPERATURA'.
+2024-12-03 22:43:57,664 [INFO] root: Sequência 'SENSOR_PH_SEQ' criada ou já existia.
+2024-12-03 22:43:57,722 [INFO] root: Trigger 'SENSOR_PH_BI' criada para tabela 'SENSOR_PH'.
+2024-12-03 22:43:57,770 [INFO] root: Sequência 'LEITURA_SENSOR_PH_SEQ' criada ou já existia.
+2024-12-03 22:43:57,834 [INFO] root: Trigger 'LEITURA_SENSOR_PH_BI' criada para tabela 'LEITURA_SENSOR_PH'.
+2024-12-03 22:43:57,883 [INFO] root: Sequência 'SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-03 22:43:57,946 [INFO] root: Trigger 'SENSOR_NUTRIENTES_BI' criada para tabela 'SENSOR_NUTRIENTES'.
+2024-12-03 22:43:57,995 [INFO] root: Sequência 'LEITURA_SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-03 22:43:58,056 [INFO] root: Trigger 'LEITURA_SENSOR_NUTRIENTES_BI' criada para tabela 'LEITURA_SENSOR_NUTRIENTES'.
+2024-12-03 22:43:58,109 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
+2024-12-03 22:43:58,173 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
+2024-12-03 22:43:58,174 [INFO] root: Configuração do banco de dados concluída
+2024-12-03 22:43:58,220 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:44:20,677 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:44:20,856 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:44:23,392 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:44:23,541 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:48:07,240 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:48:07,300 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:48:09,933 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:48:10,119 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:48:12,011 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:48:15,264 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:48:16,001 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:48:17,517 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:49:05,293 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:49:05,347 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:49:10,353 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:49:10,501 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:51:06,738 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:51:07,700 [INFO] root: Iniciando configuração do banco de dados
+2024-12-03 22:51:07,750 [INFO] root: Tabela 'PRODUTOR' já existe.
+2024-12-03 22:51:07,798 [INFO] root: Tabela 'PROPRIEDADE' já existe.
+2024-12-03 22:51:07,850 [INFO] root: Tabela 'CAMPO' já existe.
+2024-12-03 22:51:07,902 [INFO] root: Tabela 'SENSOR_UMIDADE' já existe.
+2024-12-03 22:51:07,951 [INFO] root: Tabela 'LEITURA_SENSOR_UMIDADE' já existe.
+2024-12-03 22:51:07,999 [INFO] root: Tabela 'LEITURA_SENSOR_TEMPERATURA' já existe.
+2024-12-03 22:51:08,044 [INFO] root: Tabela 'SENSOR_PH' já existe.
+2024-12-03 22:51:08,094 [INFO] root: Tabela 'LEITURA_SENSOR_PH' já existe.
+2024-12-03 22:51:08,142 [INFO] root: Tabela 'SENSOR_NUTRIENTES' já existe.
+2024-12-03 22:51:08,191 [INFO] root: Tabela 'LEITURA_SENSOR_NUTRIENTES' já existe.
+2024-12-03 22:51:08,239 [INFO] root: Tabela 'CLIMA' já existe.
+2024-12-03 22:51:08,287 [INFO] root: Tabela 'NUTRIENTES' já existe.
+2024-12-03 22:51:08,334 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-12-03 22:51:08,386 [INFO] root: Sequência 'PROPRIEDADE_SEQ' criada ou já existia.
+2024-12-03 22:51:08,459 [INFO] root: Trigger 'PROPRIEDADE_BI' criada para tabela 'PROPRIEDADE'.
+2024-12-03 22:51:08,509 [INFO] root: Sequência 'CAMPO_SEQ' criada ou já existia.
+2024-12-03 22:51:08,571 [INFO] root: Trigger 'CAMPO_BI' criada para tabela 'CAMPO'.
+2024-12-03 22:51:08,620 [INFO] root: Sequência 'SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-03 22:51:08,681 [INFO] root: Trigger 'SENSOR_UMIDADE_BI' criada para tabela 'SENSOR_UMIDADE'.
+2024-12-03 22:51:08,731 [INFO] root: Sequência 'LEITURA_SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-03 22:51:08,792 [INFO] root: Trigger 'LEITURA_SENSOR_UMIDADE_BI' criada para tabela 'LEITURA_SENSOR_UMIDADE'.
+2024-12-03 22:51:08,841 [INFO] root: Sequência 'LEITURA_SENSOR_TEMPERATURA_SEQ' criada ou já existia.
+2024-12-03 22:51:08,903 [INFO] root: Trigger 'LEITURA_SENSOR_TEMPERATURA_BI' criada para tabela 'LEITURA_SENSOR_TEMPERATURA'.
+2024-12-03 22:51:08,954 [INFO] root: Sequência 'SENSOR_PH_SEQ' criada ou já existia.
+2024-12-03 22:51:09,016 [INFO] root: Trigger 'SENSOR_PH_BI' criada para tabela 'SENSOR_PH'.
+2024-12-03 22:51:09,065 [INFO] root: Sequência 'LEITURA_SENSOR_PH_SEQ' criada ou já existia.
+2024-12-03 22:51:09,128 [INFO] root: Trigger 'LEITURA_SENSOR_PH_BI' criada para tabela 'LEITURA_SENSOR_PH'.
+2024-12-03 22:51:09,177 [INFO] root: Sequência 'SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-03 22:51:09,234 [INFO] root: Trigger 'SENSOR_NUTRIENTES_BI' criada para tabela 'SENSOR_NUTRIENTES'.
+2024-12-03 22:51:09,283 [INFO] root: Sequência 'LEITURA_SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-03 22:51:09,341 [INFO] root: Trigger 'LEITURA_SENSOR_NUTRIENTES_BI' criada para tabela 'LEITURA_SENSOR_NUTRIENTES'.
+2024-12-03 22:51:09,390 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
+2024-12-03 22:51:09,447 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
+2024-12-03 22:51:09,448 [INFO] root: Configuração do banco de dados concluída
+2024-12-03 22:51:09,496 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:51:30,589 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:51:31,431 [INFO] root: Iniciando configuração do banco de dados
+2024-12-03 22:51:31,479 [INFO] root: Tabela 'PRODUTOR' já existe.
+2024-12-03 22:51:31,530 [INFO] root: Tabela 'PROPRIEDADE' já existe.
+2024-12-03 22:51:31,578 [INFO] root: Tabela 'CAMPO' já existe.
+2024-12-03 22:51:31,623 [INFO] root: Tabela 'SENSOR_UMIDADE' já existe.
+2024-12-03 22:51:31,671 [INFO] root: Tabela 'LEITURA_SENSOR_UMIDADE' já existe.
+2024-12-03 22:51:31,720 [INFO] root: Tabela 'LEITURA_SENSOR_TEMPERATURA' já existe.
+2024-12-03 22:51:31,766 [INFO] root: Tabela 'SENSOR_PH' já existe.
+2024-12-03 22:51:31,815 [INFO] root: Tabela 'LEITURA_SENSOR_PH' já existe.
+2024-12-03 22:51:31,863 [INFO] root: Tabela 'SENSOR_NUTRIENTES' já existe.
+2024-12-03 22:51:32,009 [INFO] root: Tabela 'LEITURA_SENSOR_NUTRIENTES' já existe.
+2024-12-03 22:51:32,058 [INFO] root: Tabela 'CLIMA' já existe.
+2024-12-03 22:51:32,105 [INFO] root: Tabela 'NUTRIENTES' já existe.
+2024-12-03 22:51:32,176 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-12-03 22:51:32,224 [INFO] root: Sequência 'PROPRIEDADE_SEQ' criada ou já existia.
+2024-12-03 22:51:32,296 [INFO] root: Trigger 'PROPRIEDADE_BI' criada para tabela 'PROPRIEDADE'.
+2024-12-03 22:51:32,344 [INFO] root: Sequência 'CAMPO_SEQ' criada ou já existia.
+2024-12-03 22:51:32,405 [INFO] root: Trigger 'CAMPO_BI' criada para tabela 'CAMPO'.
+2024-12-03 22:51:32,450 [INFO] root: Sequência 'SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-03 22:51:32,510 [INFO] root: Trigger 'SENSOR_UMIDADE_BI' criada para tabela 'SENSOR_UMIDADE'.
+2024-12-03 22:51:32,561 [INFO] root: Sequência 'LEITURA_SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-03 22:51:32,623 [INFO] root: Trigger 'LEITURA_SENSOR_UMIDADE_BI' criada para tabela 'LEITURA_SENSOR_UMIDADE'.
+2024-12-03 22:51:32,671 [INFO] root: Sequência 'LEITURA_SENSOR_TEMPERATURA_SEQ' criada ou já existia.
+2024-12-03 22:51:32,732 [INFO] root: Trigger 'LEITURA_SENSOR_TEMPERATURA_BI' criada para tabela 'LEITURA_SENSOR_TEMPERATURA'.
+2024-12-03 22:51:32,779 [INFO] root: Sequência 'SENSOR_PH_SEQ' criada ou já existia.
+2024-12-03 22:51:32,840 [INFO] root: Trigger 'SENSOR_PH_BI' criada para tabela 'SENSOR_PH'.
+2024-12-03 22:51:32,886 [INFO] root: Sequência 'LEITURA_SENSOR_PH_SEQ' criada ou já existia.
+2024-12-03 22:51:32,946 [INFO] root: Trigger 'LEITURA_SENSOR_PH_BI' criada para tabela 'LEITURA_SENSOR_PH'.
+2024-12-03 22:51:32,989 [INFO] root: Sequência 'SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-03 22:51:33,052 [INFO] root: Trigger 'SENSOR_NUTRIENTES_BI' criada para tabela 'SENSOR_NUTRIENTES'.
+2024-12-03 22:51:33,098 [INFO] root: Sequência 'LEITURA_SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-03 22:51:33,167 [INFO] root: Trigger 'LEITURA_SENSOR_NUTRIENTES_BI' criada para tabela 'LEITURA_SENSOR_NUTRIENTES'.
+2024-12-03 22:51:33,218 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
+2024-12-03 22:51:33,280 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
+2024-12-03 22:51:33,281 [INFO] root: Configuração do banco de dados concluída
+2024-12-03 22:51:33,331 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:53:57,869 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:53:57,921 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:54:09,793 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:54:09,897 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:54:13,058 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:54:13,850 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:54:17,971 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:54:18,028 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:54:21,566 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:54:21,619 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:55:08,553 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:55:08,602 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:55:32,255 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:55:32,305 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:59:23,736 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:59:23,785 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:59:29,376 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:59:29,473 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:59:32,298 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:59:32,353 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:59:35,126 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:59:35,179 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:59:47,729 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:59:48,466 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:59:52,719 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:59:52,729 [INFO] root: Iniciando configuração do banco de dados
+2024-12-03 22:59:52,781 [INFO] root: Tabela 'PRODUTOR' já existe.
+2024-12-03 22:59:52,826 [INFO] root: Tabela 'PROPRIEDADE' já existe.
+2024-12-03 22:59:52,876 [INFO] root: Tabela 'CAMPO' já existe.
+2024-12-03 22:59:52,921 [INFO] root: Tabela 'SENSOR_UMIDADE' já existe.
+2024-12-03 22:59:52,969 [INFO] root: Tabela 'LEITURA_SENSOR_UMIDADE' já existe.
+2024-12-03 22:59:53,012 [INFO] root: Tabela 'LEITURA_SENSOR_TEMPERATURA' já existe.
+2024-12-03 22:59:53,062 [INFO] root: Tabela 'SENSOR_PH' já existe.
+2024-12-03 22:59:53,104 [INFO] root: Tabela 'LEITURA_SENSOR_PH' já existe.
+2024-12-03 22:59:53,147 [INFO] root: Tabela 'SENSOR_NUTRIENTES' já existe.
+2024-12-03 22:59:53,188 [INFO] root: Tabela 'LEITURA_SENSOR_NUTRIENTES' já existe.
+2024-12-03 22:59:53,236 [INFO] root: Tabela 'CLIMA' já existe.
+2024-12-03 22:59:53,278 [INFO] root: Tabela 'NUTRIENTES' já existe.
+2024-12-03 22:59:53,329 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-12-03 22:59:53,382 [INFO] root: Sequência 'PROPRIEDADE_SEQ' criada ou já existia.
+2024-12-03 22:59:53,465 [INFO] root: Trigger 'PROPRIEDADE_BI' criada para tabela 'PROPRIEDADE'.
+2024-12-03 22:59:53,514 [INFO] root: Sequência 'CAMPO_SEQ' criada ou já existia.
+2024-12-03 22:59:53,575 [INFO] root: Trigger 'CAMPO_BI' criada para tabela 'CAMPO'.
+2024-12-03 22:59:53,625 [INFO] root: Sequência 'SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-03 22:59:53,682 [INFO] root: Trigger 'SENSOR_UMIDADE_BI' criada para tabela 'SENSOR_UMIDADE'.
+2024-12-03 22:59:53,733 [INFO] root: Sequência 'LEITURA_SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-03 22:59:53,791 [INFO] root: Trigger 'LEITURA_SENSOR_UMIDADE_BI' criada para tabela 'LEITURA_SENSOR_UMIDADE'.
+2024-12-03 22:59:53,839 [INFO] root: Sequência 'LEITURA_SENSOR_TEMPERATURA_SEQ' criada ou já existia.
+2024-12-03 22:59:53,895 [INFO] root: Trigger 'LEITURA_SENSOR_TEMPERATURA_BI' criada para tabela 'LEITURA_SENSOR_TEMPERATURA'.
+2024-12-03 22:59:53,944 [INFO] root: Sequência 'SENSOR_PH_SEQ' criada ou já existia.
+2024-12-03 22:59:54,009 [INFO] root: Trigger 'SENSOR_PH_BI' criada para tabela 'SENSOR_PH'.
+2024-12-03 22:59:54,066 [INFO] root: Sequência 'LEITURA_SENSOR_PH_SEQ' criada ou já existia.
+2024-12-03 22:59:54,127 [INFO] root: Trigger 'LEITURA_SENSOR_PH_BI' criada para tabela 'LEITURA_SENSOR_PH'.
+2024-12-03 22:59:54,180 [INFO] root: Sequência 'SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-03 22:59:54,242 [INFO] root: Trigger 'SENSOR_NUTRIENTES_BI' criada para tabela 'SENSOR_NUTRIENTES'.
+2024-12-03 22:59:54,295 [INFO] root: Sequência 'LEITURA_SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-03 22:59:54,357 [INFO] root: Trigger 'LEITURA_SENSOR_NUTRIENTES_BI' criada para tabela 'LEITURA_SENSOR_NUTRIENTES'.
+2024-12-03 22:59:54,407 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
+2024-12-03 22:59:54,468 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
+2024-12-03 22:59:54,469 [INFO] root: Configuração do banco de dados concluída
+2024-12-03 22:59:54,521 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 22:59:57,943 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 22:59:58,050 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:00:45,490 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:00:45,540 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:01:21,211 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:01:21,310 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:01:24,289 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:01:24,385 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:03:56,649 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:03:56,754 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:04:04,045 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:04:04,095 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:04:08,054 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:04:08,145 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:04:11,926 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:04:12,673 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:08:38,369 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:08:38,469 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:08:43,682 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:08:45,461 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:15:16,221 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:15:16,316 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:15:25,847 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:15:27,195 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:19:16,808 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:19:16,862 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:19:56,413 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:19:56,516 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:19:59,373 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:19:59,433 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:20:02,142 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:20:02,197 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:20:05,236 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:20:06,743 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:20:55,799 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:20:55,858 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:21:14,187 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:21:14,244 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:21:17,627 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:21:17,705 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:23:38,100 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:23:38,149 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:23:42,704 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:23:42,764 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:23:47,367 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:23:48,591 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:24:03,755 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:24:03,805 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:24:08,462 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:24:09,619 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:24:21,568 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:24:21,626 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:25:27,762 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:25:27,823 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:25:32,566 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:25:33,802 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:29:52,402 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:29:52,455 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:29:58,477 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:29:58,577 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:30:02,679 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:30:03,982 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:30:08,660 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:30:09,924 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:30:29,419 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:30:29,480 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:30:33,924 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:30:33,974 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:33:57,955 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:33:58,055 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:34:02,460 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:34:02,562 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:34:09,644 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:34:10,981 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:34:51,641 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:34:51,797 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:34:54,936 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:34:56,167 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:36:51,871 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:36:51,970 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:37:49,525 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:37:49,625 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:37:51,993 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:37:52,093 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:38:15,906 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:38:17,357 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:38:23,959 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:38:25,410 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:41:02,469 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:41:02,573 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:42:32,419 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:42:32,513 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:43:14,252 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:43:14,347 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:43:34,223 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:43:34,316 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:45:14,688 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:45:14,784 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:45:19,612 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:45:20,986 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:45:45,244 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:45:45,339 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:45:54,751 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:45:54,852 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:46:02,217 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:46:02,314 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:46:06,808 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:46:06,856 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:46:10,725 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:46:10,774 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:46:56,106 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:46:57,275 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:49:54,035 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:49:54,133 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:50:00,109 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:50:01,371 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:50:05,906 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:50:05,966 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:50:10,554 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:50:11,715 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:50:25,086 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:50:25,184 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:50:30,574 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:50:31,786 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:50:35,336 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:50:35,385 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:51:05,971 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:51:06,068 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:51:17,981 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:51:18,077 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:51:24,332 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:51:24,430 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:51:32,977 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:51:33,076 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:52:05,580 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:52:05,677 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:52:13,137 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:52:14,309 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:52:28,470 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:52:28,565 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:52:31,569 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:52:32,722 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:52:47,724 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:52:48,925 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:53:44,463 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:53:44,560 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:53:48,884 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:53:48,933 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:54:53,951 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:54:54,049 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:54:57,811 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:54:58,990 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:55:23,913 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:55:24,015 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:55:26,377 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:55:27,295 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:56:33,588 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:56:33,689 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:56:37,502 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:56:38,519 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:56:58,189 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:56:58,284 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:57:01,708 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:57:02,945 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:59:06,397 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:59:06,493 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:59:09,579 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:59:09,674 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-03 23:59:13,207 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-03 23:59:14,379 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:01:44,179 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:01:44,276 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:01:49,804 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:01:51,094 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:02:10,572 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:02:10,675 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:02:13,891 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:02:14,999 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:04:48,404 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:04:48,503 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:04:54,027 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:04:55,254 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:05:16,437 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:05:16,527 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:05:20,321 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:05:20,412 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:05:23,170 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:05:24,290 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:05:36,997 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:05:37,095 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:05:41,024 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:05:41,074 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:08:12,136 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:08:12,250 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:08:15,437 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:08:15,486 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:08:27,315 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:08:27,366 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:09:51,300 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:09:51,349 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:09:54,032 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:09:54,079 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:13:15,613 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:13:15,713 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:13:46,636 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:13:46,684 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:14:25,804 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:14:25,853 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:14:41,684 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:14:41,733 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:14:53,768 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:14:53,819 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:15:26,553 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:15:26,603 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:15:32,390 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:15:32,442 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:19:32,604 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:19:32,610 [INFO] root: Iniciando configuração do banco de dados
+2024-12-04 00:19:32,665 [INFO] root: Tabela 'PRODUTOR' já existe.
+2024-12-04 00:19:32,712 [INFO] root: Tabela 'PROPRIEDADE' já existe.
+2024-12-04 00:19:32,761 [INFO] root: Tabela 'CAMPO' já existe.
+2024-12-04 00:19:32,808 [INFO] root: Tabela 'SENSOR_UMIDADE' já existe.
+2024-12-04 00:19:32,858 [INFO] root: Tabela 'LEITURA_SENSOR_UMIDADE' já existe.
+2024-12-04 00:19:32,907 [INFO] root: Tabela 'LEITURA_SENSOR_TEMPERATURA' já existe.
+2024-12-04 00:19:32,956 [INFO] root: Tabela 'SENSOR_PH' já existe.
+2024-12-04 00:19:33,004 [INFO] root: Tabela 'LEITURA_SENSOR_PH' já existe.
+2024-12-04 00:19:33,053 [INFO] root: Tabela 'SENSOR_NUTRIENTES' já existe.
+2024-12-04 00:19:33,101 [INFO] root: Tabela 'LEITURA_SENSOR_NUTRIENTES' já existe.
+2024-12-04 00:19:33,151 [INFO] root: Tabela 'CLIMA' já existe.
+2024-12-04 00:19:33,200 [INFO] root: Tabela 'NUTRIENTES' já existe.
+2024-12-04 00:19:33,251 [INFO] root: Todas as tabelas foram criadas ou já existiam.
+2024-12-04 00:19:33,306 [INFO] root: Sequência 'PROPRIEDADE_SEQ' criada ou já existia.
+2024-12-04 00:19:33,386 [INFO] root: Trigger 'PROPRIEDADE_BI' criada para tabela 'PROPRIEDADE'.
+2024-12-04 00:19:33,435 [INFO] root: Sequência 'CAMPO_SEQ' criada ou já existia.
+2024-12-04 00:19:33,496 [INFO] root: Trigger 'CAMPO_BI' criada para tabela 'CAMPO'.
+2024-12-04 00:19:33,545 [INFO] root: Sequência 'SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-04 00:19:33,607 [INFO] root: Trigger 'SENSOR_UMIDADE_BI' criada para tabela 'SENSOR_UMIDADE'.
+2024-12-04 00:19:33,654 [INFO] root: Sequência 'LEITURA_SENSOR_UMIDADE_SEQ' criada ou já existia.
+2024-12-04 00:19:33,715 [INFO] root: Trigger 'LEITURA_SENSOR_UMIDADE_BI' criada para tabela 'LEITURA_SENSOR_UMIDADE'.
+2024-12-04 00:19:33,763 [INFO] root: Sequência 'LEITURA_SENSOR_TEMPERATURA_SEQ' criada ou já existia.
+2024-12-04 00:19:33,826 [INFO] root: Trigger 'LEITURA_SENSOR_TEMPERATURA_BI' criada para tabela 'LEITURA_SENSOR_TEMPERATURA'.
+2024-12-04 00:19:33,875 [INFO] root: Sequência 'SENSOR_PH_SEQ' criada ou já existia.
+2024-12-04 00:19:33,938 [INFO] root: Trigger 'SENSOR_PH_BI' criada para tabela 'SENSOR_PH'.
+2024-12-04 00:19:33,989 [INFO] root: Sequência 'LEITURA_SENSOR_PH_SEQ' criada ou já existia.
+2024-12-04 00:19:34,053 [INFO] root: Trigger 'LEITURA_SENSOR_PH_BI' criada para tabela 'LEITURA_SENSOR_PH'.
+2024-12-04 00:19:34,102 [INFO] root: Sequência 'SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-04 00:19:34,165 [INFO] root: Trigger 'SENSOR_NUTRIENTES_BI' criada para tabela 'SENSOR_NUTRIENTES'.
+2024-12-04 00:19:34,212 [INFO] root: Sequência 'LEITURA_SENSOR_NUTRIENTES_SEQ' criada ou já existia.
+2024-12-04 00:19:34,275 [INFO] root: Trigger 'LEITURA_SENSOR_NUTRIENTES_BI' criada para tabela 'LEITURA_SENSOR_NUTRIENTES'.
+2024-12-04 00:19:34,325 [INFO] root: Sequência 'CLIMA_SEQ' criada ou já existia.
+2024-12-04 00:19:34,385 [INFO] root: Trigger 'CLIMA_BI' criada para tabela 'CLIMA'.
+2024-12-04 00:19:34,387 [INFO] root: Configuração do banco de dados concluída
+2024-12-04 00:19:34,438 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:19:39,908 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:19:41,127 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:27:09,328 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:27:09,427 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:27:59,121 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:27:59,219 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:28:01,561 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:28:01,661 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:29:13,223 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:29:13,321 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:29:28,610 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:29:28,708 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:29:40,092 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:29:40,191 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:31:03,122 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:31:03,219 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:31:51,451 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:31:51,549 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:33:18,315 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:33:18,410 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:33:34,489 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:33:34,588 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:33:53,016 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:33:53,115 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 00:34:24,070 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 00:34:25,264 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 20:11:10,736 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 20:11:10,835 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 20:13:23,209 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 20:13:23,307 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 20:15:28,387 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 20:15:28,485 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 20:15:51,564 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 20:15:51,673 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-04 20:16:19,816 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-04 20:16:19,911 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 22:46:16,525 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:46:16,634 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 22:46:21,959 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:47:08,228 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:47:08,327 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 22:47:11,818 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:49:30,663 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:49:30,759 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 22:49:44,246 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:49:44,347 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 22:49:47,103 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:55:25,824 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:55:25,924 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 22:57:11,877 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:57:11,880 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-05 22:57:12,348 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 293.22, 'feels_like': 293.79, 'temp_min': 293.22, 'temp_max': 293.22, 'pressure': 1015, 'humidity': 96, 'sea_level': 1015, 'grnd_level': 932}, 'visibility': 10000, 'wind': {'speed': 0.81, 'deg': 359, 'gust': 0.84}, 'clouds': {'all': 96}, 'dt': 1733450232, 'sys': {'country': 'BR', 'sunrise': 1733385750, 'sunset': 1733433976}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-05 22:57:12,349 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-05 22:58:50,294 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:58:50,383 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 22:58:55,127 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:58:55,130 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-05 22:58:55,482 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 293.22, 'feels_like': 293.79, 'temp_min': 293.22, 'temp_max': 293.22, 'pressure': 1015, 'humidity': 96, 'sea_level': 1015, 'grnd_level': 932}, 'visibility': 10000, 'wind': {'speed': 0.81, 'deg': 359, 'gust': 0.84}, 'clouds': {'all': 96}, 'dt': 1733450232, 'sys': {'country': 'BR', 'sunrise': 1733385750, 'sunset': 1733433976}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-05 22:58:55,483 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-05 22:58:58,894 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 22:59:38,346 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 22:59:38,352 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-05 22:59:38,680 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 293.22, 'feels_like': 293.79, 'temp_min': 293.22, 'temp_max': 293.22, 'pressure': 1015, 'humidity': 96, 'sea_level': 1015, 'grnd_level': 932}, 'visibility': 10000, 'wind': {'speed': 0.81, 'deg': 359, 'gust': 0.84}, 'clouds': {'all': 96}, 'dt': 1733450232, 'sys': {'country': 'BR', 'sunrise': 1733385750, 'sunset': 1733433976}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-05 22:59:38,682 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-05 22:59:42,007 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 23:25:20,607 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 23:25:20,707 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-05 23:25:50,124 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-05 23:25:50,128 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-05 23:25:50,533 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 293.22, 'feels_like': 293.79, 'temp_min': 293.22, 'temp_max': 293.22, 'pressure': 1015, 'humidity': 96, 'sea_level': 1015, 'grnd_level': 932}, 'visibility': 10000, 'wind': {'speed': 0.81, 'deg': 359, 'gust': 0.84}, 'clouds': {'all': 96}, 'dt': 1733451950, 'sys': {'country': 'BR', 'sunrise': 1733385750, 'sunset': 1733433976}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-05 23:25:50,534 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-05 23:25:54,263 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 00:37:24,492 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 00:37:24,593 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 00:37:35,792 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 00:37:35,795 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 00:37:36,183 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733456256, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 00:37:36,184 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 00:37:40,098 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 00:38:59,890 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 00:38:59,895 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 00:39:00,281 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733456256, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 00:39:00,281 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 00:39:04,016 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 00:39:32,334 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 00:39:32,433 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:05:35,181 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:05:35,279 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:05:41,089 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:05:41,091 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:05:41,456 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733457941, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:05:41,457 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:05:45,379 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:21:57,508 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:21:57,603 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:22:05,781 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:22:05,785 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:22:06,168 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733458674, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:22:06,169 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:22:09,868 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:22:25,326 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:22:25,330 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:22:25,665 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733458674, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:22:25,667 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:22:29,481 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:22:39,028 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:22:39,032 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:22:39,371 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733458674, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:22:39,372 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:22:42,850 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:27:18,473 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:27:18,577 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:28:21,219 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:28:21,268 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:28:27,600 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:28:27,603 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:28:27,974 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733459055, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:28:27,975 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:28:31,613 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:28:43,800 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:28:43,803 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:28:44,150 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733459055, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:28:44,151 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:28:47,757 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:28:56,146 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:28:56,150 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:28:56,482 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733459055, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:28:56,483 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:29:01,067 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:29:37,662 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:29:38,363 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:29:49,067 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:29:49,070 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:29:49,415 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.9, 'feels_like': 293.46, 'temp_min': 292.9, 'temp_max': 292.9, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 1.05, 'deg': 10, 'gust': 1.02}, 'clouds': {'all': 97}, 'dt': 1733459055, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:29:49,416 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:29:53,022 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:31:30,901 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:31:31,000 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:32:07,673 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:32:08,450 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:33:49,607 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:33:49,656 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:33:55,668 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:33:55,670 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 01:33:56,039 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 292.68, 'feels_like': 293.22, 'temp_min': 292.68, 'temp_max': 292.68, 'pressure': 1014, 'humidity': 97, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 0.76, 'deg': 21, 'gust': 0.82}, 'clouds': {'all': 98}, 'dt': 1733459499, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 01:33:56,039 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 01:34:00,291 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:35:42,524 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:35:42,575 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:36:31,054 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:36:31,110 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:36:56,232 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:36:56,280 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:37:33,590 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:37:33,642 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:39:39,034 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:39:39,083 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:40:14,398 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:40:14,449 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:41:57,247 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:41:57,305 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 01:48:52,777 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 01:48:52,828 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 02:10:45,454 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 02:10:45,553 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 02:21:55,522 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 02:21:55,580 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 02:22:02,414 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 02:22:02,509 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 14:32:32,371 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 14:32:32,464 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 14:32:32,747 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 14:32:32,841 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 14:32:33,155 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 14:32:33,485 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 14:33:51,839 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 14:33:51,931 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 14:36:01,731 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 14:36:01,827 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 14:40:50,589 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 14:40:50,680 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 14:43:20,061 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 14:43:20,156 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:40:50,413 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:40:50,587 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:40:54,776 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:40:54,920 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:40:58,256 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:40:58,393 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:41:11,780 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:41:11,921 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:42:25,908 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:42:25,915 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 15:42:26,358 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 300, 'feels_like': 301.32, 'temp_min': 300, 'temp_max': 300, 'pressure': 1011, 'humidity': 64, 'sea_level': 1011, 'grnd_level': 930}, 'visibility': 10000, 'wind': {'speed': 3.48, 'deg': 39, 'gust': 5.98}, 'clouds': {'all': 0}, 'dt': 1733510546, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 15:42:26,359 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 15:42:30,764 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:48:29,512 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:48:29,515 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 15:48:29,940 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 300, 'feels_like': 301.32, 'temp_min': 300, 'temp_max': 300, 'pressure': 1011, 'humidity': 64, 'sea_level': 1011, 'grnd_level': 930}, 'visibility': 10000, 'wind': {'speed': 3.48, 'deg': 39, 'gust': 5.98}, 'clouds': {'all': 0}, 'dt': 1733510909, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 15:48:29,941 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 15:48:33,413 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:49:20,533 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:49:20,748 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:49:49,484 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:49:49,634 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:50:45,685 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:50:45,835 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 15:53:31,012 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 15:53:31,158 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:02:49,779 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:02:49,968 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:06:15,311 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:09:56,266 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:09:56,703 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:18:04,032 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:18:04,309 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:22:07,785 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:22:07,839 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:22:28,604 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:22:28,654 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:22:56,659 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:22:56,662 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 16:22:57,079 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 300, 'feels_like': 301.32, 'temp_min': 300, 'temp_max': 300, 'pressure': 1011, 'humidity': 64, 'sea_level': 1011, 'grnd_level': 930}, 'visibility': 10000, 'wind': {'speed': 3.48, 'deg': 39, 'gust': 5.98}, 'clouds': {'all': 0}, 'dt': 1733512967, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 16:22:57,080 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 16:23:01,069 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:24:00,192 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:24:00,203 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 16:24:00,568 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 300, 'feels_like': 301.32, 'temp_min': 300, 'temp_max': 300, 'pressure': 1011, 'humidity': 64, 'sea_level': 1011, 'grnd_level': 930}, 'visibility': 10000, 'wind': {'speed': 3.48, 'deg': 39, 'gust': 5.98}, 'clouds': {'all': 0}, 'dt': 1733512967, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 16:24:00,570 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 16:24:04,274 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:24:38,364 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:24:38,371 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 16:24:38,747 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 300, 'feels_like': 301.32, 'temp_min': 300, 'temp_max': 300, 'pressure': 1011, 'humidity': 64, 'sea_level': 1011, 'grnd_level': 930}, 'visibility': 10000, 'wind': {'speed': 3.48, 'deg': 39, 'gust': 5.98}, 'clouds': {'all': 0}, 'dt': 1733512967, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 16:24:38,748 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 16:24:43,091 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 16:39:21,263 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 16:39:21,267 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 16:39:21,654 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 298.34, 'feels_like': 298.74, 'temp_min': 298.34, 'temp_max': 298.34, 'pressure': 1011, 'humidity': 70, 'sea_level': 1011, 'grnd_level': 929}, 'visibility': 10000, 'wind': {'speed': 3.23, 'deg': 35, 'gust': 8.03}, 'clouds': {'all': 0}, 'dt': 1733513829, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 16:39:21,655 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 16:39:25,978 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 18:23:02,331 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 18:23:02,645 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 18:23:06,176 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 18:23:06,286 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 18:23:06,346 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 18:23:06,472 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 18:23:07,716 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 18:23:08,222 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
