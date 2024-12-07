@@ -3781,3 +3781,57 @@ Help: https://docs.oracle.com/error-help/db/ora-00942/
 2024-12-06 19:43:34,651 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
 2024-12-06 20:10:29,511 [INFO] log.logger_config: Conectado ao banco de dados.
 2024-12-06 20:10:29,842 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:19:52,042 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:19:52,360 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:23:12,228 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:23:12,561 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:23:20,384 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:23:20,431 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:23:28,433 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:23:28,481 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:23:34,577 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:23:34,849 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:24:22,842 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:24:22,895 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:24:35,692 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:24:35,694 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 20:24:36,085 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 293.48, 'feels_like': 293.66, 'temp_min': 293.48, 'temp_max': 293.48, 'pressure': 1013, 'humidity': 80, 'sea_level': 1013, 'grnd_level': 930}, 'visibility': 10000, 'wind': {'speed': 2.85, 'deg': 6, 'gust': 8.63}, 'clouds': {'all': 5}, 'dt': 1733527235, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 20:24:36,086 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 20:24:39,956 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:24:49,414 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:24:49,418 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 20:24:49,759 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 293.48, 'feels_like': 293.66, 'temp_min': 293.48, 'temp_max': 293.48, 'pressure': 1013, 'humidity': 80, 'sea_level': 1013, 'grnd_level': 930}, 'visibility': 10000, 'wind': {'speed': 2.85, 'deg': 6, 'gust': 8.63}, 'clouds': {'all': 5}, 'dt': 1733527235, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 20:24:49,760 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 20:24:53,529 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:25:14,416 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:25:14,418 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 20:25:14,755 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 293.48, 'feels_like': 293.66, 'temp_min': 293.48, 'temp_max': 293.48, 'pressure': 1013, 'humidity': 80, 'sea_level': 1013, 'grnd_level': 930}, 'visibility': 10000, 'wind': {'speed': 2.85, 'deg': 6, 'gust': 8.63}, 'clouds': {'all': 5}, 'dt': 1733527235, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 20:25:14,757 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 20:25:19,004 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:25:49,528 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:25:49,576 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:45:41,049 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:45:41,414 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:46:19,965 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:46:20,013 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:46:34,491 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:46:34,538 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:46:36,336 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:46:36,383 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:46:45,148 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:46:45,151 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 20:46:45,518 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 292.93, 'feels_like': 292.95, 'temp_min': 292.93, 'temp_max': 292.93, 'pressure': 1014, 'humidity': 76, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 2.55, 'deg': 358, 'gust': 5.52}, 'clouds': {'all': 9}, 'dt': 1733528737, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 20:46:45,519 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 20:46:49,425 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:46:59,186 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:46:59,189 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 20:46:59,526 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 292.93, 'feels_like': 292.95, 'temp_min': 292.93, 'temp_max': 292.93, 'pressure': 1014, 'humidity': 76, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 2.55, 'deg': 358, 'gust': 5.52}, 'clouds': {'all': 9}, 'dt': 1733528737, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 20:46:59,527 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 20:47:03,708 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:47:13,160 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:47:13,163 [INFO] root: Buscando coordenadas para cidade: Juiz de Fora
+2024-12-06 20:47:13,495 [INFO] root: Dados recebidos para Juiz de Fora: {'coord': {'lon': -43.3503, 'lat': -21.7642}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}], 'base': 'stations', 'main': {'temp': 292.93, 'feels_like': 292.95, 'temp_min': 292.93, 'temp_max': 292.93, 'pressure': 1014, 'humidity': 76, 'sea_level': 1014, 'grnd_level': 931}, 'visibility': 10000, 'wind': {'speed': 2.55, 'deg': 358, 'gust': 5.52}, 'clouds': {'all': 9}, 'dt': 1733528737, 'sys': {'country': 'BR', 'sunrise': 1733472161, 'sunset': 1733520414}, 'timezone': -10800, 'id': 3459505, 'name': 'Juiz de Fora', 'cod': 200}
+2024-12-06 20:47:13,495 [INFO] root: Coordenadas obtidas: lat=-21.7642, lon=-43.3503
+2024-12-06 20:47:17,986 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
+2024-12-06 20:47:52,835 [INFO] log.logger_config: Conectado ao banco de dados.
+2024-12-06 20:47:52,884 [INFO] log.logger_config: Conexão com o banco de dados encerrada.
