@@ -181,8 +181,17 @@ Dicas:
 - 2 - Antes de **ativar o ambiente** verifique qual é seu **sistema operacional** e escolha o comando correto.
 
 Projeto Wokwi:
-
 https://wokwi.com/projects/416547430655986689
+
+## 📹 Apresentação youtube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BCzoviqMiYk" frameborder="0" allowfullscreen></iframe>
+
+<br />
+
+📹 link: https://www.youtube.com/BCzoviqMiYk
+
+
 
 ## 🗃 Histórico de lançamentos
 
